@@ -119,7 +119,7 @@ func buildSmartConfig(outbounds []map[string]any) map[string]any {
 			"subjectSelector": []string{"node-"},
 			// Используем Cloudflare для проверки — он обычно доступен везде
 			"probeUrl":        "https://cp.cloudflare.com/generate_204",
-			"probeInterval":   "10s", // Проверяем КАЖДЫЕ 10 СЕКУНД (агрессивно для мобилы)
+			"probeInterval":   "60s", // Проверяем КАЖДЫЕ 10 СЕКУНД (агрессивно для мобилы)
 		},
 		"dns": map[string]any{
 			"servers": []any{
@@ -148,7 +148,7 @@ func buildSmartConfig(outbounds []map[string]any) map[string]any {
 					"tag":      "balancer-auto",
 					"selector": []string{"node-"},
 					"strategy": map[string]any{
-						"type": "random", // На мобиле лучше "random" среди живых, чем "leastPing"
+						"type": "leastPing", // На мобиле лучше "random" среди живых, чем "leastPing"
 					},
 					"fallbackTag": outbounds[0]["tag"], // Если всё упало, пытаемся через первый узел
 				},
