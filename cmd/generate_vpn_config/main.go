@@ -39,10 +39,10 @@ func parseVLESSURI(raw string, index int) (map[string]any, error) {
 		"encryption": first(query, "encryption", "none"),
 		"flow":       first(query, "flow", ""),
 	}
-
-	streamSettings := map[string]any{
-		"network": netType,
-	}
+	streamSettings["sockopt"] = map[string]any{
+    "mark": 255,
+    "tcpFastOpen": true, // Помогает быстрее стартовать на мобильных сетях
+}
 	if security != "" {
 		streamSettings["security"] = security
 	}
