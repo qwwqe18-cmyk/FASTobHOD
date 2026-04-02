@@ -9,6 +9,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"time"
 )
 
 func first(values map[string][]string, key, def string) string {
@@ -129,13 +130,7 @@ func parseVLESSURI(raw string, index int) (map[string]any, error) {
 	}, nil
 }
 
-func buildConfig(outbounds []map[string]any) map[string]any {
-	routeNodeTags := make([]string, 0, len(outbounds))
-	for _, item := range outbounds {
-		if tag, ok := item["tag"].(string); ok {
-			routeNodeTags = append(routeNodeTags, tag)
-		}
-	}
+func buildConfig(outbounds []map[string]any, preferredTag string) map[string]any {
 
 	outboundItems := make([]any, 0, len(outbounds)+2)
 	for _, ob := range outbounds {
@@ -148,16 +143,6 @@ func buildConfig(outbounds []map[string]any) map[string]any {
 
 	return map[string]any{
 		"remarks": "Auto generated from live_50.txt",
-		"burstObservatory": map[string]any{
-			"subjectSelector": []string{"node-"},
-			"pingConfig": map[string]any{
-				"destination":  "http://www.gstatic.com/generate_204",
-				"interval":     "15s",
-				"sampling":     1,
-				"timeout":      "3s",
-				"connectivity": "",
-			},
-		},
 		"dns": map[string]any{
 			"queryStrategy": "UseIP",
 			"servers":       []string{"1.1.1.1", "1.0.0.1"},
@@ -210,20 +195,80 @@ func buildConfig(outbounds []map[string]any) map[string]any {
 				map[string]any{
 					"type":        "field",
 					"network":     "tcp,udp",
-					"balancerTag": "AUTO_BALANCER",
-				},
-			},
-			"balancers": []any{
-				map[string]any{
-					"tag":      "AUTO_BALANCER",
-					"selector": routeNodeTags,
-					"strategy": map[string]any{
-						"type": "leastPing",
-					},
+					"outboundTag": preferredTag,
 				},
 			},
 		},
 	}
+}
+
+type stickyState struct {
+	PreferredTag string `json:"preferredTag"`
+	StickyUntil  string `json:"stickyUntil"`
+}
+
+func firstOutboundTag(outbounds []map[string]any) string {
+	if len(outbounds) == 0 {
+		return ""
+	}
+	tag, _ := outbounds[0]["tag"].(string)
+	return tag
+}
+
+func containsTag(outbounds []map[string]any, tag string) bool {
+	for _, ob := range outbounds {
+		if t, ok := ob["tag"].(string); ok && t == tag {
+			return true
+		}
+	}
+	return false
+}
+
+func readStickyState(path string) (stickyState, bool) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return stickyState{}, false
+	}
+	var st stickyState
+	if err := json.Unmarshal(data, &st); err != nil {
+		return stickyState{}, false
+	}
+	if st.PreferredTag == "" || st.StickyUntil == "" {
+		return stickyState{}, false
+	}
+	return st, true
+}
+
+func writeStickyState(path string, st stickyState) error {
+	data, err := json.MarshalIndent(st, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile(path, data, 0o644)
+}
+
+func choosePreferredTag(outbounds []map[string]any, statePath string, stickyFor time.Duration, now time.Time) (string, string) {
+	defaultTag := firstOutboundTag(outbounds)
+	if defaultTag == "" {
+		return "", "нет доступных узлов"
+	}
+
+	st, ok := readStickyState(statePath)
+	if ok && containsTag(outbounds, st.PreferredTag) {
+		until, err := time.Parse(time.RFC3339, st.StickyUntil)
+		if err == nil && now.Before(until) {
+			return st.PreferredTag, fmt.Sprintf("использован залипший узел до %s", until.Format(time.RFC3339))
+		}
+	}
+
+	newState := stickyState{
+		PreferredTag: defaultTag,
+		StickyUntil:  now.Add(stickyFor).Format(time.RFC3339),
+	}
+	if err := writeStickyState(statePath, newState); err != nil {
+		return defaultTag, fmt.Sprintf("выбран новый узел, но состояние не сохранено: %v", err)
+	}
+	return defaultTag, fmt.Sprintf("выбран новый узел и зафиксирован до %s", newState.StickyUntil)
 }
 
 func readLinks(path string) ([]string, error) {
@@ -251,6 +296,8 @@ func readLinks(path string) ([]string, error) {
 func main() {
 	input := flag.String("input", "live_50.txt", "Путь до файла со ссылками")
 	output := flag.String("output", "generated_config.json", "Путь для результата JSON")
+	stickyStatePath := flag.String("sticky-state", "sticky_state.json", "Путь до файла состояния для залипания узла")
+	stickyFor := flag.Duration("sticky-for", 30*time.Minute, "На сколько фиксировать выбранный узел")
 	flag.Parse()
 
 	links, err := readLinks(*input)
@@ -279,7 +326,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	config := buildConfig(outbounds)
+	preferredTag, stickyMsg := choosePreferredTag(outbounds, *stickyStatePath, *stickyFor, time.Now())
+	config := buildConfig(outbounds, preferredTag)
 	data, err := json.MarshalIndent(config, "", "  ")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Ошибка сериализации JSON: %v\n", err)
@@ -293,6 +341,8 @@ func main() {
 
 	fmt.Printf("Сгенерирован файл: %s\n", *output)
 	fmt.Printf("Разобрано узлов: %d\n", len(outbounds))
+	fmt.Printf("Выбранный узел: %s\n", preferredTag)
+	fmt.Printf("Sticky: %s\n", stickyMsg)
 	if skipped > 0 {
 		fmt.Printf("Пропущено строк: %d\n", skipped)
 	}
