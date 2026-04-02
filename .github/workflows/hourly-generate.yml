@@ -1,0 +1,57 @@
+name: Hourly VPN Config Update
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: hourly-vpn-config-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-config:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Install Xray
+        run: |
+          set -euo pipefail
+          XRAY_VERSION="v1.8.24"
+          curl -fsSL -o /tmp/xray.zip "https://github.com/XTLS/Xray-core/releases/download/${XRAY_VERSION}/Xray-linux-64.zip"
+          python3 - <<'PY'
+          import zipfile
+          with zipfile.ZipFile("/tmp/xray.zip", "r") as zf:
+              zf.extractall("/tmp/xray")
+          PY
+          sudo install -m 0755 /tmp/xray/xray /usr/local/bin/xray
+          xray version
+
+      - name: Run pipeline
+        run: |
+          chmod +x run_all.sh
+          ./run_all.sh
+
+      - name: Commit updated files
+        run: |
+          set -euo pipefail
+          git add live_50.txt generated_config.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: hourly update vpn configs"
+          git push
