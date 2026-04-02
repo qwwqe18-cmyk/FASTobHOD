@@ -113,6 +113,7 @@ func buildSmartConfig(outbounds []map[string]any) map[string]any {
 	)
 
 	return map[string]any{
+		"remarks": fmt.Sprintf("🚀 Мобильный-Микс (%d узлов)", len(outbounds)),
 		"log": map[string]any{"loglevel": "warning"},
 		"observatory": map[string]any{
 			"subjectSelector": []string{"node-"},
