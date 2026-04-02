@@ -103,7 +103,6 @@ func parseVLESSURI(raw string, index int) (map[string]any, error) {
 // --- Генерация "Умного" Конфига ---
 
 func buildSmartConfig(outbounds []map[string]any) map[string]any {
-	// Добавляем технические аутбаунды
 	allOutbounds := make([]any, 0)
 	for _, ob := range outbounds {
 		allOutbounds = append(allOutbounds, ob)
@@ -114,14 +113,20 @@ func buildSmartConfig(outbounds []map[string]any) map[string]any {
 	)
 
 	return map[string]any{
-		"log": map[string]any{
-			"loglevel": "warning",
-		},
-		// Наблюдатель: пингует все узлы через Google
+		"log": map[string]any{"loglevel": "warning"},
 		"observatory": map[string]any{
 			"subjectSelector": []string{"node-"},
-			"probeUrl":        "http://www.google.com/gen_204",
-			"probeInterval":   "30s", // Проверка каждые 30 секунд
+			// Используем Cloudflare для проверки — он обычно доступен везде
+			"probeUrl":        "https://cp.cloudflare.com/generate_204",
+			"probeInterval":   "10s", // Проверяем КАЖДЫЕ 10 СЕКУНД (агрессивно для мобилы)
+		},
+		"dns": map[string]any{
+			"servers": []any{
+				"1.1.1.1",
+				"8.8.8.8",
+				"localhost",
+			},
+			"queryStrategy": "UseIP", // Игнорируем кривые DNS оператора
 		},
 		"inbounds": []any{
 			map[string]any{
@@ -137,31 +142,20 @@ func buildSmartConfig(outbounds []map[string]any) map[string]any {
 		"outbounds": allOutbounds,
 		"routing": map[string]any{
 			"domainStrategy": "IPIfNonMatch",
-			// Балансировщик: выбирает из "node-*" тот, у кого меньше пинг
 			"balancers": []any{
 				map[string]any{
 					"tag":      "balancer-auto",
 					"selector": []string{"node-"},
-					"strategy": map[string]any{"type": "leastPing"},
+					"strategy": map[string]any{
+						"type": "random", // На мобиле лучше "random" среди живых, чем "leastPing"
+					},
+					"fallbackTag": outbounds[0]["tag"], // Если всё упало, пытаемся через первый узел
 				},
 			},
 			"rules": []any{
-				map[string]any{
-					"type": "field",
-					"ip":   []string{"geoip:private"},
-					"outboundTag": "direct",
-				},
-				map[string]any{
-					"type": "field",
-					"protocol": []string{"bittorrent"},
-					"outboundTag": "block",
-				},
-				// Главное правило: отправляем всё на балансировщик
-				map[string]any{
-					"type":        "field",
-					"network":     "tcp,udp",
-					"balancerTag": "balancer-auto",
-				},
+				map[string]any{"type": "field", "ip": []string{"geoip:private"}, "outboundTag": "direct"},
+				map[string]any{"type": "field", "protocol": []string{"bittorrent"}, "outboundTag": "block"},
+				map[string]any{"type": "field", "network": "tcp,udp", "balancerTag": "balancer-auto"},
 			},
 		},
 	}
