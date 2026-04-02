@@ -142,7 +142,7 @@ func buildConfig(outbounds []map[string]any, preferredTag string) map[string]any
 	)
 
 	return map[string]any{
-		"remarks": "Auto generated from live_50.txt",
+		"remarks": "⚡ Рубильник ⚡",
 		"dns": map[string]any{
 			"queryStrategy": "UseIP",
 			"servers":       []string{"1.1.1.1", "1.0.0.1"},
