@@ -56,120 +56,66 @@
       "settings": {
         "vnext": [
           {
-            "address": "178.72.165.113",
-            "port": 443,
+            "address": "217.16.31.144",
+            "port": 7443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "4f87c47b-f88a-450d-b5de-560cf06d3f23"
+                "flow": "",
+                "id": "4984b534-98a8-4e1c-a079-a48d9d9dc86c"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "UpdateService"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "randomized",
-          "publicKey": "7TvkMzoB3gEZy-5HfL6-M_AT_qWVgyeoiggDb2Qg5hE",
-          "serverName": "api-maps.yandex.ru",
-          "shortId": "",
+          "fingerprint": "qq",
+          "publicKey": "8hdXyv-YBQIaA2xgOfT2nhfna5y5s19qbZD-SpMZ6hg",
+          "serverName": "ads.x5.ru",
+          "shortId": "dd700a46e27751d1",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇩🇪 Germany | 🌐 | [IPv6] [*CIDR]"
+      "tag": "node-001 🇷🇺 Russia [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.233.186.142",
+            "address": "158.160.233.48",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "4f87c47b-f88a-450d-b5de-560cf06d3f23"
+                "flow": "",
+                "id": "f5a09282-be6f-48b1-b66c-22dc9d04dc08"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "randomized",
-          "publicKey": "rDPZZOBMmBb_mNKPEewzp9Uu6zkGrP7XOVpnRzetXDc",
-          "serverName": "goodcardboard.shop",
-          "shortId": "",
-          "spiderX": "/"
+        "grpcSettings": {
+          "serviceName": ""
         },
-        "security": "reality"
-      },
-      "tag": "node-002 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "146.185.240.172",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "27460465-eb9a-439f-9502-f840d73f219d"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "random",
-          "publicKey": "8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc",
-          "serverName": "rbc.ru",
-          "shortId": "d515d6cfdfe60b02",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-003 🇨🇭 Switzerland [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "212.233.73.147",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "347e508a-f203-425e-8a2c-a336b6b429f2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
+        "network": "grpc",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "BuhtXyl1vFs7UaFk9RBORjgCpqNtJPJMpz6YbmXbAmo",
-          "serverName": "ya.ru",
-          "shortId": "67c95bb6066c9f0a",
+          "publicKey": "9lryIkDCyHLzVsVJiGE4LFMuOHdzYDSTNJOFqGlpcl8",
+          "serverName": "static-mon.yandex.net",
+          "shortId": "2901df419dc4e3ff",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-004 🇷🇺 Russia [*CIDR] VK"
+      "tag": "node-002 🇷🇺 Russia [*CIDR] YA"
     },
     {
       "protocol": "freedom",
@@ -180,11 +126,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 | [IPv6] [*CIDR]",
+        "fallbackTag": "node-001 🇷🇺 Russia [*CIDR] VK",
         "selector": [
           "node-"
         ],
