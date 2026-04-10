@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.250.74.138",
-            "port": 443,
+            "address": "94.26.249.249",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "49d0c0e1-9d25-42f5-af08-3f424592070a"
+                "id": "40353a93-e0e8-402c-a480-d0bf600be8bb"
               }
             ]
           }
@@ -70,32 +70,32 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "grpc"
+          "serviceName": "xyz"
         },
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "dFr7n6XOTuRkgGzYmhTiQzKTd7lwJMODM5_R9Hq_mVI",
-          "serverName": "ads.x5.ru",
+          "publicKey": "Jx3-T6hnOqY0JL3XrKReYOZk7XAcHr-julwYzBcXzj0",
+          "serverName": "another.warriorofblacksun.run",
           "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇩🇪 Germany [*CIDR] YA"
+      "tag": "node-001 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "45.8.144.248",
-            "port": 21443,
+            "address": "85.239.61.193",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "23dbd2b9-2ef8-4ef3-84d7-05da13cd8177"
+                "flow": "",
+                "id": "023a6c5c-6933-4735-90bc-fa435b955927"
               }
             ]
           }
@@ -105,14 +105,47 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "zth5D3j_Z6j1UVmgHq1zgFScMFWQu_L6JjOVvfRzzFk",
-          "serverName": "steampowered.com",
-          "shortId": "bf",
+          "publicKey": "iNHjpSHOGfa1qz-EIC2NG2iV_zcvEx0DC3FD936YURk",
+          "serverName": "yahoo.com",
+          "shortId": "8820",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-002 🇳🇱 The Netherlands | 🌐 | [IPv6] [*CIDR]"
+      "tag": "node-002 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "another.warriorofblacksun.run",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "40353a93-e0e8-402c-a480-d0bf600be8bb"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "xyz"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "Jx3-T6hnOqY0JL3XrKReYOZk7XAcHr-julwYzBcXzj0",
+          "serverName": "another.warriorofblacksun.run",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-003 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -123,11 +156,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany [*CIDR] YA",
+        "fallbackTag": "node-001 🇷🇺 Russia [*CIDR]",
         "selector": [
           "node-"
         ],
