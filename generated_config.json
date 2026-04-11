@@ -56,6 +56,33 @@
       "settings": {
         "vnext": [
           {
+            "address": "84.252.101.105",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "7e7452f2-1004-45ed-a55a-f9d474e152c7"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub.sbrf-cdn342.ru"
+        }
+      },
+      "tag": "node-001 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "85.239.61.193",
             "port": 443,
             "users": [
@@ -79,37 +106,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-001 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "reserve.pilates.rodeo",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "3d243df5-9cda-4aac-89d5-354de77d79e2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nice.ducks.tel"
-        }
-      },
-      "tag": "node-002 🇩🇪 Germany [*CIDR] YA"
+      "tag": "node-002 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -143,37 +140,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "reserve.pilates.rodeo",
-            "port": 2053,
+            "address": "158.160.248.155",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "3d243df5-9cda-4aac-89d5-354de77d79e2"
+                "flow": "xtls-rprx-vision",
+                "id": "7e7452f2-1004-45ed-a55a-f9d474e152c7"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "random",
+          "publicKey": "OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA",
+          "serverName": "5post-gate.x5.ru",
+          "shortId": "111111",
+          "spiderX": "/"
         },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "nice.ducks.tel"
-        }
+        "security": "reality"
       },
-      "tag": "node-004 🇩🇪 Germany [*CIDR] YA"
+      "tag": "node-004 🇷🇺 Russia | 🌐 [*CIDR] YA"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "158.160.222.130",
+            "address": "158.160.255.47",
             "port": 443,
             "users": [
               {
@@ -203,7 +200,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.160.248.155",
+            "address": "84.201.186.20",
             "port": 443,
             "users": [
               {
@@ -233,37 +230,40 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.160.255.168",
+            "address": "158.160.246.193",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "7e7452f2-1004-45ed-a55a-f9d474e152c7"
+                "flow": "",
+                "id": "17f47d21-1837-4287-b6e7-e537274c41e4"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": ""
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "random",
-          "publicKey": "OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA",
-          "serverName": "5post-gate.x5.ru",
-          "shortId": "111111",
+          "fingerprint": "chrome",
+          "publicKey": "9lryIkDCyHLzVsVJiGE4LFMuOHdzYDSTNJOFqGlpcl8",
+          "serverName": "static-mon.yandex.net",
+          "shortId": "ab176041efecbafa",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-007 🇷🇺 Russia | 🌐 [*CIDR] YA"
+      "tag": "node-007 🇷🇺 Russia [*CIDR] YA"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "158.160.231.132",
+            "address": "158.160.246.193",
             "port": 443,
             "users": [
               {
@@ -296,7 +296,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.160.231.132",
+            "address": "158.160.246.193",
             "port": 443,
             "users": [
               {
@@ -317,7 +317,7 @@
           "fingerprint": "chrome",
           "publicKey": "9lryIkDCyHLzVsVJiGE4LFMuOHdzYDSTNJOFqGlpcl8",
           "serverName": "static-mon.yandex.net",
-          "shortId": "97f74fa3a71adccc",
+          "shortId": "ab176041efecbafa",
           "spiderX": "/"
         },
         "security": "reality"
@@ -329,13 +329,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru.pfvpn.cfd",
-            "port": 8443,
+            "address": "lte2.krevetkavpn6666.ru",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "a356908f-2058-4992-b26b-4262eb8847ab"
+                "id": "ac6acbba-3153-49fe-b018-995a2b66301b"
               }
             ]
           }
@@ -345,9 +345,9 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "5kiPAcXkZDoNrCIQ4UX7qXG2vvGxARZ_NGnSiM7YyAg",
-          "serverName": "max.ru",
-          "shortId": "9f42684c1b",
+          "publicKey": "z9dOqH2pEKYk8V7opl4npiUUSXzj6yRHDYj9Xl95znY",
+          "serverName": "www.apple.com",
+          "shortId": "b99e82f6d99f6e",
           "spiderX": "/"
         },
         "security": "reality"
