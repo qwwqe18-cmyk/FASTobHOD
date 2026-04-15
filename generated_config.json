@@ -56,7 +56,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "germ-dop.anti-vpn.ru",
+            "address": "95.213.184.52",
             "port": 52006,
             "users": [
               {
@@ -73,7 +73,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "germ-dop.anti-vpn.ru"
         }
       },
       "tag": "node-001 🇵🇱 Poland | 🌐 | [IPv6] [*CIDR]"
@@ -100,10 +100,70 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "germ-dop.anti-vpn.ru"
+          "serverName": ""
         }
       },
       "tag": "node-002 🇵🇱 Poland | 🌐 | [IPv6] [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.154.209.147",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "5376a525-a950-480f-b7c7-809c8ca8733c"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE",
+          "serverName": "5post-gate.x5.ru",
+          "shortId": "111111",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-003 🇳🇱 The Netherlands | 🌐 | [IPv6] [*CIDR] YA"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "178.154.209.147",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "e7036058-2480-40d5-8395-0a36d6d2cc3f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE",
+          "serverName": "5post-gate.x5.ru",
+          "shortId": "111111",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-004 🇳🇱 The Netherlands | 🌐 | [IPv6] [*CIDR] YA"
     },
     {
       "protocol": "vless",
@@ -133,7 +193,70 @@
         },
         "security": "reality"
       },
-      "tag": "node-003 🇷🇺 Russia | 🌐 [*CIDR] YA"
+      "tag": "node-005 🇷🇺 Russia | 🌐 [*CIDR] YA"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.16.25.216",
+            "port": 8448,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "d50c7ad0-8776-cccc-82da-5d054cf326ba"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "gw9KAPkuBRpD2oy1fV5khTEYVhBnjloDJ0r2C8sLQ3E",
+          "serverName": "ads.x5.ru",
+          "shortId": "7ebf",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🇷🇺 Russia [*CIDR] VK"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.66.119",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "c296f626-23ff-4587-b4e0-c0b5f85cee54"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": ""
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "O4zqiAPqGIyHePC4HMHL0c4_mru_uqgLH9osDfRTVkE",
+          "serverName": "api-maps.yandex.ru",
+          "shortId": "649af94174f4",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-007 🌐 Anycast-IP | [IPv6] [*CIDR] YA"
     },
     {
       "protocol": "freedom",
@@ -144,7 +267,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (7 узлов)",
   "routing": {
     "balancers": [
       {
