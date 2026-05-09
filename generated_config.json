@@ -464,7 +464,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "80.93.187.2",
+            "address": "212.41.8.216",
             "port": 52006,
             "users": [
               {
@@ -481,7 +481,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "cluster-russia-1.firstvideocdn.ru"
+          "serverName": ""
         }
       },
       "tag": "node-016 🇷🇺 Russia [*CIDR]"
@@ -550,7 +550,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
+                "flow": "xtls-rprx-vision-udp443",
                 "id": "75807638-6f19-07d0-ae08-38492ee85c88"
               }
             ]
@@ -599,7 +599,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.202.197.3",
+            "address": "80.93.187.2",
             "port": 52006,
             "users": [
               {
@@ -734,7 +734,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.202.249.3",
+            "address": "82.202.197.3",
             "port": 52006,
             "users": [
               {
@@ -869,33 +869,27 @@
       "settings": {
         "vnext": [
           {
-            "address": "46.182.24.148",
-            "port": 6443,
+            "address": "82.202.249.3",
+            "port": 52006,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "3b6ed23e-7ddc-4a86-9637-c07001805670"
+                "flow": "xtls-rprx-vision",
+                "id": "75807638-6f19-07d0-ae08-38492ee85c88"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "W6UrEglDqSm0gtVYdLmMItMIQWD_sPt8EIZUq-UgDwc",
-          "serverName": "ads.x5.ru",
-          "shortId": "e6e49dd322b5985a",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cluster-russia-1.firstvideocdn.ru"
+        }
       },
-      "tag": "node-031 🌐 Anycast-IP | [IPv6] [*CIDR]"
+      "tag": "node-031 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
