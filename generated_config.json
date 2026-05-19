@@ -56,13 +56,40 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.228.101.64",
+            "address": "cz.rumost.top",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "6bcc0a8a-a7cc-0004-8448-14ec5e516912"
+                "id": "f42c93f3-755b-4e12-a856-e7c6878b34ab"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cz.rumost.top"
+        }
+      },
+      "tag": "node-001 🇭🇰 Hong Kong [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "130.12.242.182",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "41b92d9f-6c8d-4ac3-8eeb-eb3fcf48e102"
               }
             ]
           }
@@ -71,15 +98,15 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "KdAzR0Ytx0LJhK058NvjOg0nV7-vbxxoRL7-y-eSvA0",
-          "serverName": "87.228.101.64",
-          "shortId": "",
+          "fingerprint": "chrome",
+          "publicKey": "hiwB3SDzaT_l-hVWRdhuRBQ3AxbNcJePgSqEwECkIzo",
+          "serverName": "nl1.kickvpn.ru",
+          "shortId": "58fe4f834d5554a6",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🌐 Anycast-IP [*CIDR]"
+      "tag": "node-002 🌐 Anycast-IP | [IPv6] [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -90,11 +117,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🌐 Anycast-IP [*CIDR]",
+        "fallbackTag": "node-001 🇭🇰 Hong Kong [*CIDR]",
         "selector": [
           "node-"
         ],
