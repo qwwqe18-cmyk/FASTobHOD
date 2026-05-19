@@ -56,27 +56,30 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.3.150",
+            "address": "87.228.101.64",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "fc625795-792d-4d9d-9d38-bffe59467d2d"
+                "flow": "xtls-rprx-vision",
+                "id": "6bcc0a8a-a7cc-0004-8448-14ec5e516912"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "daluan.eu.org"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "KdAzR0Ytx0LJhK058NvjOg0nV7-vbxxoRL7-y-eSvA0",
+          "serverName": "87.228.101.64",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-001 🌐 Anycast-IP | [IPv6] [*CIDR]"
+      "tag": "node-001 🌐 Anycast-IP [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -91,7 +94,7 @@
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🌐 Anycast-IP | [IPv6] [*CIDR]",
+        "fallbackTag": "node-001 🌐 Anycast-IP [*CIDR]",
         "selector": [
           "node-"
         ],
