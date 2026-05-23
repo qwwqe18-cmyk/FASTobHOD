@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "wl1.xanka.best",
-            "port": 443,
+            "address": "178.236.254.244",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "f0d04145-2f72-4a04-8479-b9813a600ab6"
+                "id": "69a2af58-d74a-44ca-864a-e09b493f4274"
               }
             ]
           }
@@ -72,14 +72,134 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "XkDyiiUQGUWjFTMmTJHr7miEUoAT1cz5dpHTY20192U",
-          "serverName": "api-maps.yandex.ru",
-          "shortId": "5c2d1b6b",
+          "publicKey": "4XCNqnEdkyfNi19VJuyJJ4YJqmLHHrXdWuMpsQlKqmY",
+          "serverName": "www.vk.ru",
+          "shortId": "e0870b",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇷🇺 Russia [*CIDR] YA"
+      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.4.2",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "00d62950-a456-40c0-8dc4-690e6bdfd060"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI",
+          "serverName": "api-maps.yandex.ru",
+          "shortId": "226509f017e4c36d",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🇳🇱 The Netherlands [*CIDR] YA"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "rus.scroogethebest.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "31969cf4-c1bb-4a3e-b42b-574dfb271c73"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "sbvKAdRy_0h33iRxgGwHAD1HC62WGwlkWwj0S5ptJEU",
+          "serverName": "rus.scroogethebest.com",
+          "shortId": "9c2378562188c3cb",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-003 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.151.182.34",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69a2af58-d74a-44ca-864a-e09b493f4274"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "WMy1KN-awWYkz-3jct8VM4qvCeK3ICvJj3wzam6pAyE",
+          "serverName": "pimg.mycdn.me",
+          "shortId": "b8f9f01b",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-004 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru-msk.videoproeditor.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "f8ac5ad6-d8fc-452e-851b-297a4d994988"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "serverName": "ru-1.videoproeditor.com",
+          "shortId": "6d6f13013d3e1d0c",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-005 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -90,11 +210,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇷🇺 Russia [*CIDR] YA",
+        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
