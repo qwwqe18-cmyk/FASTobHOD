@@ -56,7 +56,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.188.156.138",
+            "address": "87.228.124.196",
             "port": 4443,
             "users": [
               {
@@ -79,7 +79,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.228.124.196",
+            "address": "5.188.156.138",
             "port": 4443,
             "users": [
               {
@@ -283,30 +283,27 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru.rush-server.com",
-            "port": 8443,
+            "address": "135.84.73.34",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "e2cb3a78-a47c-41bd-bad9-189a797c8967"
+                "flow": "",
+                "id": "6202b230-417c-4d8e-b624-0f71afa9c75d"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
-          "serverName": "findmypackets.com",
-          "shortId": "93ae75024604f796",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        }
       },
-      "tag": "node-010 🇷🇺 Russia [*CIDR]"
+      "tag": "node-010 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -340,7 +337,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "135.84.73.34",
+            "address": "135.84.74.155",
             "port": 443,
             "users": [
               {
@@ -357,7 +354,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "sni.111000.v6.navy"
         }
       },
       "tag": "node-012 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
@@ -367,7 +364,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "135.84.74.155",
+            "address": "135.84.74.43",
             "port": 443,
             "users": [
               {
@@ -421,7 +418,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "135.84.74.43",
+            "address": "135.84.74.47",
             "port": 443,
             "users": [
               {
@@ -448,7 +445,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "135.84.74.47",
+            "address": "135.84.75.139",
             "port": 443,
             "users": [
               {
@@ -492,7 +489,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "sni.111000.v6.navy"
+          "serverName": ""
         }
       },
       "tag": "node-017 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
@@ -502,7 +499,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "135.84.75.139",
+            "address": "160.153.1.122",
             "port": 443,
             "users": [
               {
@@ -519,7 +516,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": ""
+          "serverName": "sni.111000.v6.navy"
         }
       },
       "tag": "node-018 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
@@ -556,7 +553,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "160.153.1.122",
+            "address": "160.153.1.198",
             "port": 443,
             "users": [
               {
@@ -610,33 +607,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "160.153.1.198",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "6202b230-417c-4d8e-b624-0f71afa9c75d"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sni.111000.v6.navy"
-        }
-      },
-      "tag": "node-022 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "166.62.108.139",
             "port": 443,
             "users": [
@@ -657,7 +627,7 @@
           "serverName": ""
         }
       },
-      "tag": "node-023 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-022 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -684,7 +654,7 @@
           "serverName": "sni.111000.v6.navy"
         }
       },
-      "tag": "node-024 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-023 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -711,7 +681,7 @@
           "serverName": "sni.111000.v6.navy"
         }
       },
-      "tag": "node-025 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-024 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -719,6 +689,33 @@
         "vnext": [
           {
             "address": "45.131.208.191",
+            "port": 2096,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "6202b230-417c-4d8e-b624-0f71afa9c75d"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sni.my111000.tech"
+        }
+      },
+      "tag": "node-025 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.131.209.191",
             "port": 2096,
             "users": [
               {
@@ -773,33 +770,6 @@
         "vnext": [
           {
             "address": "45.131.209.191",
-            "port": 2096,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "6202b230-417c-4d8e-b624-0f71afa9c75d"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sni.my111000.tech"
-        }
-      },
-      "tag": "node-028 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.131.209.191",
             "port": 443,
             "users": [
               {
@@ -819,7 +789,7 @@
           "serverName": "sni.my111000.tech"
         }
       },
-      "tag": "node-029 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-028 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -846,7 +816,7 @@
           "serverName": "sni.my111000.tech"
         }
       },
-      "tag": "node-030 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-029 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -873,7 +843,7 @@
           "serverName": "sni.my111000.tech"
         }
       },
-      "tag": "node-031 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-030 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -900,7 +870,7 @@
           "serverName": "sni.my111000.tech"
         }
       },
-      "tag": "node-032 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-031 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -927,7 +897,7 @@
           "serverName": "sni.my111000.tech"
         }
       },
-      "tag": "node-033 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-032 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -954,7 +924,7 @@
           "serverName": "sni.my111000.tech"
         }
       },
-      "tag": "node-034 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-033 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -981,7 +951,7 @@
           "serverName": "sni.my111000.tech"
         }
       },
-      "tag": "node-035 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+      "tag": "node-034 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1008,7 +978,7 @@
           "serverName": "sni.111000.v6.navy"
         }
       },
-      "tag": "node-036 🌐 Anycast-IP | 🇨🇦 🇷🇺 [*CIDR]"
+      "tag": "node-035 🌐 Anycast-IP | 🇨🇦 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1035,7 +1005,7 @@
           "serverName": ""
         }
       },
-      "tag": "node-037 🌐 Anycast-IP | 🇨🇦 🇷🇺 [*CIDR]"
+      "tag": "node-036 🌐 Anycast-IP | 🇨🇦 🇷🇺 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1062,7 +1032,34 @@
           "serverName": "sni.my111000.tech"
         }
       },
-      "tag": "node-038 🌐 Anycast-IP | 🇨🇦 🇷🇺 [*CIDR]"
+      "tag": "node-037 🌐 Anycast-IP | 🇨🇦 🇷🇺 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.10.244.191",
+            "port": 2096,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "6202b230-417c-4d8e-b624-0f71afa9c75d"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sni.my111000.tech"
+        }
+      },
+      "tag": "node-038 🌐 Anycast-IP | 🇨🇦 🇸🇪 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1096,8 +1093,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.10.244.191",
-            "port": 2096,
+            "address": "5.255.102.201",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1113,10 +1110,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "sni.my111000.tech"
+          "serverName": "sni.111000.v6.navy"
         }
       },
-      "tag": "node-040 🌐 Anycast-IP | 🇨🇦 🇸🇪 [*CIDR]"
+      "tag": "node-040 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇳🇱 [*CIDR]"
     },
     {
       "protocol": "vless",
