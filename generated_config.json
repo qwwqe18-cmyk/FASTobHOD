@@ -56,7 +56,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru7.alexanderoff.ru",
+            "address": "87.228.124.196",
             "port": 4443,
             "users": [
               {
@@ -79,7 +79,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.228.124.196",
+            "address": "ru3.alexanderoff.ru",
             "port": 4443,
             "users": [
               {
@@ -98,6 +98,102 @@
       "tag": "node-002 🇷🇺 Russia [*CIDR]"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru3.alexanderoff.ru",
+            "port": 4443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "de87620b-6bff-4077-99cc-ce65e06b64ed"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "false"
+      },
+      "tag": "node-003 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru3.alexanderoff.ru",
+            "port": 4443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "de87620b-6bff-4077-99cc-ce65e06b64ed"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "false"
+      },
+      "tag": "node-004 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru7.alexanderoff.ru",
+            "port": 4443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "de87620b-6bff-4077-99cc-ce65e06b64ed"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none"
+      },
+      "tag": "node-005 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "est-def.sbrf-cdn342.ru",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "91e120bc-159a-4390-b4e1-197b19602ea0"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sub.sbrf-cdn342.ru"
+        }
+      },
+      "tag": "node-006 🌐 Anycast-IP | 🇪🇪 🇫🇷 [*CIDR]"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -106,7 +202,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (6 узлов)",
   "routing": {
     "balancers": [
       {
