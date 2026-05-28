@@ -56,8 +56,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "noble-nest.scan-cdn.com",
-            "port": 8443,
+            "address": "urban-union.scan-cdn.com",
+            "port": 9443,
             "users": [
               {
                 "encryption": "none",
@@ -72,14 +72,14 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "OTovueIB0arbpOZ02tZLnh0DdIhRzO-AZB5Vf3rXlV4",
+          "publicKey": "Mjvrfyqmdca5P4C1g-onuIzctu3duPXj10QvuCwYW3Y",
           "serverName": "tradingview.com",
-          "shortId": "fba0460a7767cfff",
+          "shortId": "8dfa2a72581edaad",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-001 🇺🇸 United States | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -112,7 +112,37 @@
         },
         "security": "reality"
       },
-      "tag": "node-002 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-002 🇦🇹 Austria [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "51.250.21.112",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "4f4f9461-5cfa-4746-9f62-2f08dfd05636"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
+          "serverName": "pornhub.com",
+          "shortId": "abab34c40ed6c10a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-003 🇳🇱 The Netherlands [*CIDR] YA"
     },
     {
       "protocol": "freedom",
@@ -123,11 +153,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇳🇱 The Netherlands [*CIDR]",
+        "fallbackTag": "node-001 🇺🇸 United States | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
