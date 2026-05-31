@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn3-87.vk-cdnvideo.com",
-            "port": 8443,
+            "address": "111.88.124.98",
+            "port": 444,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+                "flow": "xtls-rprx-vision",
+                "id": "eef46bd9-d045-480d-8496-2297ac82838c"
               }
             ]
           }
@@ -70,13 +70,16 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdn3-87.vk-cdnvideo.com"
-        }
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "jUTLA3HfU7IVwbRq2ijrXHUB48l-La2jCRBEnblkmGU",
+          "serverName": "m.vk.ru",
+          "shortId": "81ee89a0958495fd",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-001 🇳🇱 The Netherlands | 🌐 [*CIDR]"
+      "tag": "node-001 🇵🇱 Poland [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -106,6 +109,60 @@
       "tag": "node-002 🇳🇱 The Netherlands | 🌐 [*CIDR]"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cdn3-87.vk-cdnvideo.com",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": ""
+        }
+      },
+      "tag": "node-003 🇳🇱 The Netherlands | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cdn3-87.vk-cdnvideo.com",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn3-87.vk-cdnvideo.com"
+        }
+      },
+      "tag": "node-004 🇳🇱 The Netherlands | 🌐 [*CIDR]"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -114,11 +171,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇳🇱 The Netherlands | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇵🇱 Poland [*CIDR]",
         "selector": [
           "node-"
         ],
