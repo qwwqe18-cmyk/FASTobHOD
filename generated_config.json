@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "158.160.249.158",
-            "port": 8443,
+            "address": "bankir.ksnodes.net",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "86a0325c-06c2-434b-a616-c2a40ac5d8f0"
+                "id": "33612cbf-0639-4285-81da-f88eba1d4f85"
               }
             ]
           }
@@ -70,29 +70,80 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "serverName": "ads.x5.ru",
-          "shortId": "65c7748be8",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "bankir.ksnodes.net"
+        }
       },
-      "tag": "node-001 🇨🇿 Czechia [*CIDR] YA"
+      "tag": "node-001 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "77.110.113.49",
+            "address": "141.193.213.30",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "c4d69096-4026-4da5-9485-20a3da91cb14"
+                "id": "d2992c0d-53cb-489c-85af-5eb80e6d9e79"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "blog.webex.com.cyylr.eu.cc"
+        }
+      },
+      "tag": "node-002 🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.193.213.30",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "a6d5a889-2a4a-4b31-8892-e0820188e921"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "www.genflix.co.id.cyylr.eu.cc"
+        }
+      },
+      "tag": "node-003 🌐 Anycast-IP | 🇬🇧 🇷🇺 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.14.46.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "a1b19834-a5e3-4d49-9301-aaa3fb248f49"
               }
             ]
           }
@@ -100,72 +151,16 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "grpc"
+          "serviceName": "/sequre/grpc"
         },
         "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "B3n6bIbENct3qg8xSRiwwxl1SqGpnqAwq-TEUQ2ojks",
-          "serverName": "dogs.abvphelp.cc",
-          "shortId": "882c8346",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "185.14.46.20.blanesik.space"
+        }
       },
-      "tag": "node-002 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "max3r.skystreamgame.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "d8ba5ef5-48f6-48fc-9a31-e638e678dd3c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "randomized",
-          "publicKey": "XBePIY00JetBf0pbmcx-Dvu8XsZ-l079GiHf93HhS0Y",
-          "serverName": "max3r.skystreamgame.com",
-          "shortId": "6d6f13013d3e1d0c",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-003 🇬🇧 United Kingdom [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "107.161.168.212",
-            "port": 56947,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "48cdcfef-af9c-4eff-888c-cace67ae5881"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none"
-      },
-      "tag": "node-004 🇺🇸 United States [*CIDR]"
+      "tag": "node-004 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -198,29 +193,6 @@
       "tag": "node-005 🇷🇺 Russia [*CIDR]"
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.165.42.122",
-            "port": 9443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1fdb731e-1365-4dce-b3e3-b793589d5177"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none"
-      },
-      "tag": "node-006 🌐 Anycast-IP | 🇩🇪 🇬🇧 [*CIDR]"
-    },
-    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -229,11 +201,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (6 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇨🇿 Czechia [*CIDR] YA",
+        "fallbackTag": "node-001 🇷🇺 Russia [*CIDR]",
         "selector": [
           "node-"
         ],
