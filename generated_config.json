@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.250.24.222",
+            "address": "45.92.177.186",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "493de030-d144-435e-b20c-60218904a2f8"
+                "id": "52b71b75-4b77-4cec-990b-046ec1938e1f"
               }
             ]
           }
@@ -71,15 +71,45 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "serverName": "cdp.x5.ru",
-          "shortId": "8ec792bfd725be8a",
+          "fingerprint": "firefox",
+          "publicKey": "-sij6MifOyoPdIBR9kjB3ww2ClWk7IhITppFxUEdBzI",
+          "serverName": "ru.bvps.cloud",
+          "shortId": "9e0ba98da61cb818",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🌐 Anycast-IP | 🇩🇪 🇬🇧 [*CIDR] YA"
+      "tag": "node-001 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.241.195.217",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "551b9e18-4327-462d-aa03-f730b4e3bb0a"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0",
+          "serverName": "www.tesla.com",
+          "shortId": "be0191cc",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🌐 Anycast-IP | 🇭🇰 🇱🇻 🇳🇱 [*CIDR] VK"
     },
     {
       "protocol": "freedom",
@@ -90,11 +120,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🌐 Anycast-IP | 🇩🇪 🇬🇧 [*CIDR] YA",
+        "fallbackTag": "node-001 🇷🇺 Russia [*CIDR]",
         "selector": [
           "node-"
         ],
