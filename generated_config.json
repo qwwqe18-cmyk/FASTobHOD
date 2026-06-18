@@ -56,6 +56,36 @@
       "settings": {
         "vnext": [
           {
+            "address": "212.233.91.194",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "411c1913-996e-4aa6-89fe-0d25ac621e83"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "akCWFrGBboGajZT5HS4m5fw32uJsdw6esUTC1qN4LR0",
+          "serverName": "vk.ru",
+          "shortId": "79ed76c157977111",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-001 🇷🇺 Russia [*CIDR] VK"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "45.92.177.186",
             "port": 443,
             "users": [
@@ -79,37 +109,40 @@
         },
         "security": "reality"
       },
-      "tag": "node-001 🇷🇺 Russia [*CIDR]"
+      "tag": "node-002 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.241.195.217",
-            "port": 443,
+            "address": "141.8.199.170",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "551b9e18-4327-462d-aa03-f730b4e3bb0a"
+                "flow": "",
+                "id": "1750bd54-55e6-4d6b-9e0b-2d32c58dad23"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "vless-grpc-reality"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0",
-          "serverName": "www.tesla.com",
-          "shortId": "be0191cc",
+          "fingerprint": "chrome",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "id.vk.com",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-002 🌐 Anycast-IP | 🇭🇰 🇱🇻 🇳🇱 [*CIDR] VK"
+      "tag": "node-003 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -120,11 +153,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇷🇺 Russia [*CIDR]",
+        "fallbackTag": "node-001 🇷🇺 Russia [*CIDR] VK",
         "selector": [
           "node-"
         ],
