@@ -56,6 +56,63 @@
       "settings": {
         "vnext": [
           {
+            "address": "172.64.149.209",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "eeb6823c-b926-4ea2-866a-5542edd26e59"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "t1s1.rittbo.kdns.fr"
+        }
+      },
+      "tag": "node-001 🌐 Anycast-IP | 🇨🇦 🇸🇪 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "88.218.67.115",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "dd9901b2-1b17-0017-b468-b7e94a5bc2c6"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "ho7BivYLLBlfgtWEaRqF_g6OOHiKINEyAFDm6wbPDXI",
+          "serverName": "cascad.anotherboring.top",
+          "shortId": "b8357afdce856d30",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🇹🇷 Turkey [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "176.108.243.253",
             "port": 443,
             "users": [
@@ -79,37 +136,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-001 🇨🇴 Colombia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.108.244.152",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "227131c5-1063-4d5d-9038-8dacdcefc569"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "oVRbpcmh0rTxbe2y_zyVQqqzCVIPOFfkk-CHv9QFLF4",
-          "serverName": "kz-most.api-yandex.net",
-          "shortId": "0fdfdcf08733a33f",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🇰🇿 Kazakhstan | 🌐 [*CIDR]"
+      "tag": "node-003 🌐 Anycast-IP | 🇹🇷 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -120,11 +147,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇨🇴 Colombia [*CIDR]",
+        "fallbackTag": "node-001 🌐 Anycast-IP | 🇨🇦 🇸🇪 [*CIDR]",
         "selector": [
           "node-"
         ],
