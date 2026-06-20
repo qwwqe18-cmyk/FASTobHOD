@@ -79,153 +79,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "most-ger-8.linkey46.ru",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "6f4b6e90-3e91-4ad2-8c3f-d0e4dd29264b"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "most-ger-8.linkey46.ru"
-        }
-      },
-      "tag": "node-002 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 2096,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "30981a1c-8cf6-599a-8be3-e2b2034688ab"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "erfan-albasit.proxy-se7en.workers.dev"
-        }
-      },
-      "tag": "node-003 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdn9-03.cdn-vkvideo.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9a2573c5-936f-4f93-8409-e43164793176"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "2dUnvgWjYo4Xs5T17CfWoImszwB0I6hGHwRxZZEQvQs",
-          "serverName": "cdn9-03.cdn-vkvideo.com",
-          "shortId": "b0d8f964b7ac8ac3",
-          "spiderX": "/api/v1/video/init"
-        },
-        "security": "reality"
-      },
-      "tag": "node-004 🇬🇧 United Kingdom [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdn9-03.cdn-vkvideo.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9a2573c5-936f-4f93-8409-e43164793176"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "2dUnvgWjYo4Xs5T17CfWoImszwB0I6hGHwRxZZEQvQs",
-          "serverName": "cdn9-03.cdn-vkvideo.com",
-          "shortId": "b0d8f964b7ac8ac3",
-          "spiderX": "/api/v1/video/init"
-        },
-        "security": "reality"
-      },
-      "tag": "node-005 🇬🇧 United Kingdom [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "217.144.184.251",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8ebbdd3b-703c-47df-8bc9-bc9cf6606bc1"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "ugTbTcS4MurvJHkOsb2sGdVhUdhfyuJwv6yvJldeCXA",
-          "serverName": "cdn.jsdelivr.net",
-          "shortId": "d9a7c1e2b3f4481a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-006 🇧🇷 Brazil | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "217.25.92.53",
             "port": 443,
             "users": [
@@ -249,57 +102,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-007 🇮🇳 India [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.81.247.118",
-            "port": 8880,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e52fedb7-befe-4615-a53e-89d446f74bf4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none"
-      },
-      "tag": "node-008 🇫🇮 Finland [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 2087,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "30981a1c-8cf6-599a-8be3-e2b2034688ab"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "erfan-albasit.proxy-se7en.workers.dev"
-        }
-      },
-      "tag": "node-009 🌐 Anycast-IP | 🇨🇦 🇫🇮 🇺🇸 [*CIDR]"
+      "tag": "node-002 🇮🇳 India [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -310,7 +113,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (9 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
   "routing": {
     "balancers": [
       {
