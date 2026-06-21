@@ -56,59 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "66.81.247.209",
-            "port": 8880,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e52fedb7-befe-4615-a53e-89d446f74bf4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none"
-      },
-      "tag": "node-001 🇫🇮 Finland | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.81.247.209",
-            "port": 8880,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e52fedb7-befe-4615-a53e-89d446f74bf4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none"
-      },
-      "tag": "node-002 🇫🇮 Finland | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "158.160.149.156",
+            "address": "185.241.195.217",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "9f8b19dc-ace4-4c7e-8327-3a283903c622"
+                "id": "551b9e18-4327-462d-aa03-f730b4e3bb0a"
               }
             ]
           }
@@ -117,96 +71,15 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "7FRqeOa8b0fj1gMRaKKOcqacceSNTwEckl__mb3T5Gg",
-          "serverName": "eh.vk.com",
-          "shortId": "b02bb9c134bae7ca",
+          "fingerprint": "chrome",
+          "publicKey": "6RnCVPCohP4zBcbSmEJD9RRia8gERSV3Q0IaZec4El0",
+          "serverName": "www.tesla.com",
+          "shortId": "be0191cc",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-003 🌐 Anycast-IP | 🇦🇹 🇩🇪 [*CIDR] YA"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "30981a1c-8cf6-599a-8be3-e2b2034688ab"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "erfan-albasit.proxy-se7en.workers.dev"
-        }
-      },
-      "tag": "node-004 🌐 Anycast-IP | 🇬🇧 🇳🇱 🇷🇺 🇸🇪 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 2096,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "30981a1c-8cf6-599a-8be3-e2b2034688ab"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "erfan-albasit.proxy-se7en.workers.dev"
-        }
-      },
-      "tag": "node-005 🌐 Anycast-IP | 🇬🇧 🇸🇪 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "news.microsoft.com",
-            "port": 2087,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "30981a1c-8cf6-599a-8be3-e2b2034688ab"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "erfan-albasit.proxy-se7en.workers.dev"
-        }
-      },
-      "tag": "node-006 🌐 Anycast-IP | 🇨🇦 🇬🇧 [*CIDR]"
+      "tag": "node-001 🌐 Anycast-IP | 🇭🇰 🇱🇻 🇳🇱 [*CIDR] VK"
     },
     {
       "protocol": "freedom",
@@ -217,11 +90,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (6 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇫🇮 Finland | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🌐 Anycast-IP | 🇭🇰 🇱🇻 🇳🇱 [*CIDR] VK",
         "selector": [
           "node-"
         ],
