@@ -106,6 +106,62 @@
       "tag": "node-002 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "157.22.183.74",
+            "port": 19984,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "a0addfd6-969a-43ea-a3ea-c2392b2e06a8"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none"
+      },
+      "tag": "node-003 🇳🇱 The Netherlands [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.131.214.45",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "e64100fd-773d-4cc6-adbe-a4c94876d07a"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": ""
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "ID6lMOmt7BiuPHjZkoLSWNR9ONmB6b4L9skIIFjtXxU",
+          "serverName": "d.primarymaster.online",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-004 🇩🇪 Germany [*CIDR]"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -114,7 +170,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
