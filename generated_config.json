@@ -110,13 +110,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "157.22.183.74",
-            "port": 19984,
+            "address": "91.193.58.77",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "a0addfd6-969a-43ea-a3ea-c2392b2e06a8"
+                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
               }
             ]
           }
@@ -124,42 +124,40 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none"
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "unnes.ac.id.yxls.eu.cc"
+        }
       },
-      "tag": "node-003 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-003 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "45.131.214.45",
+            "address": "78.41.111.87",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e64100fd-773d-4cc6-adbe-a4c94876d07a"
+                "id": "dba50bb9-2456-4128-8632-f7ba1e6a7ab5"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": ""
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "ID6lMOmt7BiuPHjZkoLSWNR9ONmB6b4L9skIIFjtXxU",
-          "serverName": "d.primarymaster.online",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s10211.cdn.ngenix.net"
+        }
       },
-      "tag": "node-004 🇩🇪 Germany [*CIDR]"
+      "tag": "node-004 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "freedom",
