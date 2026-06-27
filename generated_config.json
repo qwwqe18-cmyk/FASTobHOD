@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.147.226",
-            "port": 2083,
+            "address": "91.193.58.77",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1189bc23-27f7-47c1-89d4-1e6843a09cb6"
+                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
               }
             ]
           }
@@ -73,7 +73,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "freetools-h2s.pages.dev"
+          "serverName": "unnes.ac.id.yxls.eu.cc"
         }
       },
       "tag": "node-001 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
@@ -83,27 +83,90 @@
       "settings": {
         "vnext": [
           {
-            "address": "91.193.58.77",
-            "port": 443,
+            "address": "185.147.27.96",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
+                "flow": "xtls-rprx-vision",
+                "id": "222ca353-a842-44f8-a86f-317fbbf73f2c"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "unnes.ac.id.yxls.eu.cc"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "F8-vs46mNbq9-5gAP08KD420Jf1tdHwcefIDTFpEMSs",
+          "serverName": "max.ru",
+          "shortId": "30095c0f0d",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-002 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+      "tag": "node-002 🇷🇺 Russia | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lte24.wequ.host",
+            "port": 6443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "60300afa-3366-4ae3-959a-7b50438acebb"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "cOo6ONUU2yurrQgdFleebnVCySvkvWiJd59kEk09cwE",
+          "serverName": "api-dev-omni.x5.ru",
+          "shortId": "55c9bce1",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-003 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tiger.ickly.co.uk",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "60300afa-3366-4ae3-959a-7b50438acebb"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "WRLY3yTNIqMcu-R0TwkAS4M9uMP8R1CnDVe_RvNvBWg",
+          "serverName": "tiger.ickly.co.uk",
+          "shortId": "46d7e37e",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-004 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -130,7 +193,7 @@
           "serverName": "unnes.ac.id.yxls.eu.cc"
         }
       },
-      "tag": "node-003 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+      "tag": "node-005 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -157,7 +220,7 @@
           "serverName": "unnes.ac.id.yxls.eu.cc"
         }
       },
-      "tag": "node-004 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+      "tag": "node-006 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -184,40 +247,7 @@
           "serverName": "mocik38250.pages.dev"
         }
       },
-      "tag": "node-005 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ll0ll.vip",
-            "port": 8082,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d9228d5d-618d-4771-835f-96b4ebdd38cd"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "vless-grpc-reality"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "serverName": "id.vk.com",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-006 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-007 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -228,7 +258,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (6 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (7 узлов)",
   "routing": {
     "balancers": [
       {
