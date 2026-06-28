@@ -251,7 +251,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.251.91.184",
+            "address": "185.251.89.9",
             "port": 2096,
             "users": [
               {
@@ -302,7 +302,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
+          "fingerprint": "firefox",
           "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "serverName": "id.vk.com",
           "shortId": "",
@@ -317,7 +317,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.218.0.41",
+            "address": "185.251.91.184",
             "port": 2096,
             "users": [
               {
@@ -335,7 +335,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
+          "fingerprint": "firefox",
           "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "serverName": "id.vk.com",
           "shortId": "",
@@ -368,7 +368,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "serverName": "id.vk.com",
           "shortId": "",
@@ -383,30 +383,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "95.163.209.42",
-            "port": 443,
+            "address": "185.251.91.184",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "8d7032fa-47e2-40b9-86ee-0072b23feff8"
+                "flow": "",
+                "id": "d9228d5d-618d-4771-835f-96b4ebdd38cd"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "vless-grpc-reality"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "USzFIqCCFTRAzEJo8Npt_Ds-uRK_FnlvRsR-Iv88_AE",
-          "serverName": "vk.com",
-          "shortId": "a1",
+          "fingerprint": "chrome",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "id.vk.com",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-012 🌐 Anycast-IP | 🇩🇪 🇺🇸 [*CIDR] VK"
+      "tag": "node-012 🌐 Anycast-IP | 🇦🇹 🇩🇪 [*CIDR]"
     },
     {
       "protocol": "freedom",
