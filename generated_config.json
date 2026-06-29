@@ -164,13 +164,65 @@
       "settings": {
         "vnext": [
           {
-            "address": "news.microsoft.com",
-            "port": 443,
+            "address": "158.160.204.211",
+            "port": 8441,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "c919e592-5639-491e-a9b7-7a201175ae12"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "Q5mtL2qHRAoPEVnl9GRezCHkTrNTnvW_FL3_HQhhKDo",
+          "serverName": "ya.ru",
+          "shortId": "06011ef464e3313f",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-005 🇷🇺 Russia [*CIDR] YA"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5d74fed1.apruxdomain.lol",
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "14b59caf-a196-4ec2-8c70-c7b388062f5b"
+                "id": "d6f8c086-a558-49f9-8f51-bca6e56185ab"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws"
+      },
+      "tag": "node-006 🇦🇪 United Arab Emirates [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5d74fed1.apruxdomain.lol",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d6f8c086-a558-49f9-8f51-bca6e56185ab"
               }
             ]
           }
@@ -178,26 +230,22 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "JoinProxyVPN11.vangoghhh.info"
-        }
+        "security": "none"
       },
-      "tag": "node-005 🇩🇪 Germany [*CIDR]"
+      "tag": "node-007 🇦🇪 United Arab Emirates [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "84.201.178.0",
+            "address": "95.181.173.239",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "694eadbe-d61f-4f80-957b-d55d990e8ffa"
+                "flow": "",
+                "id": "34d0e726-b740-4ce5-8faa-e4aa2c498ace"
               }
             ]
           }
@@ -207,27 +255,27 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ",
-          "serverName": "yandex.ru",
-          "shortId": "2bb326a463fd1937",
-          "spiderX": "/"
+          "publicKey": "vCy4GoFZo4J55DYiNgkYWXSSkz2_v1tU-duQcnNt4zs",
+          "serverName": "www.amd.com",
+          "shortId": "a9a250",
+          "spiderX": "/P5jojaOizC4cMjz"
         },
         "security": "reality"
       },
-      "tag": "node-006 🌐 Anycast-IP | 🇳🇱 🇷🇺 [*CIDR] YA"
+      "tag": "node-008 🇺🇸 United States | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "82.22.40.138",
+            "address": "city-most-5.harknmav.fun",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "8083cfd0-55ab-4cf8-9ec9-86d953f96802"
+                "id": "a6c595e7-34e2-4762-8947-1ffd25bf99de"
               }
             ]
           }
@@ -236,15 +284,15 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "-uB8zIro9WM-NPpiSlOLWHouzZVXibfmT-MxwkacoQ0",
-          "serverName": "aneta.kosmolet.xyz",
-          "shortId": "a67894cec8a930c4",
+          "fingerprint": "qq",
+          "publicKey": "BGW71GlS7ucRWEx-tYF0n2JKvo8uBSLnKdtMMdwBNDY",
+          "serverName": "max.ru",
+          "shortId": "88ec10761480dce4",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-007 🌐 Anycast-IP | 🇵🇱 🇷🇺 [*CIDR]"
+      "tag": "node-009 🇳🇱 The Netherlands | 🌐 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -255,7 +303,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (7 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (9 узлов)",
   "routing": {
     "balancers": [
       {
