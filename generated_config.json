@@ -160,6 +160,93 @@
       "tag": "node-004 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "news.microsoft.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "14b59caf-a196-4ec2-8c70-c7b388062f5b"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "JoinProxyVPN11.vangoghhh.info"
+        }
+      },
+      "tag": "node-005 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.178.0",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "694eadbe-d61f-4f80-957b-d55d990e8ffa"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ",
+          "serverName": "yandex.ru",
+          "shortId": "2bb326a463fd1937",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🌐 Anycast-IP | 🇳🇱 🇷🇺 [*CIDR] YA"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.22.40.138",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "8083cfd0-55ab-4cf8-9ec9-86d953f96802"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "-uB8zIro9WM-NPpiSlOLWHouzZVXibfmT-MxwkacoQ0",
+          "serverName": "aneta.kosmolet.xyz",
+          "shortId": "a67894cec8a930c4",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-007 🌐 Anycast-IP | 🇵🇱 🇷🇺 [*CIDR]"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -168,7 +255,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (7 узлов)",
   "routing": {
     "balancers": [
       {
