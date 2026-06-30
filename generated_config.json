@@ -137,33 +137,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "91.193.58.77",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "unnes.ac.id.yxls.eu.cc"
-        }
-      },
-      "tag": "node-004 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "78.159.250.32",
             "port": 1111,
             "users": [
@@ -187,7 +160,85 @@
         },
         "security": "reality"
       },
-      "tag": "node-005 🇩🇪 Germany | 🌐 [*CIDR] Beeline"
+      "tag": "node-004 🇩🇪 Germany | 🌐 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5d74fed1.apruxdomain.lol",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d6f8c086-a558-49f9-8f51-bca6e56185ab"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws"
+      },
+      "tag": "node-005 🇦🇪 United Arab Emirates [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5d74fed1.apruxdomain.lol",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d6f8c086-a558-49f9-8f51-bca6e56185ab"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none"
+      },
+      "tag": "node-006 🇦🇪 United Arab Emirates [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "81.163.23.115",
+            "port": 2097,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "214906b4-96fd-48f6-977b-a26a89b7b973"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM",
+          "serverName": "gazeta-business.ru",
+          "shortId": "c05d4c564d2bcd",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-007 🇫🇮 Finland | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -217,20 +268,20 @@
         },
         "security": "reality"
       },
-      "tag": "node-006 🇷🇺 Russia [*CIDR] VK"
+      "tag": "node-008 🇷🇺 Russia [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "plmw.verymad.net",
-            "port": 28737,
+            "address": "178.250.242.39",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "c0961459-f199-4c41-899b-b16138f875e7"
+                "id": "7573908b-d981-4153-92aa-33ee2d22144c"
               }
             ]
           }
@@ -240,14 +291,44 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "Q8yB9j_8uP7SgGdVZdQQBzcnB7IROViEbnGtedncSVo",
-          "serverName": "www.vk.com",
-          "shortId": "5dcc574365",
-          "spiderX": "/9XAp5VbEXkOhR62"
+          "publicKey": "VH-4z1TvkJLyH9cgwdrhvMevxr3PltSBnMk43X6pi2U",
+          "serverName": "www.kinopoisk.ru",
+          "shortId": "086007",
+          "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-007 🇵🇱 Poland [*CIDR]"
+      "tag": "node-009 🇩🇪 Germany | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.163.209.42",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "2285c587-67f4-4404-bb78-c91e8e4f5338"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "USzFIqCCFTRAzEJo8Npt_Ds-uRK_FnlvRsR-Iv88_AE",
+          "serverName": "vk.com",
+          "shortId": "a1",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-010 🌐 Anycast-IP | 🇷🇺 [*CIDR] VK"
     },
     {
       "protocol": "freedom",
@@ -258,7 +339,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (7 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (10 узлов)",
   "routing": {
     "balancers": [
       {
