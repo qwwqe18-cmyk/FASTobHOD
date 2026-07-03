@@ -56,6 +56,60 @@
       "settings": {
         "vnext": [
           {
+            "address": "8.6.112.0",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "72d1797c-cef8-410a-b8fd-db9104dc3cb0"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "amooaliii.net"
+        }
+      },
+      "tag": "node-001 🇫🇷 France [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "8.6.112.0",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "72d1797c-cef8-410a-b8fd-db9104dc3cb0"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "amooaliii.net"
+        }
+      },
+      "tag": "node-002 🇫🇷 France [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "news.microsoft.com",
             "port": 443,
             "users": [
@@ -76,7 +130,7 @@
           "serverName": "JoinProxyVPN11.vangoghhh.info"
         }
       },
-      "tag": "node-001 🇩🇪 Germany [*CIDR]"
+      "tag": "node-003 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -103,64 +157,7 @@
           "serverName": "JoinProxyVPN11.vangoghhh.info"
         }
       },
-      "tag": "node-002 🇩🇪 Germany [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "63.141.128.3",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5b6be23b-dff4-428f-8a60-4f11568abe12"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "sync.amordad.xyz"
-        }
-      },
-      "tag": "node-003 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "gt-ch-01.live",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "05a01432-0302-439f-a88d-8442cd27b7d5"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc",
-          "serverName": "storage.yandex.net",
-          "shortId": "445ab326fc7c90ac",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-004 🇨🇭 Switzerland [*CIDR]"
+      "tag": "node-004 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -197,13 +194,40 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.201.155.125",
+            "address": "63.141.128.3",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
+                "flow": "",
+                "id": "5b6be23b-dff4-428f-8a60-4f11568abe12"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sync.amordad.xyz"
+        }
+      },
+      "tag": "node-006 🇩🇪 Germany | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "gt-ch-01.live",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "a9f9bbcf-c3e1-4b4a-a465-0ff340c953c7"
+                "id": "05a01432-0302-439f-a88d-8442cd27b7d5"
               }
             ]
           }
@@ -213,14 +237,68 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio",
-          "serverName": "ads.x5.ru",
-          "shortId": "c6d0b2fa72eb6389",
+          "publicKey": "8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc",
+          "serverName": "storage.yandex.net",
+          "shortId": "445ab326fc7c90ac",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-006 🇳🇱 The Netherlands [*CIDR] YA"
+      "tag": "node-007 🇨🇭 Switzerland [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.22.234.32",
+            "port": 7443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "53d0c9d8-0d59-453c-a5da-8f7c81f5ea03"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mms-2.hysteria.ltd"
+        }
+      },
+      "tag": "node-008 🇩🇪 Germany | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.8.208.49",
+            "port": 9443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "53d0c9d8-0d59-453c-a5da-8f7c81f5ea03"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "slc-1.hysteria.ltd"
+        }
+      },
+      "tag": "node-009 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -250,88 +328,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-007 🇺🇸 United States | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "91.193.58.77",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "unnes.ac.id.yxls.eu.cc"
-        }
-      },
-      "tag": "node-008 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "91.193.58.77",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "unnes.ac.id.yxls.eu.cc"
-        }
-      },
-      "tag": "node-009 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "91.193.58.77",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "unnes.ac.id.yxls.eu.cc"
-        }
-      },
-      "tag": "node-010 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+      "tag": "node-010 🇺🇸 United States | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -361,6 +358,147 @@
       "tag": "node-011 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.193.58.77",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "unnes.ac.id.yxls.eu.cc"
+        }
+      },
+      "tag": "node-012 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.193.58.77",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "unnes.ac.id.yxls.eu.cc"
+        }
+      },
+      "tag": "node-013 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.193.58.77",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "unnes.ac.id.yxls.eu.cc"
+        }
+      },
+      "tag": "node-014 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "79.174.95.68",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "e9c6c758-3718-000a-9b04-76b046308b74"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "8pexAJEIm7ZL48OkKjYWzVUjzlCcpkx1bv2O6ghUm2o",
+          "serverName": "5post-gate.x5.ru",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-015 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.139.27.106",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "a2415a12-3f92-4636-9823-9828d3ceb818"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "QQPE-T_FwO6DmpBmEfyaSB6H8QQCtTbmMj-6rlXEQhA",
+          "serverName": "www.ya.ru",
+          "shortId": "8a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-016 🌐 Anycast-IP | 🇩🇪 🇬🇧 [*CIDR]"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -369,11 +507,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (11 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (16 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany [*CIDR]",
+        "fallbackTag": "node-001 🇫🇷 France [*CIDR]",
         "selector": [
           "node-"
         ],
