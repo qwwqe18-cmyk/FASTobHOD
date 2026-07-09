@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "78.41.111.87",
+            "address": "195.209.86.193",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "dba50bb9-2456-4128-8632-f7ba1e6a7ab5"
+                "id": "9727d3cf-d839-4d8b-b22e-6d62483fea25"
               }
             ]
           }
@@ -73,10 +73,64 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "s10211.cdn.ngenix.net"
+          "serverName": "s52061.cdn.ngenix.net"
         }
       },
-      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-001 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.8.208.49",
+            "port": 7443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0e3ec08f-840e-46f8-b11e-3a5decbb97b6"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nl-cnn-1.hysteria.ltd"
+        }
+      },
+      "tag": "node-002 🇳🇱 The Netherlands [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.8.208.49",
+            "port": 6443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0e3ec08f-840e-46f8-b11e-3a5decbb97b6"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "slc-tst.hysteria.ltd"
+        }
+      },
+      "tag": "node-003 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -87,11 +141,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇩🇪 Germany [*CIDR]",
         "selector": [
           "node-"
         ],
