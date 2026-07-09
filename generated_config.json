@@ -56,153 +56,27 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.9.4.38",
-            "port": 8450,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5f5973cc-b1f9-4655-8952-ca1de6e2f4bc"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "/api/v2/events/collect"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "7V0vADPc7LkbXMs2rPyw-Pp6CBazw3Tt6N_WbkwdvCI",
-          "serverName": "api.vk.ru",
-          "shortId": "7ccbcb93b59845de",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "84.201.180.91",
+            "address": "78.41.111.87",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "8212df93-b748-430c-8099-ba49d56d2570"
+                "flow": "",
+                "id": "dba50bb9-2456-4128-8632-f7ba1e6a7ab5"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "n995xG00VmlZ2j_SIka7jUo8_jKQO8gIQU5FQaU-0AA",
-          "serverName": "api-maps.yandex.ru",
-          "shortId": "743cdafc",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s10211.cdn.ngenix.net"
+        }
       },
-      "tag": "node-002 🇫🇷 France [*CIDR] YA"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "217.herumhas.shop",
-            "port": 5443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "57c77d07-bec3-4bf7-9b72-70ece40450f6"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ",
-          "serverName": "max.ru",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-003 🇷🇺 Russia [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "gdg.herumhas.shop",
-            "port": 5443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "57c77d07-bec3-4bf7-9b72-70ece40450f6"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ",
-          "serverName": "max.ru",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-004 🇷🇺 Russia [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "omg.herumhas.shop",
-            "port": 5443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "57c77d07-bec3-4bf7-9b72-70ece40450f6"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ",
-          "serverName": "max.ru",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-005 🇷🇺 Russia [*CIDR] VK"
+      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -213,7 +87,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
   "routing": {
     "balancers": [
       {
