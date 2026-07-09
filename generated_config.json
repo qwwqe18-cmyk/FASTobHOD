@@ -76,15 +76,96 @@
           "serverName": "s52061.cdn.ngenix.net"
         }
       },
-      "tag": "node-001 🇩🇪 Germany [*CIDR]"
+      "tag": "node-001 🇩🇪 Germany | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "46.8.208.49",
-            "port": 7443,
+            "address": "195.209.87.198",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "9727d3cf-d839-4d8b-b22e-6d62483fea25"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s52061.cdn.ngenix.net"
+        }
+      },
+      "tag": "node-002 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "195.209.87.198",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "9727d3cf-d839-4d8b-b22e-6d62483fea25"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s52061.cdn.ngenix.net"
+        }
+      },
+      "tag": "node-003 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "195.209.87.198",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "9727d3cf-d839-4d8b-b22e-6d62483fea25"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s52061.cdn.ngenix.net"
+        }
+      },
+      "tag": "node-004 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.55.239.181",
+            "port": 9443,
             "users": [
               {
                 "encryption": "none",
@@ -100,18 +181,45 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "nl-cnn-1.hysteria.ltd"
+          "serverName": "sw-2-al.hysteria.ltd"
         }
       },
-      "tag": "node-002 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-005 🇨🇭 Switzerland | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "46.8.208.49",
-            "port": 6443,
+            "address": "195.209.86.193",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "9727d3cf-d839-4d8b-b22e-6d62483fea25"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "s52061.cdn.ngenix.net"
+        }
+      },
+      "tag": "node-006 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.55.239.181",
+            "port": 9443,
             "users": [
               {
                 "encryption": "none",
@@ -127,10 +235,76 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "slc-tst.hysteria.ltd"
+          "serverName": "sw-2-al.hysteria.ltd"
         }
       },
-      "tag": "node-003 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-007 🇨🇭 Switzerland | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.42.100.84",
+            "port": 48212,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2f93a08b-5c23-502c-936d-a53072cf9882"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "8rZnE8gkbRv3ZVHUvkyrMZnmoIRhtncAgQpUAPAwIlo",
+          "serverName": "yandex.ru",
+          "shortId": "62b5466a2183d4da",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-008 🇷🇺 Russia | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.42.100.84",
+            "port": 48212,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2f93a08b-5c23-502c-936d-a53072cf9882"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "8rZnE8gkbRv3ZVHUvkyrMZnmoIRhtncAgQpUAPAwIlo",
+          "serverName": "yandex.ru",
+          "shortId": "62b5466a2183d4da",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-009 🇷🇺 Russia | 🌐 | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -141,11 +315,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (9 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany [*CIDR]",
+        "fallbackTag": "node-001 🇩🇪 Germany | [*CIDR]",
         "selector": [
           "node-"
         ],
