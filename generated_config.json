@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.242.85.201",
-            "port": 13561,
+            "address": "192.144.13.35",
+            "port": 45079,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1fed3b53-8925-4d96-89d9-79836434d8f5"
+                "id": "8a2af219-cff5-42a2-bf69-9ed749443ba5"
               }
             ]
           }
@@ -72,20 +72,20 @@
         "network": "tcp",
         "security": "none"
       },
-      "tag": "node-001 🇫🇮 Finland | 🌐 [*CIDR]"
+      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "omg.herumhas.shop",
-            "port": 5443,
+            "address": "192.144.13.35",
+            "port": 45079,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "0e3ec08f-840e-46f8-b11e-3a5decbb97b6"
+                "flow": "",
+                "id": "8a2af219-cff5-42a2-bf69-9ed749443ba5"
               }
             ]
           }
@@ -93,16 +93,55 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ",
-          "serverName": "max.ru",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "security": "none"
       },
-      "tag": "node-002 🇷🇺 Russia [*CIDR] VK"
+      "tag": "node-002 🇩🇪 Germany | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "192.144.13.35",
+            "port": 45079,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8a2af219-cff5-42a2-bf69-9ed749443ba5"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none"
+      },
+      "tag": "node-003 🇩🇪 Germany | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "192.144.13.35",
+            "port": 45079,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8a2af219-cff5-42a2-bf69-9ed749443ba5"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none"
+      },
+      "tag": "node-004 🇩🇪 Germany | 🌐 | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -113,11 +152,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇫🇮 Finland | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
