@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.55.239.243",
-            "port": 443,
+            "address": "87.242.85.201",
+            "port": 13561,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "8d62fd83-d1a4-4afd-8210-e0c460b08973"
+                "flow": "",
+                "id": "1fed3b53-8925-4d96-89d9-79836434d8f5"
               }
             ]
           }
@@ -70,29 +70,22 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk",
-          "serverName": "ads.x5.ru",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "security": "none"
       },
-      "tag": "node-001 🇷🇺 Russia | 🌐 [*CIDR]"
+      "tag": "node-001 🇫🇮 Finland | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "201.51.12.164",
-            "port": 8445,
+            "address": "omg.herumhas.shop",
+            "port": 5443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "4f166057-2f4c-43d8-b5b3-6eb4413022e1"
+                "id": "0e3ec08f-840e-46f8-b11e-3a5decbb97b6"
               }
             ]
           }
@@ -101,15 +94,15 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "EPrMDeBde65nLBoriu-4H_4-0D4Y1pLqH9m6aSys6D8",
-          "serverName": "apple.com",
+          "fingerprint": "chrome",
+          "publicKey": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ",
+          "serverName": "max.ru",
           "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-002 🇷🇺 Russia | 🌐 [*CIDR]"
+      "tag": "node-002 🇷🇺 Russia [*CIDR] VK"
     },
     {
       "protocol": "freedom",
@@ -124,7 +117,7 @@
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇷🇺 Russia | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇫🇮 Finland | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
