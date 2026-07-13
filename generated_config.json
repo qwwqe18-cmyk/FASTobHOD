@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "85.239.54.134",
-            "port": 8443,
+            "address": "yt-noads.sbrf-cdn342.ru",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "96423879-75e7-4b83-9298-98a39888a8ba"
+                "id": "5a0136f5-2871-4f0e-8f66-df86adc65d40"
               }
             ]
           }
@@ -70,14 +70,11 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "lRPeETJHxWt5X_fgbQALgwNwDndk8l_GHwuBUpK_cEg",
-          "serverName": "site.rumedia-cdn.com",
-          "shortId": "cbf87c88b9edc929",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "shopper.applepie-recipe.ru"
+        }
       },
       "tag": "node-001 🇷🇺 Russia [*CIDR]"
     },
