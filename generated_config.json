@@ -71,7 +71,7 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "qq",
+          "fingerprint": "firefox",
           "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
           "serverName": "rutube.ru",
           "shortId": "43dcff53849b81e6",
@@ -79,7 +79,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-001 🇪🇪 Estonia [*CIDR]"
+      "tag": "node-001 🇪🇪 Estonia | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -116,13 +116,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "bs1.whitehost.org",
-            "port": 443,
+            "address": "194.55.239.189",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "cad59ee8-e80f-4d0f-a9dd-d082e00a75e4"
+                "id": "ecad47b0-249e-0007-adff-e3c8f02b1897"
               }
             ]
           }
@@ -130,13 +130,109 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "wde3.whitedeu.org"
-        }
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+          "serverName": "rutube.ru",
+          "shortId": "43dcff53849b81e6",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-003 🇩🇪 Germany | 🌐 [*CIDR] YA"
+      "tag": "node-003 🇪🇪 Estonia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.55.239.189",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "ecad47b0-249e-0007-adff-e3c8f02b1897"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+          "serverName": "rutube.ru",
+          "shortId": "43dcff53849b81e6",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-004 🇪🇪 Estonia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.55.239.206",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "ecad47b0-249e-001a-adff-e3c8f02b1897"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+          "serverName": "rutube.ru",
+          "shortId": "43dcff53849b81e6",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-005 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.168.247.209",
+            "port": 16923,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7d964bd1-f1af-45a5-926f-56238617ac50"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "neurex"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "safari",
+          "publicKey": "_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA",
+          "serverName": "api-maps.yandex.ru",
+          "shortId": "10ffb85da1c2d986",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🇷🇺 Russia | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -147,11 +243,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (6 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇪🇪 Estonia [*CIDR]",
+        "fallbackTag": "node-001 🇪🇪 Estonia | [*CIDR]",
         "selector": [
           "node-"
         ],
