@@ -70,32 +70,9 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "false"
-      },
-      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "89.253.223.21",
-            "port": 80,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f387e32c-a8ab-4adf-9c5c-fe371cf78f6b"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
         "security": "none"
       },
-      "tag": "node-002 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-001 🇩🇪 Germany | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -116,9 +93,36 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "false"
+        "security": "none"
       },
-      "tag": "node-003 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-002 🇩🇪 Germany | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-003 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -152,222 +156,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "213.241.198.20",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf11.evan00.dpdns.org"
-        }
-      },
-      "tag": "node-005 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.241.198.20",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf11.evan00.dpdns.org"
-        }
-      },
-      "tag": "node-006 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.241.198.20",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf11.evan00.dpdns.org"
-        }
-      },
-      "tag": "node-007 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.241.198.20",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf11.evan00.dpdns.org"
-        }
-      },
-      "tag": "node-008 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.241.198.20",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf11.evan00.dpdns.org"
-        }
-      },
-      "tag": "node-009 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.241.198.20",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf11.evan00.dpdns.org"
-        }
-      },
-      "tag": "node-010 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.241.198.20",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf11.evan00.dpdns.org"
-        }
-      },
-      "tag": "node-011 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.241.198.20",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf11.evan00.dpdns.org"
-        }
-      },
-      "tag": "node-012 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "194.55.239.174",
             "port": 443,
             "users": [
@@ -388,20 +176,20 @@
           "serverName": "furrycdn.net"
         }
       },
-      "tag": "node-013 🇷🇺 Russia [*CIDR]"
+      "tag": "node-005 🇷🇺 Russia | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "194.55.239.174",
+            "address": "213.241.198.20",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "2c634977-584e-4e1f-b501-1b70c77a6743"
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
               }
             ]
           }
@@ -412,10 +200,226 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "furrycdn.net"
+          "serverName": "cf11.evan00.dpdns.org"
         }
       },
-      "tag": "node-014 🇷🇺 Russia [*CIDR]"
+      "tag": "node-006 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-007 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-008 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-009 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-010 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-011 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-012 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-013 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-014 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -449,13 +453,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.55.239.174",
+            "address": "213.241.198.20",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "2c634977-584e-4e1f-b501-1b70c77a6743"
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
               }
             ]
           }
@@ -466,23 +470,23 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "furrycdn.net"
+          "serverName": "cf11.evan00.dpdns.org"
         }
       },
-      "tag": "node-016 🇷🇺 Russia [*CIDR]"
+      "tag": "node-016 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "194.55.239.174",
+            "address": "213.241.198.20",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "2c634977-584e-4e1f-b501-1b70c77a6743"
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
               }
             ]
           }
@@ -493,10 +497,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "furrycdn.net"
+          "serverName": "cf11.evan00.dpdns.org"
         }
       },
-      "tag": "node-017 🇷🇺 Russia [*CIDR]"
+      "tag": "node-017 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -800,33 +804,54 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.55.239.250",
+            "address": "213.241.198.20",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "0cfee0f7-de6d-4d72-95c5-bb5d35094974"
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q",
-          "serverName": "yastatic.ru",
-          "shortId": "cc08b008",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
       },
-      "tag": "node-029 🌐 Anycast-IP | 🇨🇿 🇫🇮 [*CIDR]"
+      "tag": "node-029 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "213.241.198.20",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7612dd26-d0ce-4fe0-be7c-d093bb8645da"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf11.evan00.dpdns.org"
+        }
+      },
+      "tag": "node-030 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -859,7 +884,40 @@
         },
         "security": "reality"
       },
-      "tag": "node-030 🌐 Anycast-IP | 🇨🇿 🇫🇮 [*CIDR]"
+      "tag": "node-031 🌐 Anycast-IP | 🇨🇿 🇩🇪 🇫🇮 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.55.239.250",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0cfee0f7-de6d-4d72-95c5-bb5d35094974"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q",
+          "serverName": "yastatic.ru",
+          "shortId": "cc08b008",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-032 🌐 Anycast-IP | 🇩🇪 🇫🇮 🇸🇪 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -870,11 +928,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (30 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (32 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 | [*CIDR]",
         "selector": [
           "node-"
         ],
