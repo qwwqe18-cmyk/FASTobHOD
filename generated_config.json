@@ -56,43 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.201.162.99",
-            "port": 49958,
+            "address": "185.40.28.212",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "6855c0ad-e259-4180-a6b8-776efdfbbcea"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "wwIAlV04ehfHxXiYZtCum2uKRU5mXK2uQ0bL_2_R8mE",
-          "serverName": "www.nvidia.com",
-          "shortId": "83e911b88e14",
-          "spiderX": "/5p7RA7i4L0s2TNM"
-        },
-        "security": "reality"
-      },
-      "tag": "node-001 🇷🇺 Russia | [*CIDR] YA"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "84.201.162.99",
-            "port": 49958,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "6855c0ad-e259-4180-a6b8-776efdfbbcea"
+                "flow": "xtls-rprx-vision",
+                "id": "ecad47b0-249e-0011-adff-e3c8f02b1897"
               }
             ]
           }
@@ -102,14 +72,44 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "ios",
-          "publicKey": "wwIAlV04ehfHxXiYZtCum2uKRU5mXK2uQ0bL_2_R8mE",
-          "serverName": "www.nvidia.com",
-          "shortId": "83e911b88e14",
-          "spiderX": "/5p7RA7i4L0s2TNM"
+          "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+          "serverName": "auto.quattro-tech.ru",
+          "shortId": "43dcff53849b81e6",
+          "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-002 🇷🇺 Russia | [*CIDR] YA"
+      "tag": "node-001 🇨🇿 Czechia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.40.28.212",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "ecad47b0-249e-0011-adff-e3c8f02b1897"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+          "serverName": "auto.quattro-tech.ru",
+          "shortId": "43dcff53849b81e6",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🇨🇿 Czechia [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -124,7 +124,7 @@
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇷🇺 Russia | [*CIDR] YA",
+        "fallbackTag": "node-001 🇨🇿 Czechia | [*CIDR]",
         "selector": [
           "node-"
         ],
