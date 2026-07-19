@@ -56,23 +56,60 @@
       "settings": {
         "vnext": [
           {
-            "address": "81.85.78.193",
-            "port": 2200,
+            "address": "84.201.162.99",
+            "port": 49958,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "2aa7f4b1-e859-46d0-b8ac-8587811ab7b1"
+                "id": "6855c0ad-e259-4180-a6b8-776efdfbbcea"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "none"
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "wwIAlV04ehfHxXiYZtCum2uKRU5mXK2uQ0bL_2_R8mE",
+          "serverName": "www.nvidia.com",
+          "shortId": "83e911b88e14",
+          "spiderX": "/5p7RA7i4L0s2TNM"
+        },
+        "security": "reality"
       },
-      "tag": "node-001 🇷🇺 Russia [*CIDR]"
+      "tag": "node-001 🇷🇺 Russia | [*CIDR] YA"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.201.162.99",
+            "port": 49958,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "6855c0ad-e259-4180-a6b8-776efdfbbcea"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "ios",
+          "publicKey": "wwIAlV04ehfHxXiYZtCum2uKRU5mXK2uQ0bL_2_R8mE",
+          "serverName": "www.nvidia.com",
+          "shortId": "83e911b88e14",
+          "spiderX": "/5p7RA7i4L0s2TNM"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🇷🇺 Russia | [*CIDR] YA"
     },
     {
       "protocol": "freedom",
@@ -83,11 +120,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇷🇺 Russia [*CIDR]",
+        "fallbackTag": "node-001 🇷🇺 Russia | [*CIDR] YA",
         "selector": [
           "node-"
         ],
