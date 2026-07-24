@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.152.113.155",
-            "port": 8443,
+            "address": "87.242.85.201",
+            "port": 13561,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "391c4575-3195-4917-817c-f7f26fa7fe5b"
+                "id": "7abae19e-3dcb-44ae-a5f6-9f7a9dc1e0bd"
               }
             ]
           }
@@ -70,16 +70,9 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "hOKJ1Zm_GHspM0qZYvk4lzHN8Rcpb1P4qjaKs7cJWj4",
-          "serverName": "www.vk.com",
-          "shortId": "8ed8c97a90673736",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "security": "none"
       },
-      "tag": "node-001 🇪🇪 Estonia [*CIDR]"
+      "tag": "node-001 🇫🇷 France | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -143,6 +136,117 @@
       "settings": {
         "vnext": [
           {
+            "address": "66.90.90.164",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ai-6a607097.noooo.win"
+        }
+      },
+      "tag": "node-004 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.90.164",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ai-6a607097.noooo.win"
+        }
+      },
+      "tag": "node-005 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "82.202.177.145",
+            "port": 5269,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "391c4575-3195-4917-817c-f7f26fa7fe5b"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "dvue8xDyKMWNJELyMBrEYLy5SezehG_FOtDrDl-bVGQ",
+          "serverName": "max.ru",
+          "shortId": "9473acb8aaf08627",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🇱🇻 Latvia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.90.164",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ai-6a607097.noooo.win"
+        }
+      },
+      "tag": "node-007 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "82.202.177.145",
             "port": 5269,
             "users": [
@@ -166,175 +270,73 @@
         },
         "security": "reality"
       },
-      "tag": "node-004 🇱🇻 Latvia [*CIDR]"
+      "tag": "node-008 🇱🇻 Latvia [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "ru06.sipi.pro",
-            "port": 443,
+            "address": "89.208.231.229",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "bedee8a6-cdca-4d75-aa9d-993bb3e21e23"
+                "id": "30825d3e-675c-11f1-a103-aef63c7126b0"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "grpc-direct"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "9FN3KyBHOlxJ6j0O2kC7Fq1LPiuZ2fPoRr0hc_4xaRQ",
-          "serverName": "ru06.sipi.pro",
-          "shortId": "a1a94b15f08d5f5b",
+          "fingerprint": "chrome",
+          "publicKey": "WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M",
+          "serverName": "hh.ru",
+          "shortId": "5b9dc5fe4ad87cc2",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-005 🇫🇷 France | 🌐 [*CIDR]"
+      "tag": "node-009 🌐 Anycast-IP | 🇧🇾 🇩🇪 🇵🇱 [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "ru02.sipipro.su",
-            "port": 443,
+            "address": "89.208.229.243",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "bedee8a6-cdca-4d75-aa9d-993bb3e21e23"
+                "id": "30825d3e-675c-11f1-a103-aef63c7126b0"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "grpc-direct"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "Dfo_fEse8gPfhOtknqJEwk73wNrBrgf3OiFr6DlWJHM",
-          "serverName": "ru02.sipipro.su",
-          "shortId": "efb01d9f2737757d",
+          "fingerprint": "chrome",
+          "publicKey": "WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M",
+          "serverName": "hh.ru",
+          "shortId": "e432eea05ffadf84",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-006 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.90.90.164",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ai-6a607097.noooo.win"
-        }
-      },
-      "tag": "node-007 🌐 Anycast-IP | 🇩🇪 [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.90.90.164",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ai-6a607097.noooo.win"
-        }
-      },
-      "tag": "node-008 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.90.90.164",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ai-6a607097.noooo.win"
-        }
-      },
-      "tag": "node-009 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.90.90.164",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ai-6a607097.noooo.win"
-        }
-      },
-      "tag": "node-010 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+      "tag": "node-010 🌐 Anycast-IP | 🇧🇾 🇩🇪 🇪🇪 🇵🇱 [*CIDR] VK"
     },
     {
       "protocol": "vless",
@@ -422,7 +424,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "66.90.90.20",
+            "address": "66.90.90.164",
             "port": 8443,
             "users": [
               {
@@ -449,12 +451,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "66.90.90.164",
+            "address": "66.90.90.20",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
+                "flow": "xtls-rprx-vision-udp443",
                 "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
               }
             ]
@@ -503,7 +505,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "66.90.90.20",
+            "address": "yt.noooo.win",
             "port": 8443,
             "users": [
               {
@@ -697,7 +699,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
+                "flow": "xtls-rprx-vision-udp443",
                 "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
               }
             ]
@@ -724,7 +726,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
+                "flow": "xtls-rprx-vision-udp443",
                 "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
               }
             ]
@@ -778,7 +780,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision-udp443",
+                "flow": "xtls-rprx-vision",
                 "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
               }
             ]
@@ -805,7 +807,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision-udp443",
+                "flow": "xtls-rprx-vision",
                 "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
               }
             ]
@@ -859,7 +861,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
+                "flow": "xtls-rprx-vision-udp443",
                 "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
               }
             ]
@@ -881,7 +883,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "yt.noooo.win",
+            "address": "66.90.90.13",
             "port": 8443,
             "users": [
               {
@@ -901,61 +903,7 @@
           "serverName": "ai-6a607097.noooo.win"
         }
       },
-      "tag": "node-031 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "yt.noooo.win",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision-udp443",
-                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ai-6a607097.noooo.win"
-        }
-      },
-      "tag": "node-032 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "yt.noooo.win",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision-udp443",
-                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ai-6a607097.noooo.win"
-        }
-      },
-      "tag": "node-033 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+      "tag": "node-031 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
@@ -982,7 +930,7 @@
           "serverName": "ai-6a607097.noooo.win"
         }
       },
-      "tag": "node-034 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
+      "tag": "node-032 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
@@ -1009,7 +957,73 @@
           "serverName": "ai-6a607097.noooo.win"
         }
       },
-      "tag": "node-035 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
+      "tag": "node-033 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "89.208.231.82",
+            "port": 2053,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "30825d3e-675c-11f1-a103-aef63c7126b0"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc-direct"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M",
+          "serverName": "hh.ru",
+          "shortId": "4b685844d0b4f724",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-034 🌐 Anycast-IP | 🇪🇪 🇱🇻 [*CIDR] VK"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "89.208.231.82",
+            "port": 2053,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "30825d3e-675c-11f1-a103-aef63c7126b0"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc-direct"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M",
+          "serverName": "hh.ru",
+          "shortId": "4b685844d0b4f724",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-035 🌐 Anycast-IP | 🇪🇪 🇱🇻 [*CIDR] VK"
     },
     {
       "protocol": "vless",
@@ -1102,7 +1116,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
+                "flow": "xtls-rprx-vision-udp443",
                 "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
               }
             ]
@@ -1147,6 +1161,141 @@
       "tag": "node-040 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.90.13",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision-udp443",
+                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ai-6a607097.noooo.win"
+        }
+      },
+      "tag": "node-041 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "yt.noooo.win",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ai-6a607097.noooo.win"
+        }
+      },
+      "tag": "node-042 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "yt.noooo.win",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ai-6a607097.noooo.win"
+        }
+      },
+      "tag": "node-043 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "yt.noooo.win",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision-udp443",
+                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ai-6a607097.noooo.win"
+        }
+      },
+      "tag": "node-044 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "yt.noooo.win",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision-udp443",
+                "id": "6f98a077-004e-4b86-8b78-8d09308d3868"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ai-6a607097.noooo.win"
+        }
+      },
+      "tag": "node-045 🌐 Anycast-IP | 🇷🇺 [*CIDR] Beeline"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -1155,11 +1304,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (40 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (45 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇪🇪 Estonia [*CIDR]",
+        "fallbackTag": "node-001 🇫🇷 France | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
