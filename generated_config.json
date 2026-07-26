@@ -56,25 +56,28 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.117.4",
-            "port": 443,
+            "address": "89.108.71.40",
+            "port": 9877,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "6949d13a-6695-4ef6-95a6-59f5a17c0978"
+                "flow": "",
+                "id": "884d811f-577b-421e-aabb-608660b0ecfa"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "grpc-tunnel"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0",
-          "serverName": "api.yandex-api.org",
-          "shortId": "122218f4c1f172e4",
+          "fingerprint": "qq",
+          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
+          "serverName": "dl.google.com",
+          "shortId": "aa",
           "spiderX": "/"
         },
         "security": "reality"
@@ -101,7 +104,7 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "qq",
+          "fingerprint": "safari",
           "publicKey": "ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk",
           "serverName": "russia.cendora.ru",
           "shortId": "e91da98020a38be9",
@@ -109,7 +112,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-002 🇫🇮 Finland | 🌐 [*CIDR]"
+      "tag": "node-002 🇫🇮 Finland | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -131,7 +134,7 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "qq",
+          "fingerprint": "firefox",
           "publicKey": "ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk",
           "serverName": "russia.cendora.ru",
           "shortId": "e91da98020a38be9",
@@ -139,37 +142,40 @@
         },
         "security": "reality"
       },
-      "tag": "node-003 🇫🇮 Finland | 🌐 [*CIDR]"
+      "tag": "node-003 🇫🇮 Finland | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "155.212.147.82",
-            "port": 443,
+            "address": "193.233.218.49",
+            "port": 44443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "4b20a32d-d2ff-4425-93e0-ed1b121e8130"
+                "flow": "",
+                "id": "b4ee2a7b-1966-4611-897f-c27f3e0e0b4a"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "8UuggclWEj6kmrWsZ02rhYSc_psqpgxh6p51nT_OYQY",
-          "serverName": "browser.yandex.com",
-          "shortId": "2fa5af8517aba419",
+          "fingerprint": "safari",
+          "publicKey": "kk6t0xig_xZViUWnM-hjRGY_-P29fA6DUggL2eEkyRg",
+          "serverName": "5post-gate.x5.ru",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-004 🇫🇷 France [*CIDR]"
+      "tag": "node-004 🇫🇮 Finland | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -202,7 +208,40 @@
         },
         "security": "reality"
       },
-      "tag": "node-005 🇫🇮 Finland [*CIDR]"
+      "tag": "node-005 🇫🇮 Finland | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "85.192.30.86",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "423caebf-ce56-4e26-a792-7a6becb17e9b"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "your-custom-path"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
+          "serverName": "maps.apple.com",
+          "shortId": "2da4299da566b7",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🇫🇷 France | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -235,7 +274,37 @@
         },
         "security": "reality"
       },
-      "tag": "node-006 🇫🇷 France [*CIDR]"
+      "tag": "node-007 🇫🇷 France | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "189.74.117.4",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "6949d13a-6695-4ef6-95a6-59f5a17c0978"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0",
+          "serverName": "api.yandex-api.org",
+          "shortId": "122218f4c1f172e4",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-008 🇫🇷 France | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -243,7 +312,7 @@
         "vnext": [
           {
             "address": "85.192.30.86",
-            "port": 8443,
+            "port": 6443,
             "users": [
               {
                 "encryption": "none",
@@ -260,7 +329,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "firefox",
+          "fingerprint": "qq",
           "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
           "serverName": "maps.apple.com",
           "shortId": "2da4299da566b7",
@@ -268,20 +337,20 @@
         },
         "security": "reality"
       },
-      "tag": "node-007 🇫🇷 France [*CIDR]"
+      "tag": "node-009 🇩🇪 Germany | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "85.192.30.86",
-            "port": 8443,
+            "address": "91.185.83.127",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "423caebf-ce56-4e26-a792-7a6becb17e9b"
+                "id": "103bf2a8-be44-4e18-8475-779945fcd726"
               }
             ]
           }
@@ -289,112 +358,118 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "your-custom-path"
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0",
+          "serverName": "max.ru",
+          "shortId": "dfdee30a27b11f0f",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-010 🇩🇪 Germany | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.185.83.127",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "103bf2a8-be44-4e18-8475-779945fcd726"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0",
+          "serverName": "max.ru",
+          "shortId": "dfdee30a27b11f0f",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-011 🇩🇪 Germany | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.185.83.127",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "533b37bc-38ab-4e6e-9b51-b59b2a412dfc"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0",
+          "serverName": "max.ru",
+          "shortId": "dfdee30a27b11f0f",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-012 🇩🇪 Germany | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.185.83.127",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "533b37bc-38ab-4e6e-9b51-b59b2a412dfc"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
         },
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
-          "serverName": "maps.apple.com",
-          "shortId": "2da4299da566b7",
+          "publicKey": "t192lvTN6ZtCch9LSAkLOKnKuyYdLLaTJx8tn3VRHz0",
+          "serverName": "max.ru",
+          "shortId": "dfdee30a27b11f0f",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-008 🇫🇷 France [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.8.209.56",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "87e2ee4a-eb7b-41e9-bcda-a849c1a5bb47"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "UpdateService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "Jbu62FTsQXfCBLELy25KhLU3YQ7RMVaAvIcvcgFqliw",
-          "serverName": "ads.x5.ru",
-          "shortId": "9329f8b5985b2a7d",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-009 🇩🇪 Germany [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "138.124.254.239",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "fc1b3bda-b226-0003-8c5c-b0e36a1f8f88"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk",
-          "serverName": "russia.cendora.ru",
-          "shortId": "e91da98020a38be9",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-010 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "138.124.254.239",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "fc1b3bda-b226-0003-8c5c-b0e36a1f8f88"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk",
-          "serverName": "russia.cendora.ru",
-          "shortId": "e91da98020a38be9",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-011 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-013 🇩🇪 Germany | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -416,7 +491,7 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "publicKey": "GVNhQWxHlpnqLnhlOeFpagU1QLVVHBepBQN0YcPjXVg",
           "serverName": "www.io.ozone.ru",
           "shortId": "",
@@ -424,7 +499,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-012 🇭🇺 Hungary [*CIDR]"
+      "tag": "node-014 🇭🇺 Hungary | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -457,7 +532,40 @@
         },
         "security": "reality"
       },
-      "tag": "node-013 🇮🇹 Italy [*CIDR]"
+      "tag": "node-015 🇮🇹 Italy | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "85.208.85.227",
+            "port": 9879,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "884d811f-577b-421e-aabb-608660b0ecfa"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc-tunnel"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
+          "serverName": "dl.google.com",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-016 🇮🇹 Italy | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -490,7 +598,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-014 🇮🇹 Italy [*CIDR]"
+      "tag": "node-017 🇮🇹 Italy | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -523,7 +631,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-015 🇵🇱 Poland [*CIDR]"
+      "tag": "node-018 🇵🇱 Poland | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -556,15 +664,15 @@
         },
         "security": "reality"
       },
-      "tag": "node-016 🇵🇱 Poland [*CIDR]"
+      "tag": "node-019 🇵🇱 Poland | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "85.208.85.227",
-            "port": 9879,
+            "address": "185.207.64.114",
+            "port": 9888,
             "users": [
               {
                 "encryption": "none",
@@ -584,12 +692,12 @@
           "fingerprint": "qq",
           "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
           "serverName": "dl.google.com",
-          "shortId": "",
+          "shortId": "aabb",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-017 🇮🇹 Italy [*CIDR]"
+      "tag": "node-020 🇷🇸 Serbia | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -622,40 +730,37 @@
         },
         "security": "reality"
       },
-      "tag": "node-018 🇷🇸 Serbia [*CIDR]"
+      "tag": "node-021 🇷🇸 Serbia | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.207.64.114",
-            "port": 9888,
+            "address": "188.68.218.101",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "884d811f-577b-421e-aabb-608660b0ecfa"
+                "flow": "xtls-rprx-vision",
+                "id": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel"
-        },
-        "network": "grpc",
+        "network": "tcp",
         "realitySettings": {
           "fingerprint": "qq",
-          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "serverName": "dl.google.com",
-          "shortId": "aabb",
+          "publicKey": "zggn0nHMsa9RHxqYEGwf4X24grSSAqVQ8uaRW3UKBTU",
+          "serverName": "id.vk.ru",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-019 🇷🇸 Serbia [*CIDR]"
+      "tag": "node-022 🇵🇱 Poland | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -688,14 +793,137 @@
         },
         "security": "reality"
       },
-      "tag": "node-020 🇷🇸 Serbia [*CIDR]"
+      "tag": "node-023 🇷🇸 Serbia | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "ruded2.onlinestreamself.com",
+            "address": "138.16.181.6",
+            "port": 8444,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo",
+          "serverName": "storage.yandex.net",
+          "shortId": "7bcfc0bc",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-024 🇳🇱 The Netherlands | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "138.16.181.6",
+            "port": 8444,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "ios",
+          "publicKey": "XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo",
+          "serverName": "storage.yandex.net",
+          "shortId": "7bcfc0bc",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-025 🇳🇱 The Netherlands | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "138.16.181.6",
+            "port": 8444,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo",
+          "serverName": "storage.yandex.net",
+          "shortId": "7bcfc0bc",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-026 🇳🇱 The Netherlands | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "91.240.87.201",
+            "port": 8444,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "26752acc-5942-4fbe-9873-f7d902e2a728"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "JjxjQ0bCB8UZDC4Tjs3FhWJciPB6jBd0846Ew31hSQk",
+          "serverName": "ads.x5.ru",
+          "shortId": "a1b2c3d4",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-027 🇳🇱 The Netherlands | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ruded3.onlinestreamself.com",
             "port": 443,
             "users": [
               {
@@ -711,27 +939,27 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "qq",
-          "publicKey": "M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w",
+          "publicKey": "6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY",
           "serverName": "apple.com",
           "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-021 🇳🇱 The Netherlands | 🌐 [*CIDR] YA"
+      "tag": "node-028 🇳🇱 The Netherlands | 🌐 | [*CIDR] YA"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "138.16.181.6",
-            "port": 8446,
+            "address": "ruded3.onlinestreamself.com",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4"
+                "id": "64b6f905-94d5-4745-8f92-cafa107b7c16"
               }
             ]
           }
@@ -740,22 +968,22 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo",
-          "serverName": "storage.yandex.net",
-          "shortId": "7bcfc0bc",
+          "fingerprint": "safari",
+          "publicKey": "6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY",
+          "serverName": "apple.com",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-022 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-029 🇳🇱 The Netherlands | 🌐 | [*CIDR] YA"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "5.42.106.202",
+            "address": "80.78.246.111",
             "port": 9878,
             "users": [
               {
@@ -781,100 +1009,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-023 🇸🇪 Sweden [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "5.42.106.202",
-            "port": 9878,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "884d811f-577b-421e-aabb-608660b0ecfa"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "serverName": "dl.google.com",
-          "shortId": "aabbccdd",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-024 🇸🇪 Sweden [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "138.16.181.6",
-            "port": 8444,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo",
-          "serverName": "storage.yandex.net",
-          "shortId": "7bcfc0bc",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-025 🇳🇱 The Netherlands [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "138.16.181.6",
-            "port": 8444,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo",
-          "serverName": "storage.yandex.net",
-          "shortId": "7bcfc0bc",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-026 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-030 🇺🇸 United States | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -907,53 +1042,20 @@
         },
         "security": "reality"
       },
-      "tag": "node-027 🇺🇸 United States | 🌐 [*CIDR]"
+      "tag": "node-031 🇺🇸 United States | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "80.78.246.111",
-            "port": 9878,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "884d811f-577b-421e-aabb-608660b0ecfa"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "serverName": "dl.google.com",
-          "shortId": "aabbccdd",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-028 🇺🇸 United States | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "186.246.6.189",
+            "address": "45.151.62.156",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "507e8554-4941-4297-9196-af102455f6ed"
+                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
               }
             ]
           }
@@ -961,32 +1063,32 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "ebl"
+          "serviceName": "grpc"
         },
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
-          "serverName": "optim.tildacdn.pub",
-          "shortId": "",
+          "publicKey": "aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0",
+          "serverName": "dogs.abvphelp.cc",
+          "shortId": "6fa13cdb",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-029 🇷🇺 Russia [*CIDR]"
+      "tag": "node-032 🌐 Anycast-IP | 🇨🇭 🇳🇱 | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "186.246.6.189",
+            "address": "45.151.62.156",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "507e8554-4941-4297-9196-af102455f6ed"
+                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
               }
             ]
           }
@@ -994,52 +1096,52 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "ebl"
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "safari",
+          "publicKey": "aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0",
+          "serverName": "dogs.abvphelp.cc",
+          "shortId": "6fa13cdb",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-033 🌐 Anycast-IP | 🇨🇭 🇳🇱 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.151.62.156",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc"
         },
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
-          "serverName": "optim.tildacdn.pub",
-          "shortId": "",
+          "publicKey": "aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0",
+          "serverName": "dogs.abvphelp.cc",
+          "shortId": "6fa13cdb",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-030 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "186.246.6.189",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "507e8554-4941-4297-9196-af102455f6ed"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "ebl"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
-          "serverName": "optim.tildacdn.pub",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-031 🇷🇺 Russia [*CIDR]"
+      "tag": "node-034 🌐 Anycast-IP | 🇨🇭 🇳🇱 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1068,105 +1170,6 @@
           "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
           "serverName": "optim.tildacdn.pub",
           "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-032 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.48.137",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "api.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
-          "serverName": "funny2.oneok.name",
-          "shortId": "6d08059a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-033 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.48.137",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "api.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
-          "serverName": "funny2.oneok.name",
-          "shortId": "6d08059a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-034 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.48.137",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "api.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
-          "serverName": "funny2.oneok.name",
-          "shortId": "6d08059a",
           "spiderX": "/"
         },
         "security": "reality"
@@ -1178,6 +1181,250 @@
       "settings": {
         "vnext": [
           {
+            "address": "186.246.6.189",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "507e8554-4941-4297-9196-af102455f6ed"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "ebl"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
+          "serverName": "optim.tildacdn.pub",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-036 🇷🇺 Russia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tn.tmn141246.ru",
+            "port": 4100,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "155e8dd4-a559-407a-9ea8-13a5e829f066"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none"
+      },
+      "tag": "node-037 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tn.tmn141246.ru",
+            "port": 2200,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "e7299042-7d8f-440f-8368-2516b0e69341"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none"
+      },
+      "tag": "node-038 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "186.246.6.189",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "507e8554-4941-4297-9196-af102455f6ed"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "ebl"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
+          "serverName": "optim.tildacdn.pub",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-039 🇷🇺 Russia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "186.246.6.189",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "507e8554-4941-4297-9196-af102455f6ed"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "ebl"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "ios",
+          "publicKey": "unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE",
+          "serverName": "optim.tildacdn.pub",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-040 🇷🇺 Russia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.48.137",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "api.v1.StreamService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
+          "serverName": "funny2.oneok.name",
+          "shortId": "6d08059a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-041 🇷🇺 Russia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.48.137",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "api.v1.StreamService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
+          "serverName": "funny2.oneok.name",
+          "shortId": "6d08059a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-042 🇷🇺 Russia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.48.137",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "api.v1.StreamService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
+          "serverName": "funny2.oneok.name",
+          "shortId": "6d08059a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-043 🇷🇺 Russia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "161.104.48.137",
             "port": 443,
             "users": [
@@ -1204,7 +1451,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-036 🇷🇺 Russia [*CIDR]"
+      "tag": "node-044 🇷🇺 Russia | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1237,139 +1484,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-037 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "funny2.oneok.name",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "api.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
-          "serverName": "funny2.oneok.name",
-          "shortId": "6d08059a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-038 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "funny2.oneok.name",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "api.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
-          "serverName": "funny2.oneok.name",
-          "shortId": "6d08059a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-039 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "funny2.oneok.name",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "api.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
-          "serverName": "funny2.oneok.name",
-          "shortId": "6d08059a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-040 🇷🇺 Russia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "funny2.oneok.name",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8b02563b-cf46-4c94-bb82-e0fdecd26630"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "api.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "erUxbU3_rhHJqRE6rTj-FRfz9IbTPnxx5DgKaT5C6Rs",
-          "serverName": "funny2.oneok.name",
-          "shortId": "6d08059a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-041 🇷🇺 Russia [*CIDR]"
+      "tag": "node-045 🇷🇺 Russia | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1399,127 +1514,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-042 🇷🇺 Russia | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.12.4.103",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc",
-          "serverName": "russia.cendora.ru",
-          "shortId": "bef240e96a8474a3",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-043 🇷🇺 Russia | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.12.4.103",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc",
-          "serverName": "russia.cendora.ru",
-          "shortId": "bef240e96a8474a3",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-044 🇷🇺 Russia | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.12.4.103",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc",
-          "serverName": "russia.cendora.ru",
-          "shortId": "bef240e96a8474a3",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-045 🇷🇺 Russia | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "213.219.212.24",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "2073b57e-4429-4cae-882f-7b961f8f5df2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk",
-          "serverName": "pro-ru-213.emrata.top",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-046 🇷🇺 Russia | 🌐 [*CIDR] VK"
+      "tag": "node-046 🇷🇺 Russia | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1549,99 +1544,60 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.151.62.156",
+            "address": "186.246.10.209",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
+                "flow": "xtls-rprx-vision",
+                "id": "18bb7397-9f8c-4c26-a316-69b38515e8e6"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
+        "network": "tcp",
         "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0",
-          "serverName": "dogs.abvphelp.cc",
-          "shortId": "6fa13cdb",
+          "fingerprint": "safari",
+          "publicKey": "5f7Qx1uealNy3mUg8kV9R_npeYTogZwOsA-9bZtEfD0",
+          "serverName": "bzzru.hat.apruxdomain.space",
+          "shortId": "b2ba734eff38baa9",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-048 🌐 Anycast-IP | 🇨🇭 🇳🇱 [*CIDR]"
+      "tag": "node-048 🇷🇺 Russia | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "45.151.62.156",
+            "address": "176.109.85.70",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
+                "flow": "xtls-rprx-vision",
+                "id": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
+        "network": "tcp",
         "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0",
-          "serverName": "dogs.abvphelp.cc",
-          "shortId": "6fa13cdb",
+          "fingerprint": "edge",
+          "publicKey": "A41b2Th15KC7t1hSRTvkA3-CzZfv1DD1XOV2L5ICuA0",
+          "serverName": "cloud.mail.ru",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-049 🌐 Anycast-IP | 🇨🇭 🇳🇱 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.151.62.156",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "aBs0x09cXtjTpsrGb21cJsEmDsaCaC1RPeutNu404V0",
-          "serverName": "dogs.abvphelp.cc",
-          "shortId": "6fa13cdb",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-050 🌐 Anycast-IP | 🇨🇭 🇳🇱 [*CIDR]"
+      "tag": "node-049 🇷🇺 Russia | 🌐 | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -1652,7 +1608,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (50 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (49 узлов)",
   "routing": {
     "balancers": [
       {
