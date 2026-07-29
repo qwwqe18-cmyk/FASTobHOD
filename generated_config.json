@@ -56,66 +56,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "node-tw0.omhvp.co",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "a8f84171-5f96-4547-b621-59758fe668c8"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw",
-          "serverName": "cs10210.vk.com",
-          "shortId": "7a5b89ecdb01f781",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-001 🇵🇱 Poland [*CIDR] YA"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "node-tw0.omhvp.co",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "a8f84171-5f96-4547-b621-59758fe668c8"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "jWVk2Z7eFkyDcu2xgzqX8JsPbZuCVhHUWD463Vfgazw",
-          "serverName": "cs10210.vk.com",
-          "shortId": "7a5b89ecdb01f781",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🇵🇱 Poland [*CIDR] YA"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "213.219.212.14",
             "port": 443,
             "users": [
@@ -139,7 +79,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-003 🇷🇺 Russia | 🌐 [*CIDR] VK"
+      "tag": "node-001 🇷🇺 Russia | 🌐 [*CIDR] VK"
     },
     {
       "protocol": "freedom",
@@ -150,11 +90,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇵🇱 Poland [*CIDR] YA",
+        "fallbackTag": "node-001 🇷🇺 Russia | 🌐 [*CIDR] VK",
         "selector": [
           "node-"
         ],
