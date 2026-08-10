@@ -56,25 +56,28 @@
       "settings": {
         "vnext": [
           {
-            "address": "stratix.orbvia.online",
-            "port": 443,
+            "address": "45.151.101.103",
+            "port": 6443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1bced29a-3051-42b8-b393-005135b97616"
+                "flow": "",
+                "id": "95e8532b-cc69-42d4-9553-e3c23292b15b"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "your-custom-path"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM",
-          "serverName": "stratix.orbvia.online",
-          "shortId": "08804e078e1257c8",
+          "fingerprint": "edge",
+          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
+          "serverName": "maps.apple.com",
+          "shortId": "2da4299da566b7",
           "spiderX": "/"
         },
         "security": "reality"
@@ -86,55 +89,61 @@
       "settings": {
         "vnext": [
           {
-            "address": "stratix.orbvia.online",
-            "port": 443,
+            "address": "45.151.101.103",
+            "port": 6443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1bced29a-3051-42b8-b393-005135b97616"
+                "flow": "",
+                "id": "95e8532b-cc69-42d4-9553-e3c23292b15b"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "your-custom-path"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM",
-          "serverName": "stratix.orbvia.online",
-          "shortId": "08804e078e1257c8",
+          "fingerprint": "chrome",
+          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
+          "serverName": "maps.apple.com",
+          "shortId": "2da4299da566b7",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-002 🇩🇪 Germany | [*CIDR]"
+      "tag": "node-002 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "stratix.orbvia.online",
-            "port": 443,
+            "address": "45.151.101.103",
+            "port": 6443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1bced29a-3051-42b8-b393-005135b97616"
+                "flow": "",
+                "id": "95e8532b-cc69-42d4-9553-e3c23292b15b"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "your-custom-path"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM",
-          "serverName": "stratix.orbvia.online",
-          "shortId": "08804e078e1257c8",
+          "fingerprint": "safari",
+          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
+          "serverName": "maps.apple.com",
+          "shortId": "2da4299da566b7",
           "spiderX": "/"
         },
         "security": "reality"
@@ -146,30 +155,66 @@
       "settings": {
         "vnext": [
           {
-            "address": "stratix.orbvia.online",
-            "port": 443,
+            "address": "45.151.101.103",
+            "port": 6443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1bced29a-3051-42b8-b393-005135b97616"
+                "flow": "",
+                "id": "95e8532b-cc69-42d4-9553-e3c23292b15b"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "your-custom-path"
+        },
+        "network": "grpc",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "c9FNVDSx_oUTDFW0JewGq511wlGweUkQGgPPY9vsCVM",
-          "serverName": "stratix.orbvia.online",
-          "shortId": "08804e078e1257c8",
+          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
+          "serverName": "maps.apple.com",
+          "shortId": "2da4299da566b7",
           "spiderX": "/"
         },
         "security": "reality"
       },
       "tag": "node-004 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.151.101.103",
+            "port": 6443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "95e8532b-cc69-42d4-9553-e3c23292b15b"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "your-custom-path"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
+          "serverName": "maps.apple.com",
+          "shortId": "2da4299da566b7",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-005 🇩🇪 Germany | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -202,7 +247,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-005 🇺🇸 United States | 🌐 | [*CIDR]"
+      "tag": "node-006 🇺🇸 United States | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -235,40 +280,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-006 🇺🇸 United States | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "157.22.241.131",
-            "port": 7443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "uNqGvaJEIFTFQvAxsTDhetPxkIWzJuBtxXsK0yFMYzM",
-          "serverName": "media3.abvphelp.cc",
-          "shortId": "48d5cf47",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-007 🇺🇸 United States | 🌐 | [*CIDR]"
+      "tag": "node-007 🇺🇸 United States | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -301,67 +313,73 @@
         },
         "security": "reality"
       },
-      "tag": "node-008 🇺🇸 United States | 🌐 | [*CIDR]"
+      "tag": "node-008 🇺🇸 United States | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "ru1.kweps.ru",
-            "port": 443,
+            "address": "157.22.241.131",
+            "port": 7443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9847793c-3860-41e8-9838-b21bccdc013a"
+                "flow": "",
+                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
         "realitySettings": {
           "fingerprint": "qq",
-          "publicKey": "lrcvhYPvMfH_MpHC_PFYNb_bsw6vy2VR0yZxv3Pv8C4",
-          "serverName": "www.philips.com",
-          "shortId": "",
+          "publicKey": "uNqGvaJEIFTFQvAxsTDhetPxkIWzJuBtxXsK0yFMYzM",
+          "serverName": "media3.abvphelp.cc",
+          "shortId": "48d5cf47",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-009 🌐 Anycast-IP | 🇬🇧 🇳🇱 | [*CIDR]"
+      "tag": "node-009 🇺🇸 United States | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "ru1.kweps.ru",
-            "port": 443,
+            "address": "157.22.241.131",
+            "port": 7443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9847793c-3860-41e8-9838-b21bccdc013a"
+                "flow": "",
+                "id": "218fd696-e3a2-4c33-b397-a5f13a82969e"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "lrcvhYPvMfH_MpHC_PFYNb_bsw6vy2VR0yZxv3Pv8C4",
-          "serverName": "www.philips.com",
-          "shortId": "",
+          "fingerprint": "ios",
+          "publicKey": "uNqGvaJEIFTFQvAxsTDhetPxkIWzJuBtxXsK0yFMYzM",
+          "serverName": "media3.abvphelp.cc",
+          "shortId": "48d5cf47",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-010 🌐 Anycast-IP | 🇬🇧 🇳🇱 | [*CIDR]"
+      "tag": "node-010 🇺🇸 United States | 🌐 | [*CIDR]"
     },
     {
       "protocol": "freedom",
