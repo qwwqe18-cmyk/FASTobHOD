@@ -56,30 +56,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "176.108.240.74",
-            "port": 9443,
+            "address": "176.109.106.34",
+            "port": 9888,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "553e3253-c454-431d-a7e6-42bc06ea5e14"
+                "flow": "",
+                "id": "130e6aab-9eba-441e-9021-22cbccc72832"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "grpc-tunnel"
+        },
+        "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4",
-          "serverName": "io.ozone.ru",
-          "shortId": "",
+          "fingerprint": "edge",
+          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
+          "serverName": "dl.google.com",
+          "shortId": "aabbccdd",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
+      "tag": "node-001 🇷🇸 Serbia | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -104,7 +107,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
+          "fingerprint": "qq",
           "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
           "serverName": "dl.google.com",
           "shortId": "aabbccdd",
@@ -115,6 +118,75 @@
       "tag": "node-002 🇷🇸 Serbia | [*CIDR]"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.129.96.186",
+            "port": 2200,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "112912a9-cedf-485d-b8ed-d8f8d4774437"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none"
+      },
+      "tag": "node-003 🇷🇺 Russia [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.27.238",
+            "port": 2200,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "77fd4d9e-c314-4203-b3e0-b836a1d969b4"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none"
+      },
+      "tag": "node-004 🇷🇺 Russia | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.177.83.201",
+            "port": 4100,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "4cbdaf4f-ca34-4a00-9a96-49eaa6564b42"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none"
+      },
+      "tag": "node-005 🇷🇺 Russia | 🌐 [*CIDR]"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -123,11 +195,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]",
+        "fallbackTag": "node-001 🇷🇸 Serbia | [*CIDR]",
         "selector": [
           "node-"
         ],
