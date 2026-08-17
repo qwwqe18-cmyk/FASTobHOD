@@ -56,8 +56,41 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.233.43.86",
-            "port": 9898,
+            "address": "176.108.252.153",
+            "port": 9871,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "f4685d27-73e3-4588-9622-add50b84046a"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "grpc-tunnel"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
+          "serverName": "dl.google.com",
+          "shortId": "aabbccdd",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-001 🇩🇪 Germany | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.108.252.153",
+            "port": 9871,
             "users": [
               {
                 "encryption": "none",
@@ -75,14 +108,37 @@
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "edge",
-          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
+          "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
           "serverName": "dl.google.com",
-          "shortId": "aabb",
+          "shortId": "aabbccdd",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇫🇮 Finland | [*CIDR]"
+      "tag": "node-002 🇩🇪 Germany | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "89.19.223.238",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "604c8c22-1524-4a3f-b85f-d3375482dcc4"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "none"
+      },
+      "tag": "node-003 🇳🇱 The Netherlands [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -90,7 +146,7 @@
         "vnext": [
           {
             "address": "66.90.93.74",
-            "port": 8445,
+            "port": 8444,
             "users": [
               {
                 "encryption": "none",
@@ -109,7 +165,7 @@
           "serverName": "gateway-v1.bosx.net"
         }
       },
-      "tag": "node-002 🌐 Anycast-IP | 🇵🇱 🇺🇦 | [*CIDR] Beeline"
+      "tag": "node-004 🇳🇱 The Netherlands | [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
@@ -117,7 +173,7 @@
         "vnext": [
           {
             "address": "66.90.93.74",
-            "port": 8445,
+            "port": 8444,
             "users": [
               {
                 "encryption": "none",
@@ -136,61 +192,7 @@
           "serverName": "gateway-v1.bosx.net"
         }
       },
-      "tag": "node-003 🌐 Anycast-IP | 🇵🇱 🇺🇦 | [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.90.93.74",
-            "port": 8445,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "ccad147b-06f9-43f6-81cf-a0007094b373"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gateway-v1.bosx.net"
-        }
-      },
-      "tag": "node-004 🌐 Anycast-IP | 🇵🇱 🇺🇦 | [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.90.93.74",
-            "port": 8445,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "ccad147b-06f9-43f6-81cf-a0007094b373"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gateway-v1.bosx.net"
-        }
-      },
-      "tag": "node-005 🌐 Anycast-IP | 🇵🇱 🇺🇦 | [*CIDR] Beeline"
+      "tag": "node-005 🇳🇱 The Netherlands | [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
@@ -225,7 +227,7 @@
         "vnext": [
           {
             "address": "66.90.93.74",
-            "port": 8444,
+            "port": 8445,
             "users": [
               {
                 "encryption": "none",
@@ -244,7 +246,7 @@
           "serverName": "gateway-v1.bosx.net"
         }
       },
-      "tag": "node-007 🌐 Anycast-IP | 🇳🇱 [*CIDR] Beeline"
+      "tag": "node-007 🌐 Anycast-IP | 🇵🇱 🇺🇦 | [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
@@ -274,6 +276,141 @@
       "tag": "node-008 🌐 Anycast-IP | 🇵🇱 🇺🇦 [*CIDR] Beeline"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.93.74",
+            "port": 8445,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ccad147b-06f9-43f6-81cf-a0007094b373"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gateway-v1.bosx.net"
+        }
+      },
+      "tag": "node-009 🌐 Anycast-IP | 🇵🇱 🇺🇦 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.93.74",
+            "port": 8445,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ccad147b-06f9-43f6-81cf-a0007094b373"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gateway-v1.bosx.net"
+        }
+      },
+      "tag": "node-010 🌐 Anycast-IP | 🇵🇱 🇺🇦 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.93.74",
+            "port": 8445,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ccad147b-06f9-43f6-81cf-a0007094b373"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gateway-v1.bosx.net"
+        }
+      },
+      "tag": "node-011 🌐 Anycast-IP | 🇵🇱 🇺🇦 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.93.74",
+            "port": 8445,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ccad147b-06f9-43f6-81cf-a0007094b373"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gateway-v1.bosx.net"
+        }
+      },
+      "tag": "node-012 🌐 Anycast-IP | 🇵🇱 🇺🇦 [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.93.74",
+            "port": 8445,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ccad147b-06f9-43f6-81cf-a0007094b373"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gateway-v1.bosx.net"
+        }
+      },
+      "tag": "node-013 🌐 Anycast-IP | 🇵🇱 🇺🇦 [*CIDR] Beeline"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -282,11 +419,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (8 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (13 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇫🇮 Finland | [*CIDR]",
+        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 | [*CIDR]",
         "selector": [
           "node-"
         ],
