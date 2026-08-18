@@ -56,13 +56,193 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.120.152.86",
-            "port": 2053,
+            "address": "212.41.26.84",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "b2744db0-1c64-4218-a93b-9eba0e5f811f"
+                "flow": "",
+                "id": "163dc809-7970-4ff8-a7e5-8080ad53e7bb"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "mygrpc"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v1.api2.ttpservers.ru"
+        }
+      },
+      "tag": "node-001 🇵🇱 Poland | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "212.41.26.84",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "163dc809-7970-4ff8-a7e5-8080ad53e7bb"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "mygrpc"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v1.api2.ttpservers.ru"
+        }
+      },
+      "tag": "node-002 🇵🇱 Poland | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.182.24.112",
+            "port": 2096,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "163dc809-7970-4ff8-a7e5-8080ad53e7bb"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "mygrpc"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v1.api2.ttpservers.ru"
+        }
+      },
+      "tag": "node-003 🇵🇱 Poland | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.182.24.112",
+            "port": 2096,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "163dc809-7970-4ff8-a7e5-8080ad53e7bb"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "mygrpc"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v1.api2.ttpservers.ru"
+        }
+      },
+      "tag": "node-004 🇵🇱 Poland | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.182.24.112",
+            "port": 2096,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "163dc809-7970-4ff8-a7e5-8080ad53e7bb"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "mygrpc"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "v1.api2.ttpservers.ru"
+        }
+      },
+      "tag": "node-005 🇵🇱 Poland | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.163.232.54",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "93fab704-cea7-4ca4-a9ac-5bb46aef263c"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "M_V1dM8_wcpwnmh2VZp-s3LCBjy38ZWCRpxLrBc58Do",
+          "serverName": "max.ru",
+          "shortId": "a48d397391861a3c",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🇳🇱 The Netherlands [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.163.232.54",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "93fab704-cea7-4ca4-a9ac-5bb46aef263c"
               }
             ]
           }
@@ -72,107 +252,44 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "ios",
-          "publicKey": "AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI",
-          "serverName": "fi-one.quiet-rogue.site",
-          "shortId": "beff3ff061a64cfd",
+          "publicKey": "M_V1dM8_wcpwnmh2VZp-s3LCBjy38ZWCRpxLrBc58Do",
+          "serverName": "max.ru",
+          "shortId": "a48d397391861a3c",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇫🇮 Finland | [*CIDR]"
+      "tag": "node-007 🇳🇱 The Netherlands | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "176.123.164.9",
-            "port": 9872,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "fd94a343-cb11-45e6-9882-72352d0a2b8f"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "serverName": "dl.google.com",
-          "shortId": "aabbccdd",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🇸🇪 Sweden [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.123.164.9",
-            "port": 9872,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "fd94a343-cb11-45e6-9882-72352d0a2b8f"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "serverName": "dl.google.com",
-          "shortId": "aabbccdd",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-003 🇸🇪 Sweden [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "wsru1.wba-pn.ru",
+            "address": "95.163.232.54",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f9613819-d2fe-4b3a-a2e6-40c184c6854c"
+                "id": "93fab704-cea7-4ca4-a9ac-5bb46aef263c"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "wsru1.wba-pn.ru"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "M_V1dM8_wcpwnmh2VZp-s3LCBjy38ZWCRpxLrBc58Do",
+          "serverName": "max.ru",
+          "shortId": "a48d397391861a3c",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-004 🇷🇺 Russia | [*CIDR]"
+      "tag": "node-008 🇳🇱 The Netherlands | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -183,11 +300,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (8 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇫🇮 Finland | [*CIDR]",
+        "fallbackTag": "node-001 🇵🇱 Poland | [*CIDR]",
         "selector": [
           "node-"
         ],
