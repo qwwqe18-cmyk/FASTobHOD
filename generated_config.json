@@ -56,81 +56,120 @@
       "settings": {
         "vnext": [
           {
-            "address": "66.90.93.74",
-            "port": 8443,
+            "address": "109.120.152.86",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "746c4004-1d8f-4541-8e8a-533213d8a863"
+                "flow": "xtls-rprx-vision",
+                "id": "b2744db0-1c64-4218-a93b-9eba0e5f811f"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gateway-v1.bosx.net"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI",
+          "serverName": "fi-one.quiet-rogue.site",
+          "shortId": "beff3ff061a64cfd",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-001 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
+      "tag": "node-001 🇫🇮 Finland | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "66.90.93.74",
-            "port": 8443,
+            "address": "109.120.152.86",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "746c4004-1d8f-4541-8e8a-533213d8a863"
+                "flow": "xtls-rprx-vision",
+                "id": "b2744db0-1c64-4218-a93b-9eba0e5f811f"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gateway-v1.bosx.net"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "UvJqmTGvadeK94_38ncycxTRqU4lmsjhDjJBuL0CQSA",
+          "serverName": "nl-one.quiet-rogue.site",
+          "shortId": "c71af684feb2fef4",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-002 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
+      "tag": "node-002 🇳🇱 The Netherlands | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "66.90.93.74",
-            "port": 8443,
+            "address": "185.178.46.50",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "746c4004-1d8f-4541-8e8a-533213d8a863"
+                "flow": "xtls-rprx-vision",
+                "id": "919eef53-e931-4928-83f7-d880ee7b9804"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gateway-v1.bosx.net"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "safari",
+          "publicKey": "WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU",
+          "serverName": "max.ru",
+          "shortId": "423bccc9c13fb509",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-003 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+      "tag": "node-003 🇷🇺 Russia | 🌐 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.178.46.50",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "919eef53-e931-4928-83f7-d880ee7b9804"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU",
+          "serverName": "max.ru",
+          "shortId": "423bccc9c13fb509",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-004 🇷🇺 Russia | 🌐 | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -141,11 +180,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline",
+        "fallbackTag": "node-001 🇫🇮 Finland | [*CIDR]",
         "selector": [
           "node-"
         ],
