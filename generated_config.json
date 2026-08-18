@@ -56,30 +56,54 @@
       "settings": {
         "vnext": [
           {
-            "address": "176.109.85.142",
-            "port": 9445,
+            "address": "66.90.93.74",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "694fbac8-56da-4ecd-be68-59c57b700e93"
+                "id": "746c4004-1d8f-4541-8e8a-533213d8a863"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "media.playback.v1.SessionGateway"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "grmn-av2.ghost-service.cc"
+          "serverName": "gateway-v1.bosx.net"
         }
       },
-      "tag": "node-001 🇩🇪 Germany | 🌐 | [*CIDR]"
+      "tag": "node-001 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.93.74",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "746c4004-1d8f-4541-8e8a-533213d8a863"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gateway-v1.bosx.net"
+        }
+      },
+      "tag": "node-002 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
     },
     {
       "protocol": "freedom",
@@ -90,11 +114,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 | [*CIDR]",
+        "fallbackTag": "node-001 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline",
         "selector": [
           "node-"
         ],
