@@ -56,52 +56,27 @@
       "settings": {
         "vnext": [
           {
-            "address": "135.106.187.106",
-            "port": 301,
+            "address": "66.90.93.74",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "c52733b5-7482-4972-a785-af2b5d49698a"
+                "id": "746c4004-1d8f-4541-8e8a-533213d8a863"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
-      },
-      "tag": "node-001 🇩🇪 Germany [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.109.85.142",
-            "port": 9445,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "694fbac8-56da-4ecd-be68-59c57b700e93"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "media.playback.v1.SessionGateway"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "grmn-av2.ghost-service.cc"
+          "serverName": "gateway-v1.bosx.net"
         }
       },
-      "tag": "node-002 🇩🇪 Germany | 🌐 | [*CIDR]"
+      "tag": "node-001 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
@@ -128,6 +103,33 @@
           "serverName": "gateway-v1.bosx.net"
         }
       },
+      "tag": "node-002 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "66.90.93.74",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8364e505-9c81-4d72-a66b-fde0182be26b"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "gateway-v1.bosx.net"
+        }
+      },
       "tag": "node-003 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
     },
     {
@@ -141,7 +143,7 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "746c4004-1d8f-4541-8e8a-533213d8a863"
+                "id": "8364e505-9c81-4d72-a66b-fde0182be26b"
               }
             ]
           }
@@ -324,29 +326,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.241.171.229",
-            "port": 4100,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "6ccb5e10-5758-4e08-aa7e-290b887f458b"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none"
-      },
-      "tag": "node-011 🇷🇺 Russia | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "66.90.93.74",
             "port": 8443,
             "users": [
@@ -367,61 +346,7 @@
           "serverName": "gateway-v1.bosx.net"
         }
       },
-      "tag": "node-012 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.90.93.74",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8364e505-9c81-4d72-a66b-fde0182be26b"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gateway-v1.bosx.net"
-        }
-      },
-      "tag": "node-013 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "66.90.93.74",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8364e505-9c81-4d72-a66b-fde0182be26b"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "gateway-v1.bosx.net"
-        }
-      },
-      "tag": "node-014 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
+      "tag": "node-011 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
@@ -448,7 +373,7 @@
           "serverName": "gateway-v1.bosx.net"
         }
       },
-      "tag": "node-015 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+      "tag": "node-012 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
@@ -475,7 +400,7 @@
           "serverName": "gateway-v1.bosx.net"
         }
       },
-      "tag": "node-016 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+      "tag": "node-013 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
     },
     {
       "protocol": "freedom",
@@ -486,11 +411,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (16 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (13 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany [*CIDR]",
+        "fallbackTag": "node-001 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR] Beeline",
         "selector": [
           "node-"
         ],
