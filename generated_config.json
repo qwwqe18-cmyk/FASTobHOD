@@ -56,27 +56,30 @@
       "settings": {
         "vnext": [
           {
-            "address": "66.90.93.74",
-            "port": 8443,
+            "address": "176.109.85.142",
+            "port": 9445,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "746c4004-1d8f-4541-8e8a-533213d8a863"
+                "id": "694fbac8-56da-4ecd-be68-59c57b700e93"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway"
+        },
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "gateway-v1.bosx.net"
+          "serverName": "grmn-av2.ghost-service.cc"
         }
       },
-      "tag": "node-001 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline"
+      "tag": "node-001 🇩🇪 Germany | 🌐 | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -91,7 +94,7 @@
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🌐 Anycast-IP | 🇩🇪 🇷🇺 [*CIDR] Beeline",
+        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 | [*CIDR]",
         "selector": [
           "node-"
         ],
