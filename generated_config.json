@@ -56,90 +56,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "72.56.8.87",
-            "port": 443,
+            "address": "62.233.39.8",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "afa92127-9235-4f03-9663-5eaef3f3d7bb"
+                "flow": "",
+                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "TunService"
+        },
+        "network": "grpc",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "jqvmkS71kRIg4vycIPj0vNlb_COI6K8hILmNwHp-xj4",
-          "serverName": "www.bing.com",
-          "shortId": "cdb849205ccb59b0",
+          "publicKey": "oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk",
+          "serverName": "dl.dell.com",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "72.56.8.87",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "afa92127-9235-4f03-9663-5eaef3f3d7bb"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "jqvmkS71kRIg4vycIPj0vNlb_COI6K8hILmNwHp-xj4",
-          "serverName": "www.bing.com",
-          "shortId": "cdb849205ccb59b0",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🇩🇪 Germany | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "72.56.8.87",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "afa92127-9235-4f03-9663-5eaef3f3d7bb"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "jqvmkS71kRIg4vycIPj0vNlb_COI6K8hILmNwHp-xj4",
-          "serverName": "www.bing.com",
-          "shortId": "cdb849205ccb59b0",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-003 🇩🇪 Germany | 🌐 | [*CIDR]"
+      "tag": "node-001 🇰🇿 Kazakhstan | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -164,7 +107,73 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
+          "fingerprint": "edge",
+          "publicKey": "oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk",
+          "serverName": "dl.dell.com",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🇰🇿 Kazakhstan | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.233.39.8",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "TunService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "ios",
+          "publicKey": "oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk",
+          "serverName": "dl.dell.com",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-003 🇰🇿 Kazakhstan | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.233.39.8",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "TunService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
           "publicKey": "oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk",
           "serverName": "dl.dell.com",
           "shortId": "",
@@ -197,48 +206,15 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
-          "serverName": "cdn.steamstatic.com",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-005 🇳🇱 The Netherlands [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "62.233.39.8",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "TunService"
-        },
-        "network": "grpc",
-        "realitySettings": {
           "fingerprint": "qq",
-          "publicKey": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
-          "serverName": "cdn.steamstatic.com",
+          "publicKey": "oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk",
+          "serverName": "dl.dell.com",
           "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-006 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-005 🇰🇿 Kazakhstan | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -264,6 +240,39 @@
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "safari",
+          "publicKey": "oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk",
+          "serverName": "dl.dell.com",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🇰🇿 Kazakhstan | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.233.39.8",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "TunService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
           "publicKey": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
           "serverName": "cdn.steamstatic.com",
           "shortId": "",
@@ -296,15 +305,48 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
-          "serverName": "download.nvidia.com",
+          "fingerprint": "safari",
+          "publicKey": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
+          "serverName": "cdn.steamstatic.com",
           "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-008 🇬🇧 United Kingdom | [*CIDR]"
+      "tag": "node-008 🇳🇱 The Netherlands [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.233.39.8",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "TunService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "sbBzEDf7UllUslF6LTfsM1qiOW322QKM343zhJD0Lng",
+          "serverName": "cdn.steamstatic.com",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-009 🇳🇱 The Netherlands [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -330,39 +372,6 @@
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
-          "serverName": "download.nvidia.com",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-009 🇬🇧 United Kingdom | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "62.233.39.8",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "TunService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "safari",
           "publicKey": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
           "serverName": "download.nvidia.com",
           "shortId": "",
@@ -395,7 +404,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "ios",
+          "fingerprint": "chrome",
           "publicKey": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
           "serverName": "download.nvidia.com",
           "shortId": "",
@@ -404,6 +413,105 @@
         "security": "reality"
       },
       "tag": "node-011 🇬🇧 United Kingdom | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.233.39.8",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "TunService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "ios",
+          "publicKey": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
+          "serverName": "download.nvidia.com",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-012 🇬🇧 United Kingdom | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.233.39.8",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "TunService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
+          "serverName": "download.nvidia.com",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-013 🇬🇧 United Kingdom | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.233.39.8",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69db54f1-a8a6-d3d5-3b21-48af845aed08"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "TunService"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "safari",
+          "publicKey": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
+          "serverName": "download.nvidia.com",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-014 🇬🇧 United Kingdom | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -436,7 +544,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-012 🇷🇺 Russia [*CIDR]"
+      "tag": "node-015 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -469,7 +577,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-013 🇷🇺 Russia [*CIDR]"
+      "tag": "node-016 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -502,7 +610,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-014 🇷🇺 Russia [*CIDR]"
+      "tag": "node-017 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -535,7 +643,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-015 🇷🇺 Russia [*CIDR]"
+      "tag": "node-018 🇷🇺 Russia [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -546,11 +654,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (15 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (18 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇰🇿 Kazakhstan | [*CIDR]",
         "selector": [
           "node-"
         ],
