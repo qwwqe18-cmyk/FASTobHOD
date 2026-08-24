@@ -56,60 +56,115 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.23.54.213",
-            "port": 443,
+            "address": "78.159.250.33",
+            "port": 9002,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "710fc22f-06b2-03f6-bb3e-f57c17b670a6"
+                "flow": "",
+                "id": "2c634977-584e-4e1f-b501-1b70c77a6743"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "grpc-reality"
+        },
+        "network": "grpc",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis",
-          "serverName": "www.ray-balance.space",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "api-maps.yandex.ru",
           "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🌐 Anycast-IP | 🇪🇸 🇵🇱 | [*CIDR] VK"
+      "tag": "node-001 🇳🇱 The Netherlands | [*CIDR] Beeline"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "84.23.54.213",
+            "address": "193.233.88.48",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "710fc22f-06b2-03f6-bb3e-f57c17b670a6"
+                "flow": "",
+                "id": "dfd586fd-f329-46c4-ba9a-b6c3cf8e06ba"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "3tOekmYYkNW9IwHGuui6Y9bLmXoyiAmwAgtAdUAmDis",
-          "serverName": "www.ray-balance.space",
-          "shortId": "",
-          "spiderX": "/"
+        "grpcSettings": {
+          "serviceName": "vless"
         },
-        "security": "reality"
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de-pautina.unlimited-access.ru"
+        }
       },
-      "tag": "node-002 🌐 Anycast-IP | 🇪🇸 🇵🇱 [*CIDR] VK"
+      "tag": "node-002 🌐 Anycast-IP | 🇬🇧 🇺🇦 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.26.229.122",
+            "port": 2200,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "84d0ff7b-9760-415f-a974-b3e1fe92264f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws"
+      },
+      "tag": "node-003 🇷🇺 Russia | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.233.88.48",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "dfd586fd-f329-46c4-ba9a-b6c3cf8e06ba"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "vless"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de-pautina.unlimited-access.ru"
+        }
+      },
+      "tag": "node-004 🌐 Anycast-IP | 🇬🇧 🇺🇦 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -120,11 +175,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🌐 Anycast-IP | 🇪🇸 🇵🇱 | [*CIDR] VK",
+        "fallbackTag": "node-001 🇳🇱 The Netherlands | [*CIDR] Beeline",
         "selector": [
           "node-"
         ],
