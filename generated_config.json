@@ -56,31 +56,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "212.193.31.188",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1750cf0e-57d5-4fba-ba2a-3fda91d8b8c5"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none"
-      },
-      "tag": "node-001 🇪🇪 Estonia | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "46.16.36.222",
-            "port": 11447,
+            "port": 11443,
             "users": [
               {
                 "encryption": "none",
@@ -105,7 +82,40 @@
         },
         "security": "reality"
       },
-      "tag": "node-002 🇫🇮 Finland | [*CIDR]"
+      "tag": "node-001 🇫🇷 France [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "3b149d533a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🇫🇷 France [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -138,7 +148,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-003 🇫🇮 Finland | [*CIDR]"
+      "tag": "node-003 🇫🇮 Finland [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -163,7 +173,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "chrome",
+          "fingerprint": "edge",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
           "shortId": "3b149d533a",
@@ -196,6 +206,105 @@
         },
         "network": "grpc",
         "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "3b149d533a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-005 🇫🇮 Finland [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "ios",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "3b149d533a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🇫🇷 France [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11447,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "3b149d533a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-007 🇫🇮 Finland [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
           "fingerprint": "edge",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
@@ -204,20 +313,20 @@
         },
         "security": "reality"
       },
-      "tag": "node-005 🇫🇮 Finland | [*CIDR]"
+      "tag": "node-008 🇫🇷 France | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.103.100.19",
-            "port": 8443,
+            "address": "46.16.36.222",
+            "port": 11444,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "235fab16-5bb4-4593-b125-09f2e7ba7aa3"
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
               }
             ]
           }
@@ -225,155 +334,32 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "your-custom-path"
+          "serviceName": "gun"
         },
         "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
-          "serverName": "maps.apple.com",
-          "shortId": "2da4299da566b7",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-006 🇫🇷 France | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.103.100.19",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "235fab16-5bb4-4593-b125-09f2e7ba7aa3"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "your-custom-path"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
-          "serverName": "maps.apple.com",
-          "shortId": "2da4299da566b7",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-007 🇫🇷 France | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdn11.cloud-cdn.xyz",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "adff89a7-bde7-4614-962a-4068a65a655e"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "hvf_8QEX4pt-BjtgdiPCb1WsiLHG9Mk46e7oqHi8eCQ",
-          "serverName": "fl.cloud-s3.xyz",
-          "shortId": "4375ebbdd8c3ae9c",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-008 🇫🇮 Finland | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdn11.cloud-cdn.xyz",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "adff89a7-bde7-4614-962a-4068a65a655e"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "hvf_8QEX4pt-BjtgdiPCb1WsiLHG9Mk46e7oqHi8eCQ",
-          "serverName": "fl.cloud-s3.xyz",
-          "shortId": "4375ebbdd8c3ae9c",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-009 🇫🇮 Finland | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdn11.cloud-cdn.xyz",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "adff89a7-bde7-4614-962a-4068a65a655e"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
         "realitySettings": {
           "fingerprint": "edge",
-          "publicKey": "hvf_8QEX4pt-BjtgdiPCb1WsiLHG9Mk46e7oqHi8eCQ",
-          "serverName": "fl.cloud-s3.xyz",
-          "shortId": "4375ebbdd8c3ae9c",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "d05e7ab9872797f4",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-010 🇫🇮 Finland | 🌐 | [*CIDR]"
+      "tag": "node-009 🇫🇷 France | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.103.100.19",
-            "port": 8443,
+            "address": "46.16.36.222",
+            "port": 11444,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "235fab16-5bb4-4593-b125-09f2e7ba7aa3"
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
               }
             ]
           }
@@ -381,14 +367,47 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "your-custom-path"
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "d05e7ab9872797f4",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-010 🇫🇷 France | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11444,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
         },
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "qq",
-          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
-          "serverName": "maps.apple.com",
-          "shortId": "2da4299da566b7",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "d05e7ab9872797f4",
           "spiderX": "/"
         },
         "security": "reality"
@@ -400,33 +419,81 @@
       "settings": {
         "vnext": [
           {
-            "address": "46.16.36.222",
-            "port": 11443,
+            "address": "158.160.170.69",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+                "id": "1cf3c15c-16ce-46cc-8a96-b33c33b8a20f"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "3b149d533a",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudflare.fwqfw783rg2dad.website"
+        }
       },
-      "tag": "node-012 🇫🇷 France | [*CIDR]"
+      "tag": "node-012 🇩🇪 Germany | [*CIDR] YA"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.170.69",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "1cf3c15c-16ce-46cc-8a96-b33c33b8a20f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudflare.fwqfw783rg2dad.website"
+        }
+      },
+      "tag": "node-013 🇩🇪 Germany | [*CIDR] YA"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "158.160.170.69",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "1cf3c15c-16ce-46cc-8a96-b33c33b8a20f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cloudflare.fwqfw783rg2dad.website"
+        }
+      },
+      "tag": "node-014 🇩🇪 Germany | [*CIDR] YA"
     },
     {
       "protocol": "vless",
@@ -434,73 +501,7 @@
         "vnext": [
           {
             "address": "46.16.36.222",
-            "port": 11443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "3b149d533a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-013 🇫🇷 France | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.16.36.222",
-            "port": 11443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "3b149d533a",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-014 🇫🇷 France | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.16.36.222",
-            "port": 11443,
+            "port": 11448,
             "users": [
               {
                 "encryption": "none",
@@ -520,25 +521,25 @@
           "fingerprint": "edge",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "3b149d533a",
+          "shortId": "b34f41089f1e",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-015 🇫🇷 France | [*CIDR]"
+      "tag": "node-015 🇰🇿 Kazakhstan | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.103.100.19",
-            "port": 8443,
+            "address": "46.16.36.222",
+            "port": 11448,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "235fab16-5bb4-4593-b125-09f2e7ba7aa3"
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
               }
             ]
           }
@@ -546,32 +547,131 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "your-custom-path"
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "ios",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "b34f41089f1e",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-016 🇰🇿 Kazakhstan | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11448,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "b34f41089f1e",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-017 🇰🇿 Kazakhstan | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11448,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "b34f41089f1e",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-018 🇰🇿 Kazakhstan | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11448,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
         },
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "safari",
-          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
-          "serverName": "maps.apple.com",
-          "shortId": "2da4299da566b7",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "b34f41089f1e",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-016 🇫🇷 France | [*CIDR]"
+      "tag": "node-019 🇰🇿 Kazakhstan | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.103.100.19",
-            "port": 6443,
+            "address": "46.16.36.222",
+            "port": 11445,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "235fab16-5bb4-4593-b125-09f2e7ba7aa3"
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
               }
             ]
           }
@@ -579,118 +679,19 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "your-custom-path"
+          "serviceName": "gun"
         },
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
-          "serverName": "maps.apple.com",
-          "shortId": "2da4299da566b7",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-017 🇩🇪 Germany | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.103.100.19",
-            "port": 6443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "235fab16-5bb4-4593-b125-09f2e7ba7aa3"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "your-custom-path"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
-          "serverName": "maps.apple.com",
-          "shortId": "2da4299da566b7",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-018 🇩🇪 Germany | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.103.100.19",
-            "port": 6443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "235fab16-5bb4-4593-b125-09f2e7ba7aa3"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "your-custom-path"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY",
-          "serverName": "maps.apple.com",
-          "shortId": "2da4299da566b7",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-019 🇩🇪 Germany | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.16.36.222",
-            "port": 11448,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "b34f41089f1e",
+          "shortId": "61",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-020 🇰🇿 Kazakhstan | [*CIDR]"
+      "tag": "node-020 🇵🇱 Poland [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -698,40 +699,7 @@
         "vnext": [
           {
             "address": "46.16.36.222",
-            "port": 11448,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "b34f41089f1e",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-021 🇰🇿 Kazakhstan | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.16.36.222",
-            "port": 11448,
+            "port": 11445,
             "users": [
               {
                 "encryption": "none",
@@ -751,12 +719,12 @@
           "fingerprint": "ios",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "b34f41089f1e",
+          "shortId": "61",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-022 🇰🇿 Kazakhstan | [*CIDR]"
+      "tag": "node-021 🇵🇱 Poland [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -764,7 +732,7 @@
         "vnext": [
           {
             "address": "46.16.36.222",
-            "port": 11448,
+            "port": 11445,
             "users": [
               {
                 "encryption": "none",
@@ -781,15 +749,15 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "qq",
+          "fingerprint": "safari",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "b34f41089f1e",
+          "shortId": "61",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-023 🇰🇿 Kazakhstan | [*CIDR]"
+      "tag": "node-022 🇵🇱 Poland [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -822,7 +790,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-024 🇵🇱 Poland [*CIDR]"
+      "tag": "node-023 🇵🇱 Poland [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -830,7 +798,7 @@
         "vnext": [
           {
             "address": "46.16.36.222",
-            "port": 11448,
+            "port": 11446,
             "users": [
               {
                 "encryption": "none",
@@ -847,7 +815,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "safari",
+          "fingerprint": "edge",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
           "shortId": "b34f41089f1e",
@@ -855,7 +823,40 @@
         },
         "security": "reality"
       },
-      "tag": "node-025 🇰🇿 Kazakhstan | [*CIDR]"
+      "tag": "node-024 🇵🇱 Poland [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.16.36.222",
+            "port": 11446,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
+          "serverName": "mageia.ubuntuhosting.host",
+          "shortId": "b34f41089f1e",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-025 🇵🇱 Poland [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -913,7 +914,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "firefox",
+          "fingerprint": "safari",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
           "shortId": "b34f41089f1e",
@@ -929,7 +930,7 @@
         "vnext": [
           {
             "address": "46.16.36.222",
-            "port": 11446,
+            "port": 11445,
             "users": [
               {
                 "encryption": "none",
@@ -949,12 +950,12 @@
           "fingerprint": "edge",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "b34f41089f1e",
+          "shortId": "61",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-028 🇵🇱 Poland [*CIDR]"
+      "tag": "node-028 🇵🇱 Poland | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -979,7 +980,7 @@
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "safari",
+          "fingerprint": "qq",
           "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
           "serverName": "mageia.ubuntuhosting.host",
           "shortId": "b34f41089f1e",
@@ -994,284 +995,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "46.16.36.222",
-            "port": 11445,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "61",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-030 🇵🇱 Poland | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.16.36.222",
-            "port": 11446,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "b34f41089f1e",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-031 🇵🇱 Poland [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.16.36.222",
-            "port": 11445,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "61",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-032 🇵🇱 Poland | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.16.36.222",
-            "port": 11445,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "61",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-033 🇵🇱 Poland | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.16.36.222",
-            "port": 11445,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs",
-          "serverName": "mageia.ubuntuhosting.host",
-          "shortId": "61",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-034 🇵🇱 Poland | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.12.66.58",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1ff9ceea-7008-4c0e-a832-32a0c81f0c46"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430",
-          "serverName": "xucino-trovepo.northgazette.org",
-          "shortId": "f0ba53a31b489b3e",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-035 🇸🇪 Sweden [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.12.66.58",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1ff9ceea-7008-4c0e-a832-32a0c81f0c46"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430",
-          "serverName": "xucino-trovepo.northgazette.org",
-          "shortId": "f0ba53a31b489b3e",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-036 🇸🇪 Sweden | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.12.66.58",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1ff9ceea-7008-4c0e-a832-32a0c81f0c46"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "V9MHR6nhlKPenVUq1172uIHJFZYOkRVqSOUkjCS4430",
-          "serverName": "xucino-trovepo.northgazette.org",
-          "shortId": "f0ba53a31b489b3e",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-037 🇸🇪 Sweden | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "212.193.31.202",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1750cf0e-57d5-4fba-ba2a-3fda91d8b8c5"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "none"
-      },
-      "tag": "node-038 🇸🇪 Sweden | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "90.156.218.143",
             "port": 443,
             "users": [
@@ -1298,106 +1021,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-039 🇳🇱 The Netherlands | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "90.156.218.143",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
-          "serverName": "mint.ubuntuhosting.host",
-          "shortId": "3fa234ea9feaa048",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-040 🇳🇱 The Netherlands | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "90.156.218.143",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
-          "serverName": "mint.ubuntuhosting.host",
-          "shortId": "3fa234ea9feaa048",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-041 🇳🇱 The Netherlands | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "90.156.218.143",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
-          "serverName": "mint.ubuntuhosting.host",
-          "shortId": "3fa234ea9feaa048",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-042 🇳🇱 The Netherlands | [*CIDR] VK"
+      "tag": "node-030 🇳🇱 The Netherlands | [*CIDR] VK"
     },
     {
       "protocol": "vless",
@@ -1430,40 +1054,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-043 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "217.199.254.215",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E",
-          "serverName": "endeavouros.ubuntuhosting.host",
-          "shortId": "707c8615b9",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-044 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
+      "tag": "node-031 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1496,7 +1087,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-045 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
+      "tag": "node-032 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -1504,6 +1095,72 @@
         "vnext": [
           {
             "address": "217.199.254.215",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E",
+          "serverName": "endeavouros.ubuntuhosting.host",
+          "shortId": "707c8615b9",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-033 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "90.156.218.143",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
+          "serverName": "mint.ubuntuhosting.host",
+          "shortId": "3fa234ea9feaa048",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-034 🇳🇱 The Netherlands | [*CIDR] VK"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "90.156.218.143",
             "port": 443,
             "users": [
               {
@@ -1522,21 +1179,21 @@
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "ios",
-          "publicKey": "nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E",
-          "serverName": "endeavouros.ubuntuhosting.host",
-          "shortId": "707c8615b9",
+          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
+          "serverName": "mint.ubuntuhosting.host",
+          "shortId": "3fa234ea9feaa048",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-046 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
+      "tag": "node-035 🇳🇱 The Netherlands | [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "217.199.254.215",
+            "address": "90.156.218.143",
             "port": 443,
             "users": [
               {
@@ -1555,27 +1212,60 @@
         "network": "grpc",
         "realitySettings": {
           "fingerprint": "qq",
-          "publicKey": "nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E",
-          "serverName": "endeavouros.ubuntuhosting.host",
-          "shortId": "707c8615b9",
+          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
+          "serverName": "mint.ubuntuhosting.host",
+          "shortId": "3fa234ea9feaa048",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-047 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
+      "tag": "node-036 🇳🇱 The Netherlands | [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "201.34.137.15",
-            "port": 4100,
+            "address": "90.156.218.143",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "716903b1-e6bf-4420-9e27-65e4451692e9"
+                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "gun"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "safari",
+          "publicKey": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
+          "serverName": "mint.ubuntuhosting.host",
+          "shortId": "3fa234ea9feaa048",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-037 🇳🇱 The Netherlands | [*CIDR] VK"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "201.24.49.77",
+            "port": 2200,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "af60d475-3c13-41cf-af0e-18353d08877a"
               }
             ]
           }
@@ -1585,62 +1275,53 @@
         "network": "ws",
         "security": "none"
       },
-      "tag": "node-048 🇷🇺 Russia | 🌐 [*CIDR]"
+      "tag": "node-038 🇷🇺 Russia | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "217.199.254.215",
-            "port": 443,
+            "address": "201.24.49.77",
+            "port": 2200,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "d7430ae7-320c-4658-808b-3006d0627d82"
+                "id": "af60d475-3c13-41cf-af0e-18353d08877a"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "gun"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "nbrx6gGjaQ27MLBl-0Tp23ALk9sm95NeOFxhP2ufO1E",
-          "serverName": "endeavouros.ubuntuhosting.host",
-          "shortId": "707c8615b9",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "none"
       },
-      "tag": "node-049 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]"
+      "tag": "node-039 🇷🇺 Russia | 🌐 | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "188.225.47.234",
-            "port": 4100,
+            "address": "201.24.49.77",
+            "port": 2200,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "7b2ce6b0-6d2b-4926-b7bf-6247eb1a0050"
+                "id": "af60d475-3c13-41cf-af0e-18353d08877a"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws"
+        "network": "ws",
+        "security": "none"
       },
-      "tag": "node-050 🇷🇺 Russia | 🌐 [*CIDR]"
+      "tag": "node-040 🇷🇺 Russia | 🌐 | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -1651,11 +1332,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (50 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (40 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇪🇪 Estonia | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇫🇷 France [*CIDR]",
         "selector": [
           "node-"
         ],
