@@ -56,133 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "46.8.158.17",
-            "port": 30033,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "721df957-3c91-439d-b937-0c620d8d56bd"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "kAEICRYinsD6ypo3aR950HLemR5D715_8FYbO58Whgs",
-          "serverName": "www.google.com",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-001 🇯🇵 Japan | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.8.158.17",
-            "port": 2083,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "721df957-3c91-439d-b937-0c620d8d56bd"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "kAEICRYinsD6ypo3aR950HLemR5D715_8FYbO58Whgs",
-          "serverName": "www.google.com",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🇳🇱 The Netherlands | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.8.158.17",
-            "port": 2083,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "721df957-3c91-439d-b937-0c620d8d56bd"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "kAEICRYinsD6ypo3aR950HLemR5D715_8FYbO58Whgs",
-          "serverName": "www.google.com",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-003 🇳🇱 The Netherlands | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.8.158.17",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "721df957-3c91-439d-b937-0c620d8d56bd"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "kAEICRYinsD6ypo3aR950HLemR5D715_8FYbO58Whgs",
-          "serverName": "www.google.com",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-004 🌐 Anycast-IP | 🇩🇪 🇷🇺 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.8.29.174",
-            "port": 443,
+            "address": "84.201.142.221",
+            "port": 33743,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "721df957-3c91-439d-b937-0c620d8d56bd"
+                "id": "b3a11068-1a7e-4643-85de-7c82cce46943"
               }
             ]
           }
@@ -190,19 +70,19 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "fi1cosmos"
+          "serviceName": "TunService"
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA",
-          "serverName": "fi1-cosmostechnology.ru",
+          "fingerprint": "safari",
+          "publicKey": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY",
+          "serverName": "www.google.com",
           "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-005 🇷🇺 Russia | [*CIDR]"
+      "tag": "node-001 🇵🇱 Poland | [*CIDR] YA"
     },
     {
       "protocol": "freedom",
@@ -213,11 +93,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇯🇵 Japan | 🌐 | [*CIDR]",
+        "fallbackTag": "node-001 🇵🇱 Poland | [*CIDR] YA",
         "selector": [
           "node-"
         ],
