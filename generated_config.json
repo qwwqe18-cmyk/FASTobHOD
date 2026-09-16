@@ -82,7 +82,40 @@
         },
         "security": "reality"
       },
-      "tag": "node-001 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]"
+      "tag": "node-001 🌐 Anycast-IP | 🇩🇪 🇫🇮 🇸🇪 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.124.36.63",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "208a5dda-5f5e-47e8-8f22-8db77e00ab1b"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "xyz"
+        },
+        "network": "grpc",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "Ww_HS9_n7ob3uESSXtbU23EPM-BOJ5ZYLp-RFB0L0SY",
+          "serverName": "ultimate.warriorofblacksun.run",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -115,20 +148,20 @@
         },
         "security": "reality"
       },
-      "tag": "node-002 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]"
+      "tag": "node-003 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "193.17.92.57",
-            "port": 2053,
+            "address": "188.124.36.63",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1cbb3702-b434-45cf-8520-3e32d860fd83"
+                "id": "208a5dda-5f5e-47e8-8f22-8db77e00ab1b"
               }
             ]
           }
@@ -136,85 +169,19 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "grpc-fd03cd54"
+          "serviceName": "xyz"
         },
         "network": "grpc",
         "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "G7VlRXdpKKaZ_33pA0Zsii70uiYkeoBiVYgAD_tL_28",
-          "serverName": "vk.com",
-          "shortId": "76f9d74c385ae618",
+          "fingerprint": "edge",
+          "publicKey": "Ww_HS9_n7ob3uESSXtbU23EPM-BOJ5ZYLp-RFB0L0SY",
+          "serverName": "ultimate.warriorofblacksun.run",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-003 🌐 Anycast-IP | 🇷🇺 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.17.92.57",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1cbb3702-b434-45cf-8520-3e32d860fd83"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc-fd03cd54"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "G7VlRXdpKKaZ_33pA0Zsii70uiYkeoBiVYgAD_tL_28",
-          "serverName": "vk.com",
-          "shortId": "76f9d74c385ae618",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-004 🌐 Anycast-IP | 🇷🇺 🇸🇪 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.17.92.57",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1cbb3702-b434-45cf-8520-3e32d860fd83"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc-fd03cd54"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "G7VlRXdpKKaZ_33pA0Zsii70uiYkeoBiVYgAD_tL_28",
-          "serverName": "vk.com",
-          "shortId": "76f9d74c385ae618",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-005 🌐 Anycast-IP | 🇷🇺 [*CIDR]"
+      "tag": "node-004 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -225,11 +192,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]",
+        "fallbackTag": "node-001 🌐 Anycast-IP | 🇩🇪 🇫🇮 🇸🇪 [*CIDR]",
         "selector": [
           "node-"
         ],
