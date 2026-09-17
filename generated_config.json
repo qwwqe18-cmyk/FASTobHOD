@@ -56,135 +56,23 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru1-edge.safe-connect.info",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "24f8cbc6-6bf6-4109-8909-930d484ee9e0"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ru1-edge.safe-connect.info"
-        }
-      },
-      "tag": "node-001 🇷🇺 Russia | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ru1-edge.safe-connect.info",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "24f8cbc6-6bf6-4109-8909-930d484ee9e0"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ru1-edge.safe-connect.info"
-        }
-      },
-      "tag": "node-002 🇷🇺 Russia | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ru1-edge.safe-connect.info",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "24f8cbc6-6bf6-4109-8909-930d484ee9e0"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ru1-edge.safe-connect.info"
-        }
-      },
-      "tag": "node-003 🇷🇺 Russia | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ru1-edge.safe-connect.info",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "24f8cbc6-6bf6-4109-8909-930d484ee9e0"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ru1-edge.safe-connect.info"
-        }
-      },
-      "tag": "node-004 🇷🇺 Russia | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "bz18.wba-pn.ru",
-            "port": 2053,
+            "address": "89.19.223.155",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "3a2265d2-9f4f-437b-abf1-a44047776cf0"
+                "id": "f0b752da-101e-46dd-9860-3f089e71ec91"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "bz18.wba-pn.ru"
-        }
+        "network": "tcp",
+        "security": "none"
       },
-      "tag": "node-005 🇳🇱 The Netherlands | 🌐 | [*CIDR]"
+      "tag": "node-001 🇸🇪 Sweden | 🌐 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -195,11 +83,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇷🇺 Russia | 🌐 | [*CIDR]",
+        "fallbackTag": "node-001 🇸🇪 Sweden | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
