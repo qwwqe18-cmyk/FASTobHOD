@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.19.223.155",
-            "port": 8443,
+            "address": "runode.protectednetwork.shop",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "f0b752da-101e-46dd-9860-3f089e71ec91"
+                "flow": "xtls-rprx-vision",
+                "id": "3d53970b-419b-4a27-87b5-e9c99bb02eca"
               }
             ]
           }
@@ -70,9 +70,76 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "none"
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "qQ5v62tCMmdAXvcrfWj9e4pm732FGnWnjTomgwBYXwU",
+          "serverName": "rucdn.protectednetwork.shop",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-001 🇸🇪 Sweden | 🌐 [*CIDR]"
+      "tag": "node-001 🌐 Anycast-IP | 🇵🇱 🇷🇺 | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "runode.protectednetwork.shop",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "3d53970b-419b-4a27-87b5-e9c99bb02eca"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "edge",
+          "publicKey": "qQ5v62tCMmdAXvcrfWj9e4pm732FGnWnjTomgwBYXwU",
+          "serverName": "rucdn.protectednetwork.shop",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🌐 Anycast-IP | 🇵🇱 🇷🇺 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "runode.protectednetwork.shop",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "3d53970b-419b-4a27-87b5-e9c99bb02eca"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "qQ5v62tCMmdAXvcrfWj9e4pm732FGnWnjTomgwBYXwU",
+          "serverName": "rucdn.protectednetwork.shop",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-003 🌐 Anycast-IP | 🇵🇱 🇷🇺 | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -83,11 +150,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (3 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇸🇪 Sweden | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🌐 Anycast-IP | 🇵🇱 🇷🇺 | [*CIDR]",
         "selector": [
           "node-"
         ],
