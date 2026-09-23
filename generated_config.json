@@ -56,30 +56,27 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.208.208.172",
-            "port": 2099,
+            "address": "obl1.finiki.lol",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "a76f6959-7d88-40c5-8984-4d888aa42389"
+                "flow": "",
+                "id": "9e4d44c2-f237-4d6b-bb09-77b839fe7ea4"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "4YFpLhV9HbwlCXzvCL8EfvYe-V-VCuXZIaOWS11lKXI",
-          "serverName": "331456.relay-edge.net",
-          "shortId": "11f303a9ff001d7c",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "obl1.finiki.lol"
+        }
       },
-      "tag": "node-001 🇨🇿 Czechia | [*CIDR] VK"
+      "tag": "node-001 🇬🇧 United Kingdom | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -94,7 +91,7 @@
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇨🇿 Czechia | [*CIDR] VK",
+        "fallbackTag": "node-001 🇬🇧 United Kingdom | [*CIDR]",
         "selector": [
           "node-"
         ],
