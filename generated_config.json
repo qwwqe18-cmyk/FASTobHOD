@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "obl1.finiki.lol",
-            "port": 443,
+            "address": "5.42.107.38",
+            "port": 14443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "9e4d44c2-f237-4d6b-bb09-77b839fe7ea4"
+                "id": "ab40c8b0-268e-4251-b8a6-133a53a946ef"
               }
             ]
           }
@@ -73,10 +73,91 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "obl1.finiki.lol"
+          "serverName": "nlf2.krevetkabs111.net"
         }
       },
-      "tag": "node-001 🇬🇧 United Kingdom | [*CIDR]"
+      "tag": "node-001 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.42.107.38",
+            "port": 14443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ab40c8b0-268e-4251-b8a6-133a53a946ef"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nlf2.krevetkabs111.net"
+        }
+      },
+      "tag": "node-002 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.42.107.38",
+            "port": 14443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ab40c8b0-268e-4251-b8a6-133a53a946ef"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nlf2.krevetkabs111.net"
+        }
+      },
+      "tag": "node-003 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.42.107.38",
+            "port": 14443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ab40c8b0-268e-4251-b8a6-133a53a946ef"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "nlf2.krevetkabs111.net"
+        }
+      },
+      "tag": "node-004 🇩🇪 Germany | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -87,11 +168,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇬🇧 United Kingdom | [*CIDR]",
+        "fallbackTag": "node-001 🇩🇪 Germany | [*CIDR]",
         "selector": [
           "node-"
         ],
