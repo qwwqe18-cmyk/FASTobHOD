@@ -56,108 +56,60 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.239.106.24",
-            "port": 28447,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "68d89911-b92d-46fe-9007-3645c3b285f0"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pl.sparxiecn.com"
-        }
-      },
-      "tag": "node-001 🇵🇱 Poland | 🌐 [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "87.239.106.24",
-            "port": 28447,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "68d89911-b92d-46fe-9007-3645c3b285f0"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pl.sparxiecn.com"
-        }
-      },
-      "tag": "node-002 🇵🇱 Poland | 🌐 | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.129.236.117",
+            "address": "45.131.212.133",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "82b1182b-dd98-4964-bb35-13b015739f32"
+                "flow": "xtls-rprx-vision",
+                "id": "3a055028-12df-4b17-9f34-33a3a07f52e1"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dash.gearmonster.org"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "sellflow.org",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-003 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR]"
+      "tag": "node-001 🇷🇺 Russia | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "95.129.236.117",
+            "address": "45.131.212.133",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "82b1182b-dd98-4964-bb35-13b015739f32"
+                "flow": "xtls-rprx-vision",
+                "id": "3a055028-12df-4b17-9f34-33a3a07f52e1"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dash.gearmonster.org"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "sellflow.org",
+          "shortId": "",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-004 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR]"
+      "tag": "node-002 🇷🇺 Russia | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -168,11 +120,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇵🇱 Poland | 🌐 [*CIDR] VK",
+        "fallbackTag": "node-001 🇷🇺 Russia | [*CIDR]",
         "selector": [
           "node-"
         ],
