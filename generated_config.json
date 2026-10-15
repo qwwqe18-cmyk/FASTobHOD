@@ -56,66 +56,30 @@
       "settings": {
         "vnext": [
           {
-            "address": "153.76.163.254",
-            "port": 2096,
+            "address": "tr.datanode-internal.net",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "768712b8-81dc-440f-9b38-4523bf767df4"
+                "flow": "xtls-rprx-vision",
+                "id": "93996a55-febe-4183-9366-df6cb11a34dd"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "vless-grpc-reality"
-        },
-        "network": "grpc",
+        "network": "tcp",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "serverName": "id.vk.com",
-          "shortId": "",
+          "fingerprint": "edge",
+          "publicKey": "r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic",
+          "serverName": "sun9-38.userapi.com",
+          "shortId": "abbcd128",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇫🇮 Finland | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "153.76.163.254",
-            "port": 2096,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "768712b8-81dc-440f-9b38-4523bf767df4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "vless-grpc-reality"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "serverName": "id.vk.com",
-          "shortId": "",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🇫🇮 Finland | 🌐 | [*CIDR]"
+      "tag": "node-001 🇹🇷 Turkey [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -137,7 +101,7 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "safari",
+          "fingerprint": "firefox",
           "publicKey": "r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic",
           "serverName": "sun9-38.userapi.com",
           "shortId": "abbcd128",
@@ -145,7 +109,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-003 🇹🇷 Turkey [*CIDR]"
+      "tag": "node-002 🇹🇷 Turkey [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -175,7 +139,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-004 🇹🇷 Turkey | [*CIDR]"
+      "tag": "node-003 🇹🇷 Turkey | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -197,7 +161,7 @@
       "streamSettings": {
         "network": "tcp",
         "realitySettings": {
-          "fingerprint": "firefox",
+          "fingerprint": "ios",
           "publicKey": "r6lN34m1nN-xQZ458j5NPD5xJ3_QBF2bGzY4KJEo4ic",
           "serverName": "sun9-38.userapi.com",
           "shortId": "abbcd128",
@@ -205,7 +169,7 @@
         },
         "security": "reality"
       },
-      "tag": "node-005 🇹🇷 Turkey | [*CIDR]"
+      "tag": "node-004 🇹🇷 Turkey | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -216,11 +180,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇫🇮 Finland | 🌐 | [*CIDR]",
+        "fallbackTag": "node-001 🇹🇷 Turkey [*CIDR]",
         "selector": [
           "node-"
         ],
