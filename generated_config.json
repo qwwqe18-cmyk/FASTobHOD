@@ -56,132 +56,30 @@
       "settings": {
         "vnext": [
           {
-            "address": "toggle.skelmoridianservice.com",
-            "port": 443,
+            "address": "pl1.h1cloud.net",
+            "port": 27591,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "27926680-f006-4805-ad00-2fb5e55e87c7"
+                "id": "056405e8-de9f-4d0d-8145-956f13cc34da"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "moktana.net.v1.StreamService"
-        },
-        "network": "grpc",
+        "network": "tcp",
         "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4",
-          "serverName": "my.hexagonicfield.com",
-          "shortId": "a1b2c3d4e5f6a7b8",
+          "fingerprint": "chrome",
+          "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+          "serverName": "www.samsung.com",
+          "shortId": "6c5c7900406a1ae7",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "toggle.skelmoridianservice.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "27926680-f006-4805-ad00-2fb5e55e87c7"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "moktana.net.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4",
-          "serverName": "my.hexagonicfield.com",
-          "shortId": "a1b2c3d4e5f6a7b8",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "toggle.skelmoridianservice.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "27926680-f006-4805-ad00-2fb5e55e87c7"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "moktana.net.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4",
-          "serverName": "my.hexagonicfield.com",
-          "shortId": "a1b2c3d4e5f6a7b8",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-003 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "toggle.skelmoridianservice.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "27926680-f006-4805-ad00-2fb5e55e87c7"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "moktana.net.v1.StreamService"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4",
-          "serverName": "my.hexagonicfield.com",
-          "shortId": "a1b2c3d4e5f6a7b8",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-004 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]"
+      "tag": "node-001 🇳🇴 Norway | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -192,11 +90,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]",
+        "fallbackTag": "node-001 🇳🇴 Norway | [*CIDR]",
         "selector": [
           "node-"
         ],
