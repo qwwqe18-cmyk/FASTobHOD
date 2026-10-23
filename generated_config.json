@@ -56,33 +56,60 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.152.58.90",
+            "address": "ru6.oshost.network",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b"
+                "flow": "xtls-rprx-vision",
+                "id": "afbd410e-1663-4f40-9d3b-df5117aa23ca"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": ""
-        },
-        "network": "grpc",
+        "network": "tcp",
         "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-          "serverName": "360.yandex.ru",
-          "shortId": "27e53bbcab7593d7",
+          "fingerprint": "qq",
+          "publicKey": "hV6nxvqV0w52cn3igYbsMADXtEKRz2I-uI3PHEHLOxU",
+          "serverName": "gb4.oshost.network",
+          "shortId": "580d157d83a97590",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-001 🇵🇱 Poland | [*CIDR]"
+      "tag": "node-001 🇬🇧 United Kingdom | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru6.oshost.network",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "afbd410e-1663-4f40-9d3b-df5117aa23ca"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "safari",
+          "publicKey": "hV6nxvqV0w52cn3igYbsMADXtEKRz2I-uI3PHEHLOxU",
+          "serverName": "gb4.oshost.network",
+          "shortId": "580d157d83a97590",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-002 🇬🇧 United Kingdom | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -93,11 +120,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇵🇱 Poland | [*CIDR]",
+        "fallbackTag": "node-001 🇬🇧 United Kingdom | [*CIDR]",
         "selector": [
           "node-"
         ],
