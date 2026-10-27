@@ -56,34 +56,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "dropstyle.lol",
-            "port": 443,
+            "address": "pl1.h1cloud.net",
+            "port": 27591,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "d49f7cc7-0c15-4a49-9644-ef72e00d8e56"
+                "id": "056405e8-de9f-4d0d-8145-956f13cc34da"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "dropstyle.lol"
-        }
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "random",
+          "publicKey": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
+          "serverName": "www.samsung.com",
+          "shortId": "6c5c7900406a1ae7",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-001 🇪🇪 Estonia | [*CIDR]"
+      "tag": "node-001 🇵🇱 Poland | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "renderer-bridge-1-881.mirra.now",
+            "address": "72.56.242.232",
             "port": 443,
             "users": [
               {
@@ -113,7 +116,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "72.56.242.232",
+            "address": "renderer-bridge-1-881.mirra.now",
             "port": 443,
             "users": [
               {
@@ -136,37 +139,7 @@
           "serverName": "renderer-bridge-1-881.mirra.now"
         }
       },
-      "tag": "node-003 🇳🇱 The Netherlands | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "72.56.242.232",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "VideoRenderer"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "renderer-bridge-1-881.mirra.now"
-        }
-      },
-      "tag": "node-004 🇳🇱 The Netherlands | [*CIDR]"
+      "tag": "node-003 🇳🇱 The Netherlands [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -174,6 +147,36 @@
         "vnext": [
           {
             "address": "renderer-bridge-1-881.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-1-881.mirra.now"
+        }
+      },
+      "tag": "node-004 🇳🇱 The Netherlands [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "72.56.242.232",
             "port": 443,
             "users": [
               {
@@ -229,96 +232,6 @@
       "tag": "node-006 🇳🇱 The Netherlands | [*CIDR]"
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "renderer-bridge-1-881.mirra.now",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "VideoRenderer"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "renderer-bridge-1-881.mirra.now"
-        }
-      },
-      "tag": "node-007 🇳🇱 The Netherlands | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "renderer-bridge-1-881.mirra.now",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "VideoRenderer"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "renderer-bridge-1-881.mirra.now"
-        }
-      },
-      "tag": "node-008 🇳🇱 The Netherlands | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "renderer-bridge-1-881.mirra.now",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "VideoRenderer"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "renderer-bridge-1-881.mirra.now"
-        }
-      },
-      "tag": "node-009 🇳🇱 The Netherlands | [*CIDR]"
-    },
-    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -327,11 +240,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (9 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (6 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇪🇪 Estonia | [*CIDR]",
+        "fallbackTag": "node-001 🇵🇱 Poland | [*CIDR]",
         "selector": [
           "node-"
         ],
