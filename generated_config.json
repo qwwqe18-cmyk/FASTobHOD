@@ -56,37 +56,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.114.93",
+            "address": "185.86.145.37",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "c6628db6-025d-40e8-b79d-033f4372a6b7"
+                "id": "34ec30ca-c499-46c5-a0b9-20638e5197e9"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "3e99d50d5740985d"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "api.mediaklenov.cc"
+          "serverName": "pulse-resume.pro"
         }
       },
-      "tag": "node-001 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-001 🇳🇱 The Netherlands | [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.37",
+            "address": "pulse-resume.pro",
             "port": 443,
             "users": [
               {
@@ -113,60 +110,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.202.157.123",
-            "port": 5002,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "br1.centermass.net"
-        }
-      },
-      "tag": "node-003 🇬🇧 United Kingdom | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "82.202.157.123",
-            "port": 5002,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "br1.centermass.net"
-        }
-      },
-      "tag": "node-004 🇬🇧 United Kingdom | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "185.86.145.37",
             "port": 443,
             "users": [
@@ -187,20 +130,20 @@
           "serverName": "pulse-resume.pro"
         }
       },
-      "tag": "node-005 🇳🇱 The Netherlands | [*CIDR] VK"
+      "tag": "node-003 🇳🇱 The Netherlands | [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "82.202.157.123",
-            "port": 5002,
+            "address": "pulse-resume.pro",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
+                "id": "34ec30ca-c499-46c5-a0b9-20638e5197e9"
               }
             ]
           }
@@ -211,37 +154,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "br1.centermass.net"
+          "serverName": "pulse-resume.pro"
         }
       },
-      "tag": "node-006 🇬🇧 United Kingdom | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "82.202.157.123",
-            "port": 5002,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "br1.centermass.net"
-        }
-      },
-      "tag": "node-007 🇬🇧 United Kingdom | [*CIDR]"
+      "tag": "node-004 🇳🇱 The Netherlands | [*CIDR] VK"
     },
     {
       "protocol": "freedom",
@@ -252,11 +168,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (7 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇳🇱 The Netherlands [*CIDR]",
+        "fallbackTag": "node-001 🇳🇱 The Netherlands | [*CIDR] VK",
         "selector": [
           "node-"
         ],
