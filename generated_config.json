@@ -56,108 +56,30 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.37",
+            "address": "189.74.114.93",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "34ec30ca-c499-46c5-a0b9-20638e5197e9"
+                "id": "c6628db6-025d-40e8-b79d-033f4372a6b7"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "grpcSettings": {
+          "serviceName": "3e99d50d5740985d"
+        },
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "pulse-resume.pro"
+          "serverName": "api.mediaklenov.cc"
         }
       },
-      "tag": "node-001 🇳🇱 The Netherlands | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pulse-resume.pro",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "34ec30ca-c499-46c5-a0b9-20638e5197e9"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pulse-resume.pro"
-        }
-      },
-      "tag": "node-002 🇳🇱 The Netherlands | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.86.145.37",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "34ec30ca-c499-46c5-a0b9-20638e5197e9"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pulse-resume.pro"
-        }
-      },
-      "tag": "node-003 🇳🇱 The Netherlands | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pulse-resume.pro",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "34ec30ca-c499-46c5-a0b9-20638e5197e9"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pulse-resume.pro"
-        }
-      },
-      "tag": "node-004 🇳🇱 The Netherlands | [*CIDR] VK"
+      "tag": "node-001 🇳🇱 The Netherlands [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -168,11 +90,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇳🇱 The Netherlands | [*CIDR] VK",
+        "fallbackTag": "node-001 🇳🇱 The Netherlands [*CIDR]",
         "selector": [
           "node-"
         ],
