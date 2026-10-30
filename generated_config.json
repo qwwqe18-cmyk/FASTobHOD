@@ -56,60 +56,30 @@
       "settings": {
         "vnext": [
           {
-            "address": "ee.h1cloud.net",
-            "port": 25895,
+            "address": "node6.frost-api.com",
+            "port": 5003,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f90b7d43-69e2-4b46-a672-8029bc6796a2"
+                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
-          "serverName": "www.samsung.com",
-          "shortId": "a73f0410d728c823",
-          "spiderX": "/"
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway"
         },
-        "security": "reality"
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de1.frost-api.com"
+        }
       },
-      "tag": "node-001 🇪🇪 Estonia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ee.h1cloud.net",
-            "port": 25895,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f90b7d43-69e2-4b46-a672-8029bc6796a2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
-          "serverName": "www.samsung.com",
-          "shortId": "a73f0410d728c823",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🇪🇪 Estonia [*CIDR]"
+      "tag": "node-001 🇩🇪 Germany | [*CIDR] VK"
     },
     {
       "protocol": "vless",
@@ -117,6 +87,36 @@
         "vnext": [
           {
             "address": "node6.frost-api.com",
+            "port": 5003,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "de1.frost-api.com"
+        }
+      },
+      "tag": "node-002 🇩🇪 Germany | [*CIDR] VK"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.16.31.218",
             "port": 5003,
             "users": [
               {
@@ -146,37 +146,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ee.h1cloud.net",
-            "port": 25895,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f90b7d43-69e2-4b46-a672-8029bc6796a2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
-          "serverName": "www.samsung.com",
-          "shortId": "a73f0410d728c823",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-004 🇪🇪 Estonia [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "node6.frost-api.com",
+            "address": "217.16.31.218",
             "port": 5003,
             "users": [
               {
@@ -199,14 +169,74 @@
           "serverName": "de1.frost-api.com"
         }
       },
-      "tag": "node-005 🇩🇪 Germany | [*CIDR] VK"
+      "tag": "node-004 🇩🇪 Germany [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "node6.frost-api.com",
+            "address": "189.74.114.119",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "3e99d50d5740985d"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "api.mediaklenov.cc"
+        }
+      },
+      "tag": "node-005 🇳🇱 The Netherlands [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "189.74.114.119",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "3e99d50d5740985d"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "api.mediaklenov.cc"
+        }
+      },
+      "tag": "node-006 🇳🇱 The Netherlands | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.16.31.218",
             "port": 5003,
             "users": [
               {
@@ -229,20 +259,20 @@
           "serverName": "de1.frost-api.com"
         }
       },
-      "tag": "node-006 🇩🇪 Germany | [*CIDR] VK"
+      "tag": "node-007 🇩🇪 Germany [*CIDR] VK"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.37",
+            "address": "194.87.71.141",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "04b7c62b-762e-4a8c-ba37-8328d25c8d74"
+                "id": "5e610f80-fc6a-479d-8621-b672355b96a1"
               }
             ]
           }
@@ -253,37 +283,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ararat.rtkdvbr.cc"
+          "serverName": "cf-1rm.pages.dev"
         }
       },
-      "tag": "node-007 🇳🇱 The Netherlands | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.86.145.37",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "04b7c62b-762e-4a8c-ba37-8328d25c8d74"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ararat.rtkdvbr.cc"
-        }
-      },
-      "tag": "node-008 🇳🇱 The Netherlands | [*CIDR] VK"
+      "tag": "node-008 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -317,7 +320,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ararat.rtkdvbr.cc",
+            "address": "185.86.145.37",
             "port": 443,
             "users": [
               {
@@ -344,7 +347,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ararat.rtkdvbr.cc",
+            "address": "185.86.145.37",
             "port": 443,
             "users": [
               {
@@ -371,30 +374,81 @@
       "settings": {
         "vnext": [
           {
-            "address": "77.110.113.17",
+            "address": "194.87.71.141",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "1fe01c8a-ab37-4e95-bbfc-95d4a608931e"
+                "flow": "",
+                "id": "5e610f80-fc6a-479d-8621-b672355b96a1"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "rfehgktZ-XuOYnHhfpPonWMrw9JoQCZawFI-WZ-2KBw",
-          "serverName": "xpc3.waspnest.space",
-          "shortId": "ae97223a8f799871",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf-1rm.pages.dev"
+        }
       },
-      "tag": "node-012 🌐 Anycast-IP | 🇦🇪 🇵🇱 [*CIDR]"
+      "tag": "node-012 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.87.71.141",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "5e610f80-fc6a-479d-8621-b672355b96a1"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf-1rm.pages.dev"
+        }
+      },
+      "tag": "node-013 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "194.87.71.141",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "5e610f80-fc6a-479d-8621-b672355b96a1"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cf-1rm.pages.dev"
+        }
+      },
+      "tag": "node-014 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -405,11 +459,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (12 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (14 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇪🇪 Estonia [*CIDR]",
+        "fallbackTag": "node-001 🇩🇪 Germany | [*CIDR] VK",
         "selector": [
           "node-"
         ],
