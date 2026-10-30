@@ -56,120 +56,57 @@
       "settings": {
         "vnext": [
           {
-            "address": "node6.frost-api.com",
-            "port": 5003,
+            "address": "189.74.106.73",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
+                "flow": "xtls-rprx-vision",
+                "id": "c6628db6-025d-40e8-b79d-033f4372a6b7"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "media.playback.v1.SessionGateway"
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "safari",
+          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+          "serverName": "api.setevoypriliv.cc",
+          "shortId": "a8",
+          "spiderX": "/"
         },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "de1.frost-api.com"
-        }
+        "security": "reality"
       },
-      "tag": "node-001 🇩🇪 Germany | [*CIDR] VK"
+      "tag": "node-001 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "node6.frost-api.com",
-            "port": 5003,
+            "address": "212.113.117.172",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
+                "flow": "xtls-rprx-vision",
+                "id": "2f7aeef7-6b91-48e6-a44c-304b65a0442b"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "media.playback.v1.SessionGateway"
-        },
-        "network": "grpc",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "de1.frost-api.com"
+          "serverName": "de1.duck-proxy.com"
         }
       },
-      "tag": "node-002 🇩🇪 Germany | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "217.16.31.218",
-            "port": 5003,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "media.playback.v1.SessionGateway"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "de1.frost-api.com"
-        }
-      },
-      "tag": "node-003 🇩🇪 Germany | [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "217.16.31.218",
-            "port": 5003,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "media.playback.v1.SessionGateway"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "de1.frost-api.com"
-        }
-      },
-      "tag": "node-004 🇩🇪 Germany [*CIDR] VK"
+      "tag": "node-002 🇦🇹 Austria [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -177,6 +114,66 @@
         "vnext": [
           {
             "address": "189.74.114.119",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "3e99d50d5740985d"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "api.mediaklenov.cc"
+        }
+      },
+      "tag": "node-003 🇳🇱 The Netherlands [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "189.74.114.119",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "3e99d50d5740985d"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "api.mediaklenov.cc"
+        }
+      },
+      "tag": "node-004 🇳🇱 The Netherlands [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "api.mediaklenov.cc",
             "port": 443,
             "users": [
               {
@@ -206,7 +203,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.114.119",
+            "address": "api.mediaklenov.cc",
             "port": 443,
             "users": [
               {
@@ -229,20 +226,20 @@
           "serverName": "api.mediaklenov.cc"
         }
       },
-      "tag": "node-006 🇳🇱 The Netherlands | [*CIDR]"
+      "tag": "node-006 🇳🇱 The Netherlands [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "217.16.31.218",
-            "port": 5003,
+            "address": "189.74.114.93",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ddc27ad2-631e-4431-b380-0045547acef4"
+                "id": "c6628db6-025d-40e8-b79d-033f4372a6b7"
               }
             ]
           }
@@ -250,43 +247,16 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "media.playback.v1.SessionGateway"
+          "serviceName": "3e99d50d5740985d"
         },
         "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "de1.frost-api.com"
+          "serverName": "api.mediaklenov.cc"
         }
       },
-      "tag": "node-007 🇩🇪 Germany [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "194.87.71.141",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5e610f80-fc6a-479d-8621-b672355b96a1"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf-1rm.pages.dev"
-        }
-      },
-      "tag": "node-008 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 | [*CIDR]"
+      "tag": "node-007 🇳🇱 The Netherlands [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -313,7 +283,34 @@
           "serverName": "ararat.rtkdvbr.cc"
         }
       },
-      "tag": "node-009 🇳🇱 The Netherlands | [*CIDR] VK"
+      "tag": "node-008 🇳🇱 The Netherlands [*CIDR] VK"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.86.145.37",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "04b7c62b-762e-4a8c-ba37-8328d25c8d74"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ararat.rtkdvbr.cc"
+        }
+      },
+      "tag": "node-009 🇳🇱 The Netherlands [*CIDR] VK"
     },
     {
       "protocol": "vless",
@@ -370,87 +367,6 @@
       "tag": "node-011 🇳🇱 The Netherlands [*CIDR] VK"
     },
     {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "194.87.71.141",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5e610f80-fc6a-479d-8621-b672355b96a1"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf-1rm.pages.dev"
-        }
-      },
-      "tag": "node-012 🌐 Anycast-IP | 🇦🇷 🇩🇪 🇮🇶 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "194.87.71.141",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5e610f80-fc6a-479d-8621-b672355b96a1"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf-1rm.pages.dev"
-        }
-      },
-      "tag": "node-013 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "194.87.71.141",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5e610f80-fc6a-479d-8621-b672355b96a1"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cf-1rm.pages.dev"
-        }
-      },
-      "tag": "node-014 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇺🇸 [*CIDR]"
-    },
-    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -459,11 +375,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (14 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (11 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany | [*CIDR] VK",
+        "fallbackTag": "node-001 🇩🇪 Germany [*CIDR]",
         "selector": [
           "node-"
         ],
