@@ -56,6 +56,33 @@
       "settings": {
         "vnext": [
           {
+            "address": "188.225.62.62",
+            "port": 7443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "6116f0f3-15eb-4217-b38e-16514dc00ba1"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ru2.datacore-tech.ru"
+        }
+      },
+      "tag": "node-001 🇪🇪 Estonia | 🌐 [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "185.178.208.167",
             "port": 443,
             "users": [
@@ -76,20 +103,20 @@
           "serverName": "lorettmay.top"
         }
       },
-      "tag": "node-001 🇱🇹 Lithuania [*CIDR]"
+      "tag": "node-002 🇱🇹 Lithuania [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.37",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "fd8b05d0-0a98-4fba-9b48-5c0367abfcf5"
+                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9"
               }
             ]
           }
@@ -100,10 +127,118 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ara.rtkdvbr.cc"
+          "serverName": "lorettmay.top"
         }
       },
-      "tag": "node-002 🇳🇱 The Netherlands [*CIDR] VK"
+      "tag": "node-003 🇱🇹 Lithuania [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.178.208.167",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lorettmay.top"
+        }
+      },
+      "tag": "node-004 🇱🇹 Lithuania [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.178.208.167",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lorettmay.top"
+        }
+      },
+      "tag": "node-005 🇱🇹 Lithuania [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lorettmay.top",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lorettmay.top"
+        }
+      },
+      "tag": "node-006 🇱🇹 Lithuania [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fr1.robotodata.ru",
+            "port": 7443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "6116f0f3-15eb-4217-b38e-16514dc00ba1"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ru2.datacore-tech.ru"
+        }
+      },
+      "tag": "node-007 🇵🇱 Poland | 🌐 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -114,11 +249,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (7 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇱🇹 Lithuania [*CIDR]",
+        "fallbackTag": "node-001 🇪🇪 Estonia | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
