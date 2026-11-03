@@ -56,60 +56,120 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.103.100.113",
-            "port": 443,
+            "address": "176.108.243.235",
+            "port": 9570,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
+                "flow": "",
+                "id": "9a8e6575-0564-4c3a-8b46-8f723828daf6"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "serverName": "images.porsche.com",
-          "shortId": "1a2b3c4d",
-          "spiderX": "/"
+        "grpcSettings": {
+          "serviceName": "catalog-sync"
         },
-        "security": "reality"
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cz.ahuel.net"
+        }
       },
-      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-001 🇨🇿 Czechia | [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.103.100.113",
-            "port": 443,
+            "address": "176.108.243.235",
+            "port": 9570,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "5c32201a-6c0e-451b-8f0a-24b4bd40df59"
+                "flow": "",
+                "id": "9a8e6575-0564-4c3a-8b46-8f723828daf6"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "serverName": "images.porsche.com",
-          "shortId": "1a2b3c4d",
-          "spiderX": "/"
+        "grpcSettings": {
+          "serviceName": "catalog-sync"
         },
-        "security": "reality"
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cz.ahuel.net"
+        }
       },
-      "tag": "node-002 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-002 🇨🇿 Czechia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.108.243.235",
+            "port": 9570,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "9a8e6575-0564-4c3a-8b46-8f723828daf6"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "catalog-sync"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cz.ahuel.net"
+        }
+      },
+      "tag": "node-003 🇨🇿 Czechia | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.108.243.235",
+            "port": 9570,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "9a8e6575-0564-4c3a-8b46-8f723828daf6"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "catalog-sync"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cz.ahuel.net"
+        }
+      },
+      "tag": "node-004 🇨🇿 Czechia | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -120,11 +180,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (2 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (4 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇨🇿 Czechia | [*CIDR]",
         "selector": [
           "node-"
         ],
