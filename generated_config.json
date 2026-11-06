@@ -56,120 +56,81 @@
       "settings": {
         "vnext": [
           {
-            "address": "piston.kachow.ink",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "255a8044-3337-473e-af26-46a37208adcc"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "wl48cP9KpZxoAqUAePYqVmjNHO2gOzW_QCm3okkiLks",
-          "serverName": "piston.kachow.ink",
-          "shortId": "87ac946b53bb52f5",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-001 🇳🇱 The Netherlands [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "piston.kachow.ink",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "255a8044-3337-473e-af26-46a37208adcc"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "safari",
-          "publicKey": "wl48cP9KpZxoAqUAePYqVmjNHO2gOzW_QCm3okkiLks",
-          "serverName": "piston.kachow.ink",
-          "shortId": "87ac946b53bb52f5",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-002 🇳🇱 The Netherlands | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "hudson.glowbreeze.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "255a8044-3337-473e-af26-46a37208adcc"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "qqvs2x0N1F5WgXvC7PB9wmO5RxcVgCHS1hYHYOxdBk4",
-          "serverName": "hudson.glowbreeze.online",
-          "shortId": "5f3fd060c992bb2e",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-003 🇺🇸 United States [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.153.65.137",
+            "address": "lte-v2-ws.gacvpn.site",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "e07a6d05-f665-4811-91f0-9b3dc1094e4d"
+                "flow": "",
+                "id": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38",
-          "serverName": "tradingview.com",
-          "shortId": "8f3c6e2a1b5d4f09",
-          "spiderX": "/"
-        },
-        "security": "reality"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lte-v2-ws.gacvpn.site"
+        }
       },
-      "tag": "node-004 🇺🇸 United States | [*CIDR]"
+      "tag": "node-001 🇵🇱 Poland | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lte-v2-ws.gacvpn.site",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lte-v2-ws.gacvpn.site"
+        }
+      },
+      "tag": "node-002 🇵🇱 Poland | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "157.22.190.220",
+            "port": 2053,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7c03538c-c6dd-4dc1-b35c-5fc0e2a43271"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "666-7sf.pages.dev"
+        }
+      },
+      "tag": "node-003 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇳🇱 | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -199,7 +160,94 @@
         },
         "security": "reality"
       },
+      "tag": "node-004 🇺🇸 United States | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.213.245.84",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "255a8044-3337-473e-af26-46a37208adcc"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "qqvs2x0N1F5WgXvC7PB9wmO5RxcVgCHS1hYHYOxdBk4",
+          "serverName": "hudson.glowbreeze.online",
+          "shortId": "5f3fd060c992bb2e",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
       "tag": "node-005 🇺🇸 United States | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hudson.glowbreeze.online",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "255a8044-3337-473e-af26-46a37208adcc"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "qqvs2x0N1F5WgXvC7PB9wmO5RxcVgCHS1hYHYOxdBk4",
+          "serverName": "hudson.glowbreeze.online",
+          "shortId": "5f3fd060c992bb2e",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-006 🇺🇸 United States | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "157.22.190.220",
+            "port": 2053,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7c03538c-c6dd-4dc1-b35c-5fc0e2a43271"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "666-7sf.pages.dev"
+        }
+      },
+      "tag": "node-007 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇶 🇳🇱 | [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -210,11 +258,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (5 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (7 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇳🇱 The Netherlands [*CIDR]",
+        "fallbackTag": "node-001 🇵🇱 Poland | [*CIDR]",
         "selector": [
           "node-"
         ],
