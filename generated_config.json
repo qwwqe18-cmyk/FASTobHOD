@@ -56,13 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.113.128.70",
-            "port": 20105,
+            "address": "fi-edge.gacvpn.site",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "9aff658c-1f80-4c82-9213-48ca26996142"
+                "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3"
               }
             ]
           }
@@ -70,26 +70,29 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ripelever.net"
-        }
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "QjYksCdraKvxMG024774_EOZjxtIB7xHm3GYGx3oN1Y",
+          "serverName": "fi3-edge.gacvpn.site",
+          "shortId": "c59bb8af70d9db1e",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
-      "tag": "node-001 🇧🇬 Bulgaria [*CIDR]"
+      "tag": "node-001 🇫🇮 Finland | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "168.113.128.70",
-            "port": 20105,
+            "address": "msk10.gacvpn.site",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "9aff658c-1f80-4c82-9213-48ca26996142"
+                "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3"
               }
             ]
           }
@@ -97,11 +100,14 @@
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ripelever.net"
-        }
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "Caj4X3VjnHfdRQzWLmjFCiG_CGw0scYYni6UxVfBs38",
+          "serverName": "nl3-edge.gacvpn.site",
+          "shortId": "db6a4219fb",
+          "spiderX": "/"
+        },
+        "security": "reality"
       },
       "tag": "node-002 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
     },
@@ -110,121 +116,373 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.113.128.70",
-            "port": 20105,
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9aff658c-1f80-4c82-9213-48ca26996142"
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ripelever.net"
+          "serverName": "renderer-bridge-2-133.mirra.now"
         }
       },
-      "tag": "node-003 🇧🇬 Bulgaria [*CIDR]"
+      "tag": "node-003 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "168.113.128.70",
-            "port": 20105,
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9aff658c-1f80-4c82-9213-48ca26996142"
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ripelever.net"
+          "serverName": "renderer-bridge-2-133.mirra.now"
         }
       },
-      "tag": "node-004 🇧🇬 Bulgaria [*CIDR]"
+      "tag": "node-004 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "168.113.128.70",
-            "port": 20105,
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9aff658c-1f80-4c82-9213-48ca26996142"
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ripelever.net"
+          "serverName": "renderer-bridge-2-133.mirra.now"
         }
       },
-      "tag": "node-005 🇧🇬 Bulgaria [*CIDR]"
+      "tag": "node-005 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "168.113.128.70",
-            "port": 20105,
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "9aff658c-1f80-4c82-9213-48ca26996142"
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ripelever.net"
+          "serverName": "renderer-bridge-2-133.mirra.now"
         }
       },
-      "tag": "node-006 🇧🇬 Bulgaria [*CIDR]"
+      "tag": "node-006 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "5.129.249.155",
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-007 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-008 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-009 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-010 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-011 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-012 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-013 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-014 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "msk5.gacvpn.site",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d"
+                "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3"
               }
             ]
           }
@@ -234,207 +492,27 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
-          "serverName": "assets-59.topp-con.xyz",
-          "shortId": "b9120cd53ffd7bba",
+          "publicKey": "8fSwTqCwJ2HWGxcTQsZs8Sx0hRk2Ru7HFdu-iLnesGg",
+          "serverName": "de2.gacvpn.site",
+          "shortId": "53d0d0611a",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-007 🇫🇮 Finland [*CIDR]"
+      "tag": "node-015 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "89.223.125.45",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8fb19a9e-ca2b-433a-8469-e4c7796033b2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "falmero.store"
-        }
-      },
-      "tag": "node-008 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "falmero.store",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8fb19a9e-ca2b-433a-8469-e4c7796033b2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "falmero.store"
-        }
-      },
-      "tag": "node-009 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "falmero.store",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8fb19a9e-ca2b-433a-8469-e4c7796033b2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "falmero.store"
-        }
-      },
-      "tag": "node-010 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "falmero.store",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8fb19a9e-ca2b-433a-8469-e4c7796033b2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "falmero.store"
-        }
-      },
-      "tag": "node-011 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "falmero.store",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8fb19a9e-ca2b-433a-8469-e4c7796033b2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "falmero.store"
-        }
-      },
-      "tag": "node-012 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "falmero.store",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8fb19a9e-ca2b-433a-8469-e4c7796033b2"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "falmero.store"
-        }
-      },
-      "tag": "node-013 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "168.113.188.144",
+            "address": "msk13.gacvpn.site",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "45ef6d0c-df92-4328-afa3-d6af1806fb3c"
+                "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3"
               }
             ]
           }
@@ -444,27 +522,57 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI",
-          "serverName": "31.76.3.187.sslip.io",
-          "shortId": "db71028aeb67289c",
+          "publicKey": "8POqoppCCmjPFqoCsXzaH-kEdYTDXczdTUXxoGfKO0k",
+          "serverName": "it-edge.gacvpn.site",
+          "shortId": "44e85040332f54",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-014 🇸🇪 Sweden [*CIDR]"
+      "tag": "node-016 🇮🇹 Italy [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "168.113.190.113",
+            "address": "renderer-bridge-2-133.mirra.now",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "27653b37-603c-4c90-b1f5-25c4d23f8932"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "VideoRenderer"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "renderer-bridge-2-133.mirra.now"
+        }
+      },
+      "tag": "node-017 🇩🇪 Germany [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "msk11.gacvpn.site",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "xtls-rprx-vision",
-                "id": "45ef6d0c-df92-4328-afa3-d6af1806fb3c"
+                "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3"
               }
             ]
           }
@@ -474,14 +582,44 @@
         "network": "tcp",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "p0M6RumtfcATPNPUIFnFcgWy2rzk2gGVWx21sql1hV0",
-          "serverName": "13.143.195.113.sslip.io",
-          "shortId": "8238d76df92c2560",
+          "publicKey": "cuONLHT6sUKpRRNna55H_1ofXRSfA_XVOfr9ACE6vHY",
+          "serverName": "pl2-edge.gacvpn.site",
+          "shortId": "",
           "spiderX": "/"
         },
         "security": "reality"
       },
-      "tag": "node-015 🇳🇱 The Netherlands [*CIDR]"
+      "tag": "node-018 🇵🇱 Poland [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "msk3.gacvpn.site",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-vision",
+                "id": "3f5e89d5-591f-4ac9-b071-b05680b573c3"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "uMKTD8AKrlaZTlfNfr0qMgrzLSe9LDw_otYw4OfuDy8",
+          "serverName": "fr2.gacvpn.site",
+          "shortId": "fed2f8be3a",
+          "spiderX": "/"
+        },
+        "security": "reality"
+      },
+      "tag": "node-019 🇳🇱 The Netherlands | 🌐 [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -492,11 +630,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (15 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (19 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇧🇬 Bulgaria [*CIDR]",
+        "fallbackTag": "node-001 🇫🇮 Finland | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
