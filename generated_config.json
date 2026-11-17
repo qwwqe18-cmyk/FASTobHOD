@@ -56,7 +56,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "luminexorizon.ink",
+            "address": "104.171.139.81",
             "port": 443,
             "users": [
               {
@@ -86,7 +86,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "luminexorizon.ink",
+            "address": "104.171.139.81",
             "port": 443,
             "users": [
               {
@@ -536,153 +536,30 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.18.14.177",
+            "address": "luminexorizon.ink",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "7955bf18-35c4-412d-aabd-c0b36c793063"
+                "id": "4b50270b-5caf-4c34-b3da-17b4525604a6"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "grpcSettings": {
+          "serviceName": "glush.de3.v1"
+        },
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "owj5svd907.deshevayashaurma.icu"
+          "serverName": "luminexorizon.ink"
         }
       },
-      "tag": "node-017 🇩🇪 Germany [*CIDR] CDN"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "92.255.58.59",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a30903dc-1bf0-0001-8b1b-603a3a56211c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-          "serverName": "api-gw-cfg.galioncc.com",
-          "shortId": "344f83372596eea2",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-018 🇳🇱 The Netherlands [*CIDR] YA"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.86.145.183",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f5954543-f976-4045-91aa-6d0685e066f5"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cdn.quick-frost.ru"
-        }
-      },
-      "tag": "node-019 🇳🇱 The Netherlands [*CIDR] VK"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "92.255.58.59",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a30903dc-1bf0-0001-8b1b-603a3a56211c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "ios",
-          "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-          "serverName": "api-gw-cfg.galioncc.com",
-          "shortId": "344f83372596eea2",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-020 🇳🇱 The Netherlands [*CIDR] YA"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "92.255.58.59",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a30903dc-1bf0-0001-8b1b-603a3a56211c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "grpc"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-          "serverName": "api-gw-cfg.galioncc.com",
-          "shortId": "344f83372596eea2",
-          "spiderX": "/"
-        },
-        "security": "reality"
-      },
-      "tag": "node-021 🇳🇱 The Netherlands [*CIDR] YA"
+      "tag": "node-017 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -709,7 +586,7 @@
           "serverName": "exl6vz64yc.deshevayashaurma.icu"
         }
       },
-      "tag": "node-022 🇳🇱 The Netherlands [*CIDR] CDN"
+      "tag": "node-018 🇳🇱 The Netherlands [*CIDR] CDN"
     },
     {
       "protocol": "vless",
@@ -736,7 +613,34 @@
           "serverName": "exl6vz64yc.deshevayashaurma.icu"
         }
       },
-      "tag": "node-023 🇳🇱 The Netherlands [*CIDR] CDN"
+      "tag": "node-019 🇳🇱 The Netherlands [*CIDR] CDN"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.18.14.177",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "exl6vz64yc.deshevayashaurma.icu"
+        }
+      },
+      "tag": "node-020 🇳🇱 The Netherlands [*CIDR] CDN"
     },
     {
       "protocol": "freedom",
@@ -747,7 +651,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (23 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (20 узлов)",
   "routing": {
     "balancers": [
       {
