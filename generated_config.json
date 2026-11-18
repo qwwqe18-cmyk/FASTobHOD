@@ -56,30 +56,30 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.129.196.78",
+            "address": "luminexorizon.ink",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "d651c9ab-b844-4420-b3d0-20d201ef5f55"
+                "flow": "",
+                "id": "4b50270b-5caf-4c34-b3da-17b4525604a6"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "95EyUgsp_C-OrWKVsULHhFyY-tVYA3kMCZHIjIjjJhc",
-          "serverName": "node-de-3.nztpro.com",
-          "shortId": "5ea969574fc3c06e",
-          "spiderX": "/"
+        "grpcSettings": {
+          "serviceName": "glush.de3.v1"
         },
-        "security": "reality"
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "luminexorizon.ink"
+        }
       },
-      "tag": "node-001 🇩🇪 Germany [*CIDR]"
+      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -296,7 +296,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "luminexorizon.ink",
+            "address": "147.45.99.100",
             "port": 443,
             "users": [
               {
@@ -476,13 +476,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "186.246.3.25",
+            "address": "luminexorizon.ink",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
+                "id": "4b50270b-5caf-4c34-b3da-17b4525604a6"
               }
             ]
           }
@@ -490,13 +490,13 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "glush.de2.v1"
+          "serviceName": "glush.de3.v1"
         },
         "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "windlass.gerqix.online"
+          "serverName": "luminexorizon.ink"
         }
       },
       "tag": "node-015 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -566,27 +566,24 @@
       "settings": {
         "vnext": [
           {
-            "address": "luminexorizon.ink",
+            "address": "5.129.243.162",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "4b50270b-5caf-4c34-b3da-17b4525604a6"
+                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de3.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "luminexorizon.ink"
+          "serverName": "clover.filnex.baby"
         }
       },
       "tag": "node-018 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -613,7 +610,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "rivulet.filnex.baby"
+          "serverName": "reedbed.filnex.baby"
         }
       },
       "tag": "node-019 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -623,7 +620,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.129.243.162",
+            "address": "clover.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -650,7 +647,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.129.243.162",
+            "address": "clover.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -667,7 +664,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "reedbed.filnex.baby"
+          "serverName": "clover.filnex.baby"
         }
       },
       "tag": "node-021 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -731,7 +728,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "clover.filnex.baby",
+            "address": "5.129.243.162",
             "port": 443,
             "users": [
               {
@@ -748,7 +745,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "clover.filnex.baby"
+          "serverName": "rivulet.filnex.baby"
         }
       },
       "tag": "node-024 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -758,7 +755,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "clover.filnex.baby",
+            "address": "5.129.243.162",
             "port": 443,
             "users": [
               {
@@ -775,7 +772,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "clover.filnex.baby"
+          "serverName": "rivulet.filnex.baby"
         }
       },
       "tag": "node-025 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -839,7 +836,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "clover.filnex.baby",
+            "address": "reedbed.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -856,7 +853,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "clover.filnex.baby"
+          "serverName": "reedbed.filnex.baby"
         }
       },
       "tag": "node-028 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -866,7 +863,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "clover.filnex.baby",
+            "address": "reedbed.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -883,7 +880,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "clover.filnex.baby"
+          "serverName": "reedbed.filnex.baby"
         }
       },
       "tag": "node-029 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -893,7 +890,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "clover.filnex.baby",
+            "address": "reedbed.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -910,7 +907,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "clover.filnex.baby"
+          "serverName": "reedbed.filnex.baby"
         }
       },
       "tag": "node-030 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -920,7 +917,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "clover.filnex.baby",
+            "address": "reedbed.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -937,7 +934,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "clover.filnex.baby"
+          "serverName": "reedbed.filnex.baby"
         }
       },
       "tag": "node-031 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -947,7 +944,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "clover.filnex.baby",
+            "address": "reedbed.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -964,7 +961,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "clover.filnex.baby"
+          "serverName": "reedbed.filnex.baby"
         }
       },
       "tag": "node-032 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -974,7 +971,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "reedbed.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -987,14 +984,11 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "reedbed.filnex.baby"
         }
       },
       "tag": "node-033 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -1004,7 +998,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "rivulet.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -1017,14 +1011,11 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "rivulet.filnex.baby"
         }
       },
       "tag": "node-034 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -1034,7 +1025,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "rivulet.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -1047,14 +1038,11 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "rivulet.filnex.baby"
         }
       },
       "tag": "node-035 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -1064,7 +1052,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "rivulet.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -1077,14 +1065,11 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fernglade.gerqix.online"
+          "serverName": "rivulet.filnex.baby"
         }
       },
       "tag": "node-036 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -1094,7 +1079,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "rivulet.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -1107,14 +1092,11 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "rivulet.filnex.baby"
         }
       },
       "tag": "node-037 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -1124,7 +1106,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "rivulet.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -1137,14 +1119,11 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "rivulet.filnex.baby"
         }
       },
       "tag": "node-038 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -1154,7 +1133,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "rivulet.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -1167,14 +1146,11 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "rivulet.filnex.baby"
         }
       },
       "tag": "node-039 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -1184,330 +1160,81 @@
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "speakpro.lol",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
+                "id": "18b99163-5196-4ddc-85f8-8fdf5efdcd53"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "uwugirl.dev"
         }
       },
-      "tag": "node-040 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-040 🇮🇷 Iran [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
+                "id": "6eeb6e0e-5efd-400d-851e-60fc2bfb1eaa"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "uwugirl.dev"
         }
       },
-      "tag": "node-041 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-041 🇮🇷 Iran [*CIDR]"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "linen.gerqix.online",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
+                "id": "89e2dc6c-dd20-43e6-aac2-d8c482d9cc36"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
+          "serverName": "uwugirl.dev"
         }
       },
-      "tag": "node-042 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "linen.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fernglade.gerqix.online"
-        }
-      },
-      "tag": "node-043 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "linen.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de1.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "linen.gerqix.online"
-        }
-      },
-      "tag": "node-044 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pebble.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de2.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pebble.gerqix.online"
-        }
-      },
-      "tag": "node-045 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pebble.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de2.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pebble.gerqix.online"
-        }
-      },
-      "tag": "node-046 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pebble.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de2.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pebble.gerqix.online"
-        }
-      },
-      "tag": "node-047 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pebble.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de2.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pebble.gerqix.online"
-        }
-      },
-      "tag": "node-048 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pebble.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de2.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "windlass.gerqix.online"
-        }
-      },
-      "tag": "node-049 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pebble.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de2.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pebble.gerqix.online"
-        }
-      },
-      "tag": "node-050 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-042 🇮🇷 Iran [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -1518,11 +1245,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (50 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (42 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany [*CIDR]",
+        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]",
         "selector": [
           "node-"
         ],
