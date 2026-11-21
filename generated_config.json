@@ -56,28 +56,28 @@
       "settings": {
         "vnext": [
           {
-            "address": "147.45.97.130",
-            "port": 2066,
+            "address": "almanac.filnex.baby",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
-                "id": "4bec3709-0954-4173-ae59-3dee6cb8b961"
+                "flow": "",
+                "id": "25ac78e7-6d1d-4c9a-a450-c01a4871769f"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-          "fingerprint": "edge",
-          "publicKey": "kLCwYNBhCg68BQah9El1lNg6GQ7-7Y7xfTtIs6MiTEg",
-          "serverName": "google.com",
-          "shortId": "1b2a3f",
-          "spiderX": "/"
+        "grpcSettings": {
+          "serviceName": "glush.de1.v1"
         },
-        "security": "reality"
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "morningfen.merlano.monster"
+        }
       },
       "tag": "node-001 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
     },
@@ -109,7 +109,7 @@
           "serverName": "morningfen.merlano.monster"
         }
       },
-      "tag": "node-002 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
+      "tag": "node-002 🇩🇪 Germany | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -139,7 +139,7 @@
           "serverName": "morningfen.merlano.monster"
         }
       },
-      "tag": "node-003 🇩🇪 Germany [*CIDR]"
+      "tag": "node-003 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -199,7 +199,7 @@
           "serverName": "morningfen.merlano.monster"
         }
       },
-      "tag": "node-005 🇩🇪 Germany | [*CIDR]"
+      "tag": "node-005 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -229,7 +229,7 @@
           "serverName": "morningfen.merlano.monster"
         }
       },
-      "tag": "node-006 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
+      "tag": "node-006 🇩🇪 Germany [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -289,7 +289,7 @@
           "serverName": "morningfen.merlano.monster"
         }
       },
-      "tag": "node-008 .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]"
+      "tag": "node-008 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -326,7 +326,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ledger.filnex.baby",
+            "address": "almanac.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -340,13 +340,13 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "glush.de2.v1"
+          "serviceName": "glush.de1.v1"
         },
         "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "copperdell.merlano.monster"
+          "serverName": "morningfen.merlano.monster"
         }
       },
       "tag": "node-010 🇩🇪 Germany | 🌐 [*CIDR]"
@@ -356,7 +356,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ledger.filnex.baby",
+            "address": "almanac.filnex.baby",
             "port": 443,
             "users": [
               {
@@ -370,16 +370,46 @@
       },
       "streamSettings": {
         "grpcSettings": {
-          "serviceName": "glush.de2.v1"
+          "serviceName": "glush.de1.v1"
         },
         "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "copperdell.merlano.monster"
+          "serverName": "morningfen.merlano.monster"
         }
       },
-      "tag": "node-011 🇩🇪 Germany | 🌐 [*CIDR]"
+      "tag": "node-011 🇩🇪 Germany | [*CIDR]"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "almanac.filnex.baby",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "25ac78e7-6d1d-4c9a-a450-c01a4871769f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "glush.de1.v1"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "morningfen.merlano.monster"
+        }
+      },
+      "tag": "node-012 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -409,7 +439,7 @@
           "serverName": "copperdell.merlano.monster"
         }
       },
-      "tag": "node-012 🇩🇪 Germany | 🌐 | [*CIDR]"
+      "tag": "node-013 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -439,37 +469,7 @@
           "serverName": "copperdell.merlano.monster"
         }
       },
-      "tag": "node-013 🇩🇪 Germany | 🌐 | [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ledger.filnex.baby",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "25ac78e7-6d1d-4c9a-a450-c01a4871769f"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de2.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "copperdell.merlano.monster"
-        }
-      },
-      "tag": "node-014 🇩🇪 Germany | 🌐 | [*CIDR]"
+      "tag": "node-014 🇩🇪 Germany | 🌐 [*CIDR]"
     },
     {
       "protocol": "vless",
@@ -592,6 +592,36 @@
       "tag": "node-018 🇩🇪 Germany | 🌐 | [*CIDR]"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ledger.filnex.baby",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "25ac78e7-6d1d-4c9a-a450-c01a4871769f"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "serviceName": "glush.de2.v1"
+        },
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "copperdell.merlano.monster"
+        }
+      },
+      "tag": "node-019 🇩🇪 Germany | 🌐 | [*CIDR]"
+    },
+    {
       "protocol": "freedom",
       "tag": "direct"
     },
@@ -600,7 +630,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (18 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (19 узлов)",
   "routing": {
     "balancers": [
       {
