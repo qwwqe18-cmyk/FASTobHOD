@@ -56,103 +56,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "archive.filnex.baby",
+            "address": "91.132.190.161",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de7.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "elmharbor.gerqix.online"
-        }
-      },
-      "tag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "birchbark.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de7.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "birchbark.gerqix.online"
-        }
-      },
-      "tag": "node-002 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "birchbark.gerqix.online",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "grpcSettings": {
-          "serviceName": "glush.de7.v1"
-        },
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "birchbark.gerqix.online"
-        }
-      },
-      "tag": "node-003 🇩🇪 Germany | 🌐 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.109.108.17",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "ef0e8b1b-e6a1-0001-ac63-bdba2cce8ae7"
+                "flow": "xtls-rprx-vision",
+                "id": "04920673-035c-410d-94e4-5b1469d3fb6f"
               }
             ]
           }
@@ -163,64 +73,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "wrdgkmglxsfcfazlsf.fcloudservices.site"
+          "serverName": "171.22.183.166"
         }
       },
-      "tag": "node-004 🌐 Anycast-IP | 🇧🇬 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.109.108.17",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "da8157fa-d57d-0001-9332-22a0b1b35a18"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "wrdgkmglxsfcfazlsf.fcloudservices.site"
-        }
-      },
-      "tag": "node-005 🌐 Anycast-IP | 🇨🇿 🇪🇸 [*CIDR]"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.109.108.17",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "440c34ed-de29-0001-a467-153c5816a42b"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "wrdgkmglxsfcfazlsf.fcloudservices.site"
-        }
-      },
-      "tag": "node-006 🌐 Anycast-IP | 🇮🇪 [*CIDR]"
+      "tag": "node-001 🇳🇱 The Netherlands [*CIDR]"
     },
     {
       "protocol": "freedom",
@@ -231,11 +87,11 @@
       "tag": "block"
     }
   ],
-  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (6 узлов)",
+  "remarks": "⚡⚡ПУК⚡⚡СРЕНЬК⚡⚡ (1 узлов)",
   "routing": {
     "balancers": [
       {
-        "fallbackTag": "node-001 🇩🇪 Germany | 🌐 [*CIDR]",
+        "fallbackTag": "node-001 🇳🇱 The Netherlands [*CIDR]",
         "selector": [
           "node-"
         ],
